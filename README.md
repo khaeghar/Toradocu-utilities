@@ -1,2 +1,2 @@
 # Toradocu-utilities
-My toradocu scripts and utilities coding
+My toradocu scripts and utilities code
