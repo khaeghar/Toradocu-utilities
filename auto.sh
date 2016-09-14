@@ -1,10 +1,10 @@
 #!/bin/bash
 
-/usr/bin/java -jar /home/sergio/Repositories/toradocu/build/libs/toradocu-0.1-all.jar \
---targetClass com.google.common.collect.ArrayListMultimap \
--J-encoding=UTF-8 \
--J-sourcepath=/home/sergio/Repositories/toradocu/src/test/resources/guava-19.0-sources \
---oracleGeneration false \
---saveConditionTranslatorOutput /home/sergio/Repositories/toradocu/build/libs/aqui.txt
+rm /home/sergio/Toradocu/Toradocu-test/TestArithmetics.json
 
-
+/usr/bin/java -jar /home/sergio/Repositories/toradocu-dev/build/libs/toradocu-dev-1.0-devel-all.jar \
+--target-class com.TestArithmetics \
+--source-dir /home/sergio/Repositories/toradocu-testing/src \
+--class-dir /home/sergio/Repositories/toradocu-testing/bin \
+--oracle-generation false \
+--condition-translator-output /home/sergio/Toradocu/TestArithmetics.json
