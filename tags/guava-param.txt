@@ -1,0 +1,1246 @@
+./base/Utf8.java:   * @param bytes the input buffer
+./base/Utf8.java:   * @param off the offset in the buffer of the first byte to read
+./base/Utf8.java:   * @param len the number of bytes to read from the buffer
+./base/Verify.java:   * @param expression a boolean expression
+./base/Verify.java:   * @param errorMessageTemplate a template for the exception message should the
+./base/Verify.java:   * @param errorMessageArgs the arguments to be substituted into the message
+./base/Verify.java:   * @param errorMessageTemplate a template for the exception message should the
+./base/Verify.java:   * @param errorMessageArgs the arguments to be substituted into the message
+./base/Converter.java:   * @param a the instance to convert; will never be null
+./base/Converter.java:   * @param b the instance to convert; will never be null
+./base/Objects.java:   * @param self the object to generate the string for (typically {@code this}),
+./base/Objects.java:   * @param clazz the {@link Class} of the instance
+./base/Objects.java:   * @param className the name of the instance type
+./base/Preconditions.java:   * @param expression a boolean expression
+./base/Preconditions.java:   * @param expression a boolean expression
+./base/Preconditions.java:   * @param errorMessage the exception message to use if the check fails; will be converted to a
+./base/Preconditions.java:   * @param expression a boolean expression
+./base/Preconditions.java:   * @param errorMessageTemplate a template for the exception message should the check fail. The
+./base/Preconditions.java:   * @param errorMessageArgs the arguments to be substituted into the message template. Arguments
+./base/Preconditions.java:   * @param expression a boolean expression
+./base/Preconditions.java:   * @param expression a boolean expression
+./base/Preconditions.java:   * @param errorMessage the exception message to use if the check fails; will be converted to a
+./base/Preconditions.java:   * @param expression a boolean expression
+./base/Preconditions.java:   * @param errorMessageTemplate a template for the exception message should the check fail. The
+./base/Preconditions.java:   * @param errorMessageArgs the arguments to be substituted into the message template. Arguments
+./base/Preconditions.java:   * @param reference an object reference
+./base/Preconditions.java:   * @param reference an object reference
+./base/Preconditions.java:   * @param errorMessage the exception message to use if the check fails; will be converted to a
+./base/Preconditions.java:   * @param reference an object reference
+./base/Preconditions.java:   * @param errorMessageTemplate a template for the exception message should the check fail. The
+./base/Preconditions.java:   * @param errorMessageArgs the arguments to be substituted into the message template. Arguments
+./base/Preconditions.java:   * @param index a user-supplied index identifying an element of an array, list or string
+./base/Preconditions.java:   * @param size the size of that array, list or string
+./base/Preconditions.java:   * @param index a user-supplied index identifying an element of an array, list or string
+./base/Preconditions.java:   * @param size the size of that array, list or string
+./base/Preconditions.java:   * @param desc the text to use to describe this index in an error message
+./base/Preconditions.java:   * @param index a user-supplied index identifying a position in an array, list or string
+./base/Preconditions.java:   * @param size the size of that array, list or string
+./base/Preconditions.java:   * @param index a user-supplied index identifying a position in an array, list or string
+./base/Preconditions.java:   * @param size the size of that array, list or string
+./base/Preconditions.java:   * @param desc the text to use to describe this index in an error message
+./base/Preconditions.java:   * @param start a user-supplied index identifying a starting position in an array, list or string
+./base/Preconditions.java:   * @param end a user-supplied index identifying a ending position in an array, list or string
+./base/Preconditions.java:   * @param size the size of that array, list or string
+./base/Preconditions.java:   * @param template a non-null string containing 0 or more {@code %s} placeholders.
+./base/Preconditions.java:   * @param args the arguments to be substituted into the message template. Arguments are converted
+./base/Functions.java:   * @param map source map that determines the function behavior
+./base/Functions.java:   * @param defaultValue the value to return for inputs that aren't map keys
+./base/Functions.java:   * @param g the second function to apply
+./base/Functions.java:   * @param f the first function to apply
+./base/Functions.java:   * @param value the constant value for the function to return
+./base/Optional.java: * @param <T> the type of instance that can be contained. {@code Optional} is naturally
+./base/internal/Finalizer.java:   * @param finalizableReferenceClass FinalizableReference.class.
+./base/internal/Finalizer.java:   * @param queue a reference queue that the thread will poll.
+./base/internal/Finalizer.java:   * @param frqReference a phantom reference to the FinalizableReferenceQueue, which will be
+./base/Predicates.java:   * @param target the collection that may contain the function input
+./base/FinalizableSoftReference.java:   * @param referent to softly reference
+./base/FinalizableSoftReference.java:   * @param queue that should finalize the referent
+./base/FinalizablePhantomReference.java:   * @param referent to phantom reference
+./base/FinalizablePhantomReference.java:   * @param queue that should finalize the referent
+./base/MoreObjects.java:   * @param self the object to generate the string for (typically {@code this}), used only for its
+./base/MoreObjects.java:   * @param clazz the {@link Class} of the instance
+./base/MoreObjects.java:   * @param className the name of the instance type
+./base/CharMatcher.java:   * @param sequence the character sequence to examine, possibly empty
+./base/CharMatcher.java:   * @param sequence the character sequence to examine, possibly empty
+./base/CharMatcher.java:   * @param sequence the character sequence to examine, possibly empty
+./base/CharMatcher.java:   * @param sequence the character sequence to examine from the beginning
+./base/CharMatcher.java:   * @param sequence the character sequence to examine
+./base/CharMatcher.java:   * @param start the first index to examine; must be nonnegative and no greater than {@code
+./base/CharMatcher.java:   * @param sequence the character sequence to examine from the end
+./base/CharMatcher.java:   * @param sequence the character sequence to replace matching characters in
+./base/CharMatcher.java:   * @param replacement the character to append to the result string in place of each matching
+./base/CharMatcher.java:   * @param sequence the character sequence to replace matching characters in
+./base/CharMatcher.java:   * @param replacement the characters to append to the result string in place of each matching
+./base/CharMatcher.java:   * @param sequence the character sequence to replace matching groups of characters in
+./base/CharMatcher.java:   * @param replacement the character to append to the result string in place of each group of
+./base/Throwables.java:   * @param throwable the Throwable to possibly propagate
+./base/Throwables.java:   * @param declaredType the single checked exception type declared by the calling method
+./base/Throwables.java:   * @param throwable the Throwable to possibly propagate
+./base/Throwables.java:   * @param declaredType1 any checked exception type declared by the calling method
+./base/Throwables.java:   * @param declaredType2 any other checked exception type declared by the calling method
+./base/Throwables.java:   * @param throwable the Throwable to propagate
+./base/Throwables.java:   * @param throwable the non-null {@code Throwable} to extract causes from
+./base/Strings.java:   * @param string the string to test and possibly return
+./base/Strings.java:   * @param string the string to test and possibly return
+./base/Strings.java:   * @param string a string reference to check
+./base/Strings.java:   * @param string the string which should appear at the end of the result
+./base/Strings.java:   * @param minLength the minimum length the resulting string must have. Can be
+./base/Strings.java:   * @param padChar the character to insert at the beginning of the result until
+./base/Strings.java:   * @param string the string which should appear at the beginning of the result
+./base/Strings.java:   * @param minLength the minimum length the resulting string must have. Can be
+./base/Strings.java:   * @param padChar the character to append to the end of the result until the
+./base/Strings.java:   * @param string any non-null string
+./base/Strings.java:   * @param count the number of times to repeat it; a nonnegative integer
+./base/FinalizableWeakReference.java:   * @param referent to weakly reference
+./base/FinalizableWeakReference.java:   * @param queue that should finalize the referent
+./base/Splitter.java:   * @param separator the character to recognize as a separator
+./base/Splitter.java:   * @param separatorMatcher a {@link CharMatcher} that determines whether a
+./base/Splitter.java:   * @param separator the literal, nonempty string to recognize as a separator
+./base/Splitter.java:   * @param separatorPattern the pattern that determines whether a subsequence
+./base/Splitter.java:   * @param separatorPattern the pattern that determines whether a subsequence
+./base/Splitter.java:   * @param length the desired length of pieces after splitting, a positive
+./base/Splitter.java:   * @param limit the maximum number of items returned
+./base/Splitter.java:   * @param trimmer a {@link CharMatcher} that determines whether a character
+./base/Splitter.java:   * @param sequence the sequence of characters to split
+./base/Splitter.java:   * @param sequence the sequence of characters to split
+./base/Suppliers.java:   * @param duration the length of time after a value is created that it
+./base/Suppliers.java:   * @param unit the unit that {@code duration} is expressed in
+./cache/AbstractCache.java:     * @param count the number of hits to record
+./cache/AbstractCache.java:     * @param count the number of misses to record
+./cache/AbstractCache.java:     * @param loadTime the number of nanoseconds the cache spent computing or retrieving the new
+./cache/AbstractCache.java:     * @param loadTime the number of nanoseconds the cache spent computing or retrieving the new
+./cache/CacheBuilder.java: * @param <K> the base key type for all caches created by this builder
+./cache/CacheBuilder.java: * @param <V> the base value type for all caches created by this builder
+./cache/CacheBuilder.java:   * @param spec a String in the format specified by {@link CacheBuilderSpec}
+./cache/CacheBuilder.java:   * @param size the maximum size of the cache
+./cache/CacheBuilder.java:   * @param weight the maximum total weight of entries the cache may contain
+./cache/CacheBuilder.java:   * @param weigher the weigher to use in calculating the weight of cache entries
+./cache/CacheBuilder.java:   * @param duration the length of time after an entry is created that it should be automatically
+./cache/CacheBuilder.java:   * @param unit the unit that {@code duration} is expressed in
+./cache/CacheBuilder.java:   * @param duration the length of time after an entry is last accessed that it should be
+./cache/CacheBuilder.java:   * @param unit the unit that {@code duration} is expressed in
+./cache/CacheBuilder.java:   * @param duration the length of time after an entry is created that it should be considered
+./cache/CacheBuilder.java:   * @param unit the unit that {@code duration} is expressed in
+./cache/CacheBuilder.java:   * @param loader the cache loader used to obtain new values
+./cache/RemovalListeners.java:   * @param listener the backing listener
+./cache/RemovalListeners.java:   * @param executor the executor with which removal notifications are
+./cache/LocalCache.java:     * @param segment to create the entry for
+./cache/LocalCache.java:     * @param key of the entry
+./cache/LocalCache.java:     * @param hash of the key
+./cache/LocalCache.java:     * @param next entry in the same bucket
+./cache/LocalCache.java:     * @param original the entry to copy
+./cache/LocalCache.java:     * @param newNext entry in the same bucket
+./cache/LocalCache.java:   * @param h hash code
+./cache/LocalCache.java:   * @param hash the hash code for the key
+./cache/LocalCache.java:     * @param newest the most recently added entry
+./cache/CacheLoader.java:   * @param key the non-null key whose value should be loaded
+./cache/CacheLoader.java:   * @param key the non-null key whose value should be loaded
+./cache/CacheLoader.java:   * @param oldValue the non-null old value corresponding to {@code key}
+./cache/CacheLoader.java:   * @param keys the unique, non-null keys whose values should be loaded
+./cache/CacheLoader.java:   * @param function the function to be used for loading values; must never return {@code null}
+./cache/CacheLoader.java:   * @param supplier the supplier to be used for loading values; must never return {@code null}
+./cache/Striped64.java:     * @param currentValue the current value (of either base or a cell)
+./cache/Striped64.java:     * @param newValue the argument from a user update call
+./cache/Striped64.java:     * @param x the value
+./cache/Striped64.java:     * @param hc the hash code holder
+./cache/Striped64.java:     * @param wasUncontended false if CAS failed before call
+./cache/LongAdder.java:     * @param x the value to add
+./cache/CacheBuilderSpec.java:   * @param cacheBuilderSpecification the string form
+./cache/RemovalListener.java: * @param <K> the most general type of keys this listener can listen for; for
+./cache/RemovalListener.java: * @param <V> the most general type of values this listener can listen for; for
+./collect/MapConstraints.java:   * @param map the map to constrain
+./collect/MapConstraints.java:   * @param constraint the constraint that validates added entries
+./collect/MapConstraints.java:   * @param multimap the multimap to constrain
+./collect/MapConstraints.java:   * @param constraint the constraint that validates added entries
+./collect/MapConstraints.java:   * @param multimap the multimap to constrain
+./collect/MapConstraints.java:   * @param constraint the constraint that validates added entries
+./collect/MapConstraints.java:   * @param multimap the multimap to constrain
+./collect/MapConstraints.java:   * @param constraint the constraint that validates added entries
+./collect/MapConstraints.java:   * @param multimap the multimap to constrain
+./collect/MapConstraints.java:   * @param constraint the constraint that validates added entries
+./collect/MapConstraints.java:   * @param entry the entry to constrain
+./collect/MapConstraints.java:   * @param constraint the constraint for the entry
+./collect/MapConstraints.java:   * @param entry the {@code asMap} entry to constrain
+./collect/MapConstraints.java:   * @param constraint the constraint for the entry
+./collect/MapConstraints.java:   * @param entries the entries to constrain
+./collect/MapConstraints.java:   * @param constraint the constraint for the entries
+./collect/MapConstraints.java:   * @param entries the entries to constrain
+./collect/MapConstraints.java:   * @param constraint the constraint for the entries
+./collect/MapConstraints.java:   * @param entries the entries to constrain
+./collect/MapConstraints.java:   * @param constraint the constraint for the entries
+./collect/MapConstraints.java:   * @param map the bimap to constrain
+./collect/MapConstraints.java:   * @param constraint the constraint that validates added entries
+./collect/MapConstraints.java:     * @param entrySet map entries, linking each key with its corresponding
+./collect/AbstractListMultimap.java:   * @param map place to store the mapping from each key to its corresponding
+./collect/AbstractListMultimap.java:   * @param key key to store in the multimap
+./collect/AbstractListMultimap.java:   * @param value value to store in the multimap
+./collect/GenericMapMaker.java: * @param <K0> the base type for all key types of maps built by this map maker
+./collect/GenericMapMaker.java: * @param <V0> the base type for all value types of maps built by this map maker
+./collect/HashMultimap.java:   * @param expectedKeys the expected number of distinct keys
+./collect/HashMultimap.java:   * @param expectedValuesPerKey the expected average number of values per key
+./collect/HashMultimap.java:   * @param multimap the multimap whose contents are copied to this multimap
+./collect/MapMakerInternalMap.java:     * @param segment to create the entry for
+./collect/MapMakerInternalMap.java:     * @param key of the entry
+./collect/MapMakerInternalMap.java:     * @param hash of the key
+./collect/MapMakerInternalMap.java:     * @param next entry in the same bucket
+./collect/MapMakerInternalMap.java:     * @param original the entry to copy
+./collect/MapMakerInternalMap.java:     * @param newNext entry in the same bucket
+./collect/MapMakerInternalMap.java:     * @param newValue the new value reference which will replace this one; this is only used during
+./collect/MapMakerInternalMap.java:   * @param h hash code
+./collect/MapMakerInternalMap.java:   * @param hash the hash code for the key
+./collect/MapMakerInternalMap.java:     * @param first the first entry of the table
+./collect/MapMakerInternalMap.java:     * @param entry the entry being removed from the table
+./collect/ImmutableSortedSet.java:     * @param element the element to add
+./collect/ImmutableSortedSet.java:     * @param elements the elements to add
+./collect/ImmutableSortedSet.java:     * @param elements the elements to add to the {@code ImmutableSortedSet}
+./collect/ImmutableSortedSet.java:     * @param elements the elements to add to the {@code ImmutableSortedSet}
+./collect/AbstractSortedSetMultimap.java:   * @param map place to store the mapping from each key to its corresponding
+./collect/MinMaxPriorityQueue.java:   * @param <B> the upper bound on the eventual type that can be produced by
+./collect/Iterators.java:   * @param removeFrom the iterator to (potentially) remove elements from
+./collect/Iterators.java:   * @param elementsToRemove the elements to remove
+./collect/Iterators.java:   * @param removeFrom the iterator to (potentially) remove elements from
+./collect/Iterators.java:   * @param predicate a predicate that determines whether an element should
+./collect/Iterators.java:   * @param removeFrom the iterator to (potentially) remove elements from
+./collect/Iterators.java:   * @param elementsToRetain the elements to retain
+./collect/Iterators.java:   * @param iterator the iterator to copy
+./collect/Iterators.java:   * @param type the type of the elements
+./collect/Iterators.java:   * @param iterator the iterator to return a partitioned view of
+./collect/Iterators.java:   * @param size the desired size of each partition (the last may be smaller)
+./collect/Iterators.java:   * @param iterator the iterator to return a partitioned view of
+./collect/Iterators.java:   * @param size the desired size of each partition
+./collect/Iterators.java:   * @param unfiltered an iterator containing objects of any type
+./collect/Iterators.java:   * @param type the type of elements desired
+./collect/Iterators.java:   * @param position position of the element to return
+./collect/Iterators.java:   * @param position position of the element to return
+./collect/Iterators.java:   * @param defaultValue the default value to return if the iterator is empty
+./collect/Iterators.java:   * @param defaultValue the default value to return if the iterator is empty
+./collect/Iterators.java:   * @param defaultValue the default value to return if the iterator is empty
+./collect/Iterators.java:   * @param iterator the iterator to limit
+./collect/Iterators.java:   * @param limitSize the maximum number of elements in the returned iterator
+./collect/Iterators.java:   * @param iterator the iterator to remove and return elements from
+./collect/Iterators.java:   * @param iterator the backing iterator. The {@link PeekingIterator} assumes
+./collect/Ordering.java:   * @param comparator the comparator that defines the order
+./collect/Ordering.java:   * @param valuesInOrder the values that the returned comparator will be able
+./collect/Ordering.java:   * @param leastValue the value which the returned comparator should consider
+./collect/Ordering.java:   * @param remainingValuesInOrder the rest of the values that the returned
+./collect/Ordering.java:   * @param comparators the comparators to try in order
+./collect/Ordering.java:   * @param iterator the iterator whose minimum element is to be determined
+./collect/Ordering.java:   * @param iterable the iterable whose minimum element is to be determined
+./collect/Ordering.java:   * @param a value to compare, returned if less than or equal to b.
+./collect/Ordering.java:   * @param b value to compare.
+./collect/Ordering.java:   * @param a value to compare, returned if less than or equal to the rest.
+./collect/Ordering.java:   * @param b value to compare
+./collect/Ordering.java:   * @param c value to compare
+./collect/Ordering.java:   * @param rest values to compare
+./collect/Ordering.java:   * @param iterator the iterator whose maximum element is to be determined
+./collect/Ordering.java:   * @param iterable the iterable whose maximum element is to be determined
+./collect/Ordering.java:   * @param a value to compare, returned if greater than or equal to b.
+./collect/Ordering.java:   * @param b value to compare.
+./collect/Ordering.java:   * @param a value to compare, returned if greater than or equal to the rest.
+./collect/Ordering.java:   * @param b value to compare
+./collect/Ordering.java:   * @param c value to compare
+./collect/Ordering.java:   * @param rest values to compare
+./collect/Ordering.java:   * @param sortedList the list to be searched
+./collect/Ordering.java:   * @param key the key to be searched for
+./collect/FluentIterable.java:   * @param type the type of elements desired
+./collect/FluentIterable.java:   * @param maxSize the maximum number of elements in the returned fluent iterable
+./collect/FluentIterable.java:   * @param comparator the function by which to sort list elements
+./collect/FluentIterable.java:   * @param comparator the function by which to sort set elements
+./collect/FluentIterable.java:   * @param keyFunction the function used to produce the key for each value
+./collect/FluentIterable.java:   * @param keyFunction the function used to produce the key for each value
+./collect/FluentIterable.java:   * @param type the type of the elements
+./collect/FluentIterable.java:   * @param collection the collection to copy elements to
+./collect/FluentIterable.java:   * @param position position of the element to return
+./collect/Lists.java:   * @param initialArraySize the exact size of the initial backing array for
+./collect/Lists.java:   * @param estimatedSize an estimate of the eventual {@link List#size()} of
+./collect/Lists.java:   * @param elements the elements that the list should contain, in order
+./collect/Lists.java:   * @param first the first element
+./collect/Lists.java:   * @param rest an array of additional elements, possibly empty
+./collect/Lists.java:   * @param first the first element
+./collect/Lists.java:   * @param second the second element
+./collect/Lists.java:   * @param rest an array of additional elements, possibly empty
+./collect/Lists.java:   * @param lists the lists to choose elements from, in the order that
+./collect/Lists.java:   * @param <B> any common base class shared by all axes (often just {@link
+./collect/Lists.java:   * @param lists the lists to choose elements from, in the order that
+./collect/Lists.java:   * @param <B> any common base class shared by all axes (often just {@link
+./collect/Lists.java:   * @param list the list to return consecutive sublists of
+./collect/Lists.java:   * @param size the desired size of each sublist (the last may be
+./collect/Lists.java:   * @param sequence the character sequence to view as a {@code List} of
+./collect/LinkedListMultimap.java:   * @param expectedKeys the expected number of distinct keys
+./collect/LinkedListMultimap.java:   * @param multimap the multimap whose contents are copied to this multimap
+./collect/LinkedListMultimap.java:   * @param key key to store in the multimap
+./collect/LinkedListMultimap.java:   * @param value value to store in the multimap
+./collect/Tables.java:   * @param rowKey the row key to be associated with the returned cell
+./collect/Tables.java:   * @param columnKey the column key to be associated with the returned cell
+./collect/Tables.java:   * @param value the value to be associated with the returned cell
+./collect/Tables.java:   * @param backingMap place to store the mapping from each row key to its
+./collect/Tables.java:   * @param factory supplier of new, empty maps that will each hold all column
+./collect/Tables.java:   * @param table
+./collect/Tables.java:   * @param table the row-sorted table for which an unmodifiable view is to be returned
+./collect/ImmutableSortedMultiset.java:     * @param element the element to add
+./collect/ImmutableSortedMultiset.java:     * @param element the element to add
+./collect/ImmutableSortedMultiset.java:     * @param occurrences the number of occurrences of the element to add. May be zero, in which
+./collect/ImmutableSortedMultiset.java:     * @param element the element to add or remove occurrences of
+./collect/ImmutableSortedMultiset.java:     * @param count the desired count of the element in this multiset
+./collect/ImmutableSortedMultiset.java:     * @param elements the elements to add
+./collect/ImmutableSortedMultiset.java:     * @param elements the {@code Iterable} to add to the {@code ImmutableSortedMultiset}
+./collect/ImmutableSortedMultiset.java:     * @param elements the elements to add to the {@code ImmutableSortedMultiset}
+./collect/ImmutableList.java:     * @param element the element to add
+./collect/ImmutableList.java:     * @param elements the {@code Iterable} to add to the {@code ImmutableList}
+./collect/ImmutableList.java:     * @param elements the {@code Iterable} to add to the {@code ImmutableList}
+./collect/ImmutableList.java:     * @param elements the {@code Iterable} to add to the {@code ImmutableList}
+./collect/Queues.java:   * @param elements the elements that the queue should contain, in order
+./collect/Queues.java:   * @param q the blocking queue to be drained
+./collect/Queues.java:   * @param buffer where to add the transferred elements
+./collect/Queues.java:   * @param numElements the number of elements to be waited for
+./collect/Queues.java:   * @param timeout how long to wait before giving up, in units of {@code unit}
+./collect/Queues.java:   * @param unit a {@code TimeUnit} determining how to interpret the timeout parameter
+./collect/Queues.java:   * @param q the blocking queue to be drained
+./collect/Queues.java:   * @param buffer where to add the transferred elements
+./collect/Queues.java:   * @param numElements the number of elements to be waited for
+./collect/Queues.java:   * @param timeout how long to wait before giving up, in units of {@code unit}
+./collect/Queues.java:   * @param unit a {@code TimeUnit} determining how to interpret the timeout parameter
+./collect/Queues.java:   * @param queue the queue to be wrapped in a synchronized view
+./collect/Queues.java:   * @param deque the deque to be wrapped in a synchronized view
+./collect/Multiset.java:   * @param element the element to count occurrences of
+./collect/Multiset.java:   * @param element the element to add occurrences of; may be null only if
+./collect/Multiset.java:   * @param occurrences the number of occurrences of the element to add. May be
+./collect/Multiset.java:   * @param element the element to conditionally remove occurrences of
+./collect/Multiset.java:   * @param occurrences the number of occurrences of the element to remove. May
+./collect/Multiset.java:   * @param element the element to add or remove occurrences of; may be null
+./collect/Multiset.java:   * @param count the desired count of the element in this multiset
+./collect/Multiset.java:   * @param element the element to conditionally set the count of; may be null
+./collect/Multiset.java:   * @param oldCount the expected present count of the element in this multiset
+./collect/Multiset.java:   * @param newCount the desired count of the element in this multiset
+./collect/Multiset.java:   * @param element the element to check for
+./collect/Multiset.java:   * @param elements the collection of elements to be checked for containment in
+./collect/Multiset.java:   * @param element the element to add one occurrence of; may be null only if
+./collect/Multiset.java:   * @param element the element to remove one occurrence of
+./collect/HashMultiset.java:   * @param distinctElements the expected number of distinct elements
+./collect/HashMultiset.java:   * @param elements the elements that the multiset should contain
+./collect/Collections2.java:   * @param self a collection which might contain all elements in {@code c}
+./collect/Collections2.java:   * @param c a collection whose elements might be contained by {@code self}
+./collect/Collections2.java:   * @param elements the original iterable whose elements have to be permuted.
+./collect/Collections2.java:   * @param elements the original iterable whose elements have to be permuted.
+./collect/Collections2.java:   * @param comparator a comparator for the iterable's elements.
+./collect/Collections2.java:   * @param elements the original collection whose elements have to be permuted.
+./collect/MapMaker.java:   * @param size the maximum size of the map
+./collect/MapMaker.java:   * @param duration the length of time after an entry is created that it should be automatically
+./collect/MapMaker.java:   * @param unit the unit that {@code duration} is expressed in
+./collect/MapMaker.java:   * @param duration the length of time after an entry is last accessed that it should be
+./collect/MapMaker.java:   * @param unit the unit that {@code duration} is expressed in
+./collect/MapMaker.java:   * @param computingFunction the function used to compute new values
+./collect/MapMaker.java:   * @param <K> the most general type of keys this listener can listen for; for
+./collect/MapMaker.java:   * @param <V> the most general type of values this listener can listen for; for
+./collect/TreeBasedTable.java:   * @param rowComparator the comparator that orders the row keys
+./collect/TreeBasedTable.java:   * @param columnComparator the comparator that orders the column keys
+./collect/ObjectArrays.java:   * @param type the component type
+./collect/ObjectArrays.java:   * @param length the length of the new array
+./collect/ObjectArrays.java:   * @param reference any array of the desired type
+./collect/ObjectArrays.java:   * @param length the length of the new array
+./collect/ObjectArrays.java:   * @param first the first array of elements to concatenate
+./collect/ObjectArrays.java:   * @param second the second array of elements to concatenate
+./collect/ObjectArrays.java:   * @param type the component type of the returned array
+./collect/ObjectArrays.java:   * @param element the element to prepend to the front of {@code array}
+./collect/ObjectArrays.java:   * @param array the array of elements to append
+./collect/ObjectArrays.java:   * @param array the array of elements to prepend
+./collect/ObjectArrays.java:   * @param element the element to append to the end
+./collect/ObjectArrays.java:   * @param c the collection for which to return an array of elements
+./collect/ObjectArrays.java:   * @param array the array in which to place the collection elements
+./collect/ObjectArrays.java:   * @param c the collection for which to return an array of elements
+./collect/DiscreteDomain.java:   * @param value any value of type {@code C}
+./collect/DiscreteDomain.java:   * @param value any value of type {@code C}
+./collect/MultimapBuilder.java: * @param <K0> An upper bound on the key type of the generated multimap.
+./collect/MultimapBuilder.java: * @param <V0> An upper bound on the value type of the generated multimap.
+./collect/MultimapBuilder.java:   * @param <K0> The upper bound on the key type of the generated multimap.
+./collect/Multimaps.java:   * @param map place to store the mapping from each key to its corresponding
+./collect/Multimaps.java:   * @param factory supplier of new, empty collections that will each hold all
+./collect/Multimaps.java:   * @param map place to store the mapping from each key to its corresponding
+./collect/Multimaps.java:   * @param factory supplier of new, empty lists that will each hold all values
+./collect/Multimaps.java:   * @param map place to store the mapping from each key to its corresponding
+./collect/Multimaps.java:   * @param factory supplier of new, empty sets that will each hold all values
+./collect/Multimaps.java:   * @param map place to store the mapping from each key to its corresponding
+./collect/Multimaps.java:   * @param factory supplier of new, empty sorted sets that will each hold
+./collect/Multimaps.java:   * @param source any multimap
+./collect/Multimaps.java:   * @param dest the multimap to copy into; usually empty
+./collect/Multimaps.java:   * @param multimap the multimap to be wrapped in a synchronized view
+./collect/Multimaps.java:   * @param delegate the multimap for which an unmodifiable view is to be
+./collect/Multimaps.java:   * @param multimap the multimap to be wrapped
+./collect/Multimaps.java:   * @param delegate the multimap for which an unmodifiable view is to be
+./collect/Multimaps.java:   * @param multimap the multimap to be wrapped
+./collect/Multimaps.java:   * @param delegate the multimap for which an unmodifiable view is to be
+./collect/Multimaps.java:   * @param multimap the multimap to be wrapped
+./collect/Multimaps.java:   * @param delegate the multimap for which an unmodifiable view is to be
+./collect/Multimaps.java:   * @param collection the collection for which to return an unmodifiable view
+./collect/Multimaps.java:   * @param entries the entries for which to return an unmodifiable view
+./collect/Multimaps.java:   * @param map the backing map for the returned multimap view
+./collect/Multimaps.java:   * @param values the values to use when constructing the {@code
+./collect/Multimaps.java:   * @param keyFunction the function used to produce the key for each value
+./collect/Multimaps.java:   * @param values the values to use when constructing the {@code
+./collect/Multimaps.java:   * @param keyFunction the function used to produce the key for each value
+./collect/LinkedHashMultiset.java:   * @param distinctElements the expected number of distinct elements
+./collect/LinkedHashMultiset.java:   * @param elements the elements that the multiset should contain
+./collect/ConcurrentHashMultiset.java:   * @param elements the elements that the multiset should contain
+./collect/ConcurrentHashMultiset.java:   * @param countMap backing map for storing the elements in the multiset and
+./collect/ConcurrentHashMultiset.java:   * @param element the element to look for
+./collect/ConcurrentHashMultiset.java:   * @param element the element to add
+./collect/ConcurrentHashMultiset.java:   * @param occurrences the number of occurrences to add
+./collect/ConcurrentHashMultiset.java:   * @param element the element whose occurrences should be removed
+./collect/ConcurrentHashMultiset.java:   * @param occurrences the number of occurrences of the element to remove
+./collect/ConcurrentHashMultiset.java:   * @param element the element to remove
+./collect/ConcurrentHashMultiset.java:   * @param occurrences the number of occurrences of {@code element} to remove
+./collect/LinkedHashMultimap.java:   * @param expectedKeys the expected number of distinct keys
+./collect/LinkedHashMultimap.java:   * @param expectedValuesPerKey the expected average number of values per key
+./collect/LinkedHashMultimap.java:   * @param multimap the multimap whose contents are copied to this multimap
+./collect/LinkedHashMultimap.java:   * @param key key to associate with values in the collection
+./collect/HashBasedTable.java:   * @param expectedRows the expected number of distinct row keys
+./collect/HashBasedTable.java:   * @param expectedCellsPerRow the expected number of column key / value
+./collect/HashBasedTable.java:   * @param table the table to copy
+./collect/Sets.java:   * @param anElement one of the elements the set should contain
+./collect/Sets.java:   * @param otherElements the rest of the elements the set should contain
+./collect/Sets.java:   * @param elements the elements, all of the same {@code enum} type, that the
+./collect/Sets.java:   * @param expectedSize the number of elements you expect to add to the
+./collect/Sets.java:   * @param elements the elements that the set should contain
+./collect/Sets.java:   * @param expectedSize the number of elements you expect to add to the
+./collect/Sets.java:   * @param elements the elements that the set should contain, in order
+./collect/Sets.java:   * @param elements the elements that the set should contain
+./collect/Sets.java:   * @param comparator the comparator to use to sort the set
+./collect/Sets.java:   * @param elements the elements that the set should contain, in order
+./collect/Sets.java:   * @param collection the collection whose complement should be stored in the
+./collect/Sets.java:   * @param collection the collection whose complement should be stored in the
+./collect/Sets.java:   * @param type the type of the elements in the set
+./collect/Sets.java:   * @param map the backing map
+./collect/Sets.java:   * @param sets the sets to choose elements from, in the order that
+./collect/Sets.java:   * @param <B> any common base class shared by all axes (often just {@link
+./collect/Sets.java:   * @param sets the sets to choose elements from, in the order that
+./collect/Sets.java:   * @param <B> any common base class shared by all axes (often just {@link
+./collect/Sets.java:   * @param set the set of elements to construct a power set from
+./collect/Sets.java:   * @param set the navigable set for which an unmodifiable view is to be
+./collect/Sets.java:   * @param navigableSet the navigable set to be "wrapped" in a synchronized
+./collect/Multisets.java:   * @param multiset the multiset for which an unmodifiable view is to be
+./collect/Multisets.java:   * @param sortedMultiset the sorted multiset for which an unmodifiable view is
+./collect/Multisets.java:   * @param e the element to be associated with the returned entry
+./collect/Multisets.java:   * @param n the count to be associated with the returned entry
+./collect/EnumMultiset.java:   * @param elements the elements that the multiset should contain
+./collect/ImmutableCollection.java:     * @param element the element to add
+./collect/ImmutableCollection.java:     * @param elements the elements to add
+./collect/ImmutableCollection.java:     * @param elements the elements to add
+./collect/ImmutableCollection.java:     * @param elements the elements to add
+./collect/Platform.java:   * @param reference any array of the desired type
+./collect/Platform.java:   * @param length the length of the new array
+./collect/Constraints.java:   * @param collection the collection to constrain
+./collect/Constraints.java:   * @param constraint the constraint that validates added elements
+./collect/Constraints.java:   * @param set the set to constrain
+./collect/Constraints.java:   * @param constraint the constraint that validates added elements
+./collect/Constraints.java:   * @param sortedSet the sorted set to constrain
+./collect/Constraints.java:   * @param constraint the constraint that validates added elements
+./collect/Constraints.java:   * @param list the list to constrain
+./collect/Constraints.java:   * @param constraint the constraint that validates added elements
+./collect/Constraints.java:   * @param listIterator the iterator for which to return a constrained view
+./collect/Constraints.java:   * @param constraint the constraint for elements in the list
+./collect/TreeMultiset.java:   * @param comparator
+./collect/HashBiMap.java:   * @param expectedSize the expected number of entries
+./collect/Maps.java:   * @param map the map to make an immutable copy of
+./collect/Maps.java:   * @param expectedSize the number of entries you expect to add to the
+./collect/Maps.java:   * @param map the mappings to be placed in the new map
+./collect/Maps.java:   * @param expectedSize the number of entries you expect to add to the
+./collect/Maps.java:   * @param map the mappings to be placed in the new map
+./collect/Maps.java:   * @param map the sorted map whose mappings are to be placed in the new map
+./collect/Maps.java:   * @param comparator the comparator to sort the keys with
+./collect/Maps.java:   * @param type the key type for this map
+./collect/Maps.java:   * @param map the map from which to initialize this {@code EnumMap}
+./collect/Maps.java:   * @param left the map to treat as the "left" map for purposes of comparison
+./collect/Maps.java:   * @param right the map to treat as the "right" map for purposes of comparison
+./collect/Maps.java:   * @param left the map to treat as the "left" map for purposes of comparison
+./collect/Maps.java:   * @param right the map to treat as the "right" map for purposes of comparison
+./collect/Maps.java:   * @param valueEquivalence the equivalence relationship to use to compare
+./collect/Maps.java:   * @param left the map to treat as the "left" map for purposes of comparison
+./collect/Maps.java:   * @param right the map to treat as the "right" map for purposes of comparison
+./collect/Maps.java:   * @param values the values to use when constructing the {@code Map}
+./collect/Maps.java:   * @param keyFunction the function used to produce the key for each value
+./collect/Maps.java:   * @param values the values to use when constructing the {@code Map}
+./collect/Maps.java:   * @param keyFunction the function used to produce the key for each value
+./collect/Maps.java:   * @param properties a {@code Properties} object to be converted
+./collect/Maps.java:   * @param key the key to be associated with the returned entry
+./collect/Maps.java:   * @param value the value to be associated with the returned entry
+./collect/Maps.java:   * @param entrySet the entries for which to return an unmodifiable view
+./collect/Maps.java:   * @param entry the entry for which to return an unmodifiable view
+./collect/Maps.java:   * @param bimap the bimap to be wrapped in a synchronized view
+./collect/Maps.java:   * @param bimap the bimap for which an unmodifiable view is to be returned
+./collect/Maps.java:   * @param <K> the key type of the input and output entries
+./collect/Maps.java:   * @param <V1> the value type of the input entry
+./collect/Maps.java:   * @param <V2> the value type of the output entry
+./collect/Maps.java:   * @param map the navigable map for which an unmodifiable view is to be returned
+./collect/Maps.java:   * @param navigableMap the navigable map to be "wrapped" in a synchronized
+./collect/Maps.java:   * @param c the delegate (unwrapped) collection of map entries
+./collect/Maps.java:   * @param o the object that might be contained in {@code c}
+./collect/Maps.java:   * @param c the delegate (unwrapped) collection of map entries
+./collect/Maps.java:   * @param o the object to remove from {@code c}
+./collect/EnumBiMap.java:   * @param keyType the key type
+./collect/EnumBiMap.java:   * @param valueType the value type
+./collect/EnumBiMap.java:   * @param map the map whose mappings are to be placed in this map
+./collect/AbstractSetMultimap.java:   * @param map place to store the mapping from each key to its corresponding
+./collect/AbstractSetMultimap.java:   * @param key key to store in the multimap
+./collect/AbstractSetMultimap.java:   * @param value value to store in the multimap
+./collect/TreeMultimap.java:   * @param keyComparator the comparator that determines the key ordering
+./collect/TreeMultimap.java:   * @param valueComparator the comparator that determines the value ordering
+./collect/TreeMultimap.java:   * @param multimap the multimap whose contents are copied to this multimap
+./collect/ImmutableSet.java:     * @param element the element to add
+./collect/ImmutableSet.java:     * @param elements the elements to add
+./collect/ImmutableSet.java:     * @param elements the {@code Iterable} to add to the {@code ImmutableSet}
+./collect/ImmutableSet.java:     * @param elements the elements to add to the {@code ImmutableSet}
+./collect/ImmutableMultiset.java:     * @param element the element to add
+./collect/ImmutableMultiset.java:     * @param element the element to add
+./collect/ImmutableMultiset.java:     * @param occurrences the number of occurrences of the element to add. May
+./collect/ImmutableMultiset.java:     * @param element the element to add or remove occurrences of
+./collect/ImmutableMultiset.java:     * @param count the desired count of the element in this multiset
+./collect/ImmutableMultiset.java:     * @param elements the elements to add
+./collect/ImmutableMultiset.java:     * @param elements the {@code Iterable} to add to the {@code
+./collect/ImmutableMultiset.java:     * @param elements the elements to add to the {@code ImmutableMultiset}
+./collect/AbstractMapBasedMultimap.java:   * @param map place to store the mapping from each key to its corresponding
+./collect/AbstractMapBasedMultimap.java:   * @param key key to associate with values in the collection
+./collect/Table.java: * @param <R> the type of the table row keys
+./collect/Table.java: * @param <C> the type of the table column keys
+./collect/Table.java: * @param <V> the type of the mapped values
+./collect/Table.java:   * @param rowKey key of row to search for
+./collect/Table.java:   * @param columnKey key of column to search for
+./collect/Table.java:   * @param rowKey key of row to search for
+./collect/Table.java:   * @param columnKey key of column to search for
+./collect/Table.java:   * @param value value to search for
+./collect/Table.java:   * @param rowKey key of row to search for
+./collect/Table.java:   * @param columnKey key of column to search for
+./collect/Table.java:   * @param rowKey row key that the value should be associated with
+./collect/Table.java:   * @param columnKey column key that the value should be associated with
+./collect/Table.java:   * @param value value to be associated with the specified keys
+./collect/Table.java:   * @param table the table to add to this table
+./collect/Table.java:   * @param rowKey row key of mapping to be removed
+./collect/Table.java:   * @param columnKey column key of mapping to be removed
+./collect/Table.java:   * @param rowKey key of row to search for in the table
+./collect/Table.java:   * @param columnKey key of column to search for in the table
+./collect/Iterables.java:   * @param removeFrom the iterable to (potentially) remove elements from
+./collect/Iterables.java:   * @param elementsToRemove the elements to remove
+./collect/Iterables.java:   * @param removeFrom the iterable to (potentially) remove elements from
+./collect/Iterables.java:   * @param elementsToRetain the elements to retain
+./collect/Iterables.java:   * @param removeFrom the iterable to (potentially) remove elements from
+./collect/Iterables.java:   * @param predicate a predicate that determines whether an element should
+./collect/Iterables.java:   * @param iterable the iterable to copy
+./collect/Iterables.java:   * @param type the type of the elements
+./collect/Iterables.java:   * @param iterable the iterable to copy
+./collect/Iterables.java:   * @param iterable the iterable to return a partitioned view of
+./collect/Iterables.java:   * @param size the desired size of each partition (the last may be smaller)
+./collect/Iterables.java:   * @param iterable the iterable to return a partitioned view of
+./collect/Iterables.java:   * @param size the desired size of each partition
+./collect/Iterables.java:   * @param unfiltered an iterable containing objects of any type
+./collect/Iterables.java:   * @param type the type of elements desired
+./collect/Iterables.java:   * @param position position of the element to return
+./collect/Iterables.java:   * @param position position of the element to return
+./collect/Iterables.java:   * @param defaultValue the default value to return if {@code position} is
+./collect/Iterables.java:   * @param defaultValue the default value to return if the iterable is empty
+./collect/Iterables.java:   * @param defaultValue the value to return if {@code iterable} is empty
+./collect/Iterables.java:   * @param iterable the iterable to limit
+./collect/Iterables.java:   * @param limitSize the maximum number of elements in the returned iterable
+./collect/Iterables.java:   * @param iterable the iterable to wrap
+./collect/ClassToInstanceMap.java: * @param <B> the common supertype that all entries must share; often this is
+./collect/SortedLists.java:   * @param list the list to be searched.
+./collect/SortedLists.java:   * @param key the value to be searched for.
+./collect/SortedLists.java:   * @param comparator the comparator by which the list is ordered.
+./collect/SortedLists.java:   * @param presentBehavior the specification for what to do if at least one element of the list
+./collect/SortedLists.java:   * @param absentBehavior the specification for what to do if no elements of the list compare as
+./collect/ArrayTable.java:   * @param rowKeys row keys that may be stored in the generated table
+./collect/ArrayTable.java:   * @param columnKeys column keys that may be stored in the generated table
+./collect/ArrayTable.java:   * @param rowIndex position of the row key in {@link #rowKeyList()}
+./collect/ArrayTable.java:   * @param columnIndex position of the row key in {@link #columnKeyList()}
+./collect/ArrayTable.java:   * @param rowIndex position of the row key in {@link #rowKeyList()}
+./collect/ArrayTable.java:   * @param columnIndex position of the row key in {@link #columnKeyList()}
+./collect/ArrayTable.java:   * @param value value to store in the table
+./collect/ArrayTable.java:   * @param valueClass class of values stored in the returned array
+./collect/ArrayTable.java:   * @param rowKey row key of mapping to be erased
+./collect/ArrayTable.java:   * @param columnKey column key of mapping to be erased
+./collect/ArrayTable.java:   * @param columnKey key of column to search for in the table
+./collect/ArrayTable.java:   * @param rowKey key of row to search for in the table
+./collect/Constraint.java:   * @param element the element to check
+./collect/BiMap.java:   * @param key the key with which the specified value is to be associated
+./collect/BiMap.java:   * @param value the value to be associated with the specified key
+./collect/ArrayListMultimap.java:   * @param expectedKeys the expected number of distinct keys
+./collect/ArrayListMultimap.java:   * @param expectedValuesPerKey the expected average number of values per key
+./collect/ArrayListMultimap.java:   * @param multimap the multimap whose contents are copied to this multimap
+./collect/EnumHashBiMap.java:   * @param keyType the key type
+./collect/EnumHashBiMap.java:   * @param map the map whose mappings are to be placed in this map
+./escape/Escapers.java:     * @param safeMin the lowest 'safe' character
+./escape/Escapers.java:     * @param safeMax the highest 'safe' character
+./escape/Escapers.java:     * @param unsafeReplacement the string to replace unsafe chracters
+./escape/Escapers.java:     * @param c the character to be replaced
+./escape/Escapers.java:     * @param replacement the string to replace the given character
+./escape/Escapers.java:   * @param escaper the instance to be wrapped
+./escape/Escapers.java:   * @param c the character to escape if necessary
+./escape/Escapers.java:   * @param cp the Unicode code point to escape if necessary
+./escape/ArrayBasedCharEscaper.java:   * @param replacementMap a map of characters to their escaped representations
+./escape/ArrayBasedCharEscaper.java:   * @param safeMin the lowest character value in the safe range
+./escape/ArrayBasedCharEscaper.java:   * @param safeMax the highest character value in the safe range
+./escape/ArrayBasedCharEscaper.java:   * @param escaperMap the mapping of characters to be escaped
+./escape/ArrayBasedCharEscaper.java:   * @param safeMin the lowest character value in the safe range
+./escape/ArrayBasedCharEscaper.java:   * @param safeMax the highest character value in the safe range
+./escape/ArrayBasedCharEscaper.java:   * @param c the character to escape
+./escape/Escaper.java:   * @param string the literal string to be escaped
+./escape/UnicodeEscaper.java:   * @param cp the Unicode code point to escape if necessary
+./escape/UnicodeEscaper.java:   * @param csq a sequence of characters
+./escape/UnicodeEscaper.java:   * @param start the index of the first character to be scanned
+./escape/UnicodeEscaper.java:   * @param end the index immediately after the last character to be scanned
+./escape/UnicodeEscaper.java:   * @param string the literal string to be escaped
+./escape/UnicodeEscaper.java:   * @param s the literal string to be escaped
+./escape/UnicodeEscaper.java:   * @param index the index to start escaping from
+./escape/UnicodeEscaper.java:   * @param seq the sequence of characters from which to decode the code point
+./escape/UnicodeEscaper.java:   * @param index the index of the first character to decode
+./escape/UnicodeEscaper.java:   * @param end the index beyond the last valid character to decode
+./escape/ArrayBasedEscaperMap.java:   * @param replacements a map of characters to their escaped representations
+./escape/ArrayBasedUnicodeEscaper.java:   * @param replacementMap a map of characters to their escaped representations
+./escape/ArrayBasedUnicodeEscaper.java:   * @param safeMin the lowest character value in the safe range
+./escape/ArrayBasedUnicodeEscaper.java:   * @param safeMax the highest character value in the safe range
+./escape/ArrayBasedUnicodeEscaper.java:   * @param unsafeReplacement the default replacement for unsafe characters or
+./escape/ArrayBasedUnicodeEscaper.java:   * @param escaperMap the map of replacements
+./escape/ArrayBasedUnicodeEscaper.java:   * @param safeMin the lowest character value in the safe range
+./escape/ArrayBasedUnicodeEscaper.java:   * @param safeMax the highest character value in the safe range
+./escape/ArrayBasedUnicodeEscaper.java:   * @param unsafeReplacement the default replacement for unsafe characters or
+./escape/ArrayBasedUnicodeEscaper.java:   * @param cp the Unicode code point to escape
+./escape/CharEscaper.java:   * @param string the literal string to be escaped
+./escape/CharEscaper.java:   * @param s the literal string to be escaped
+./escape/CharEscaper.java:   * @param index the index to start escaping from
+./escape/CharEscaper.java:   * @param c the character to escape if necessary
+./eventbus/SubscriberExceptionContext.java:   * @param eventBus The {@link EventBus} that handled the event and the
+./eventbus/SubscriberExceptionContext.java:   * @param event The event object that caused the subscriber to throw.
+./eventbus/SubscriberExceptionContext.java:   * @param subscriber The source subscriber context.
+./eventbus/SubscriberExceptionContext.java:   * @param subscriberMethod the subscribed method.
+./eventbus/AsyncEventBus.java:   * @param identifier short name for the bus, for logging purposes.
+./eventbus/AsyncEventBus.java:   * @param executor   Executor to use to dispatch events. It is the caller's
+./eventbus/AsyncEventBus.java:   * @param executor Executor to use to dispatch events. It is the caller's
+./eventbus/AsyncEventBus.java:   * @param subscriberExceptionHandler Handler used to handle exceptions thrown from subscribers.
+./eventbus/AsyncEventBus.java:   * @param executor Executor to use to dispatch events. It is the caller's
+./eventbus/EventBus.java:   * @param identifier  a brief name for this bus, for logging purposes.  Should
+./eventbus/EventBus.java:   * @param exceptionHandler Handler for subscriber exceptions.
+./eventbus/EventBus.java:   * @param object  object whose subscriber methods should be registered.
+./eventbus/EventBus.java:   * @param object  object whose subscriber methods should be unregistered.
+./eventbus/EventBus.java:   * @param event  event to post.
+./eventbus/DeadEvent.java:   * @param source  object broadcasting the DeadEvent (generally the
+./eventbus/DeadEvent.java:   * @param event   the event that could not be delivered.
+./hash/SipHashFunction.java:   * @param c the number of compression rounds (must be positive)
+./hash/SipHashFunction.java:   * @param d the number of finalization rounds (must be positive)
+./hash/SipHashFunction.java:   * @param k0 the first half of the key
+./hash/SipHashFunction.java:   * @param k1 the second half of the key
+./hash/AbstractStreamingHashFunction.java:     * @param chunkSize the number of bytes available per {@link #process(ByteBuffer)} invocation;
+./hash/AbstractStreamingHashFunction.java:     * @param chunkSize the number of bytes available per {@link #process(ByteBuffer)} invocation;
+./hash/AbstractStreamingHashFunction.java:     * @param bufferSize the size of the internal buffer. Must be a multiple of chunkSize
+./hash/PrimitiveSink.java:   * @param b a byte
+./hash/PrimitiveSink.java:   * @param bytes a byte array
+./hash/PrimitiveSink.java:   * @param bytes a byte array
+./hash/PrimitiveSink.java:   * @param off the start offset in the array
+./hash/PrimitiveSink.java:   * @param len the number of bytes to write
+./hash/HashCode.java:   * @param dest the byte array into which the hash code will be written
+./hash/HashCode.java:   * @param offset the start offset in the data
+./hash/HashCode.java:   * @param maxLength the maximum number of bytes to write
+./hash/Hashing.java:   * @param minimumBits a positive integer (can be arbitrarily large)
+./hash/BloomFilter.java: * @param <T> the type of instances that the {@code BloomFilter} accepts
+./hash/BloomFilter.java:   * @param that The bloom filter to check for compatibility.
+./hash/BloomFilter.java:   * @param that The bloom filter to combine this bloom filter with. It is not mutated.
+./hash/BloomFilter.java:   * @param funnel the funnel of T's that the constructed {@code BloomFilter<T>} will use
+./hash/BloomFilter.java:   * @param expectedInsertions the number of expected insertions to the constructed
+./hash/BloomFilter.java:   * @param fpp the desired false positive probability (must be positive and less than 1.0)
+./hash/BloomFilter.java:   * @param funnel the funnel of T's that the constructed {@code BloomFilter<T>} will use
+./hash/BloomFilter.java:   * @param expectedInsertions the number of expected insertions to the constructed
+./hash/BloomFilter.java:   * @param fpp the desired false positive probability (must be positive and less than 1.0)
+./hash/BloomFilter.java:   * @param funnel the funnel of T's that the constructed {@code BloomFilter<T>} will use
+./hash/BloomFilter.java:   * @param expectedInsertions the number of expected insertions to the constructed
+./hash/BloomFilter.java:   * @param funnel the funnel of T's that the constructed {@code BloomFilter<T>} will use
+./hash/BloomFilter.java:   * @param expectedInsertions the number of expected insertions to the constructed
+./hash/BloomFilter.java:   * @param n expected insertions (must be positive)
+./hash/BloomFilter.java:   * @param m total number of bits in Bloom filter (must be positive)
+./hash/BloomFilter.java:   * @param n expected insertions (must be positive)
+./hash/BloomFilter.java:   * @param p false positive rate (must be 0 < p < 1)
+./io/AppendableWriter.java:   * @param target target to which to append output
+./io/ByteStreams.java:   * @param from the input stream to read from
+./io/ByteStreams.java:   * @param to the output stream to write to
+./io/ByteStreams.java:   * @param from the readable channel to read from
+./io/ByteStreams.java:   * @param to the writable channel to write to
+./io/ByteStreams.java:   * @param in the input stream to read from
+./io/ByteStreams.java:   * @param in the input stream to be wrapped
+./io/ByteStreams.java:   * @param limit the maximum number of bytes to be read
+./io/ByteStreams.java:   * @param in the input stream to read from.
+./io/ByteStreams.java:   * @param b the buffer into which the data is read.
+./io/ByteStreams.java:   * @param in the input stream to read from.
+./io/ByteStreams.java:   * @param b the buffer into which the data is read.
+./io/ByteStreams.java:   * @param off an int specifying the offset into the data.
+./io/ByteStreams.java:   * @param len an int specifying the number of bytes to read.
+./io/ByteStreams.java:   * @param in the input stream to read from
+./io/ByteStreams.java:   * @param n the number of bytes to skip
+./io/ByteStreams.java:   * @param input the input stream to process
+./io/ByteStreams.java:   * @param processor the object to which to pass the bytes of the stream
+./io/ByteStreams.java:   * @param in the input stream to read from
+./io/ByteStreams.java:   * @param b the buffer into which the data is read
+./io/ByteStreams.java:   * @param off an int specifying the offset into the data
+./io/ByteStreams.java:   * @param len an int specifying the number of bytes to read
+./io/LineProcessor.java:   * @param line the line read from the input, without delimiter
+./io/Files.java:   * @param file the file to read from
+./io/Files.java:   * @param charset the charset used to decode the input stream; see {@link
+./io/Files.java:   * @param file the file to write to
+./io/Files.java:   * @param charset the charset used to encode the output stream; see {@link
+./io/Files.java:   * @param file the file to read from
+./io/Files.java:   * @param file the file to read from
+./io/Files.java:   * @param charset the charset used to decode the input stream; see {@link
+./io/Files.java:   * @param from the bytes to write
+./io/Files.java:   * @param to the destination file
+./io/Files.java:   * @param from the source file
+./io/Files.java:   * @param to the output stream
+./io/Files.java:   * @param from the source file
+./io/Files.java:   * @param to the destination file
+./io/Files.java:   * @param from the character sequence to write
+./io/Files.java:   * @param to the destination file
+./io/Files.java:   * @param charset the charset used to encode the output stream; see {@link
+./io/Files.java:   * @param from the character sequence to append
+./io/Files.java:   * @param to the destination file
+./io/Files.java:   * @param charset the charset used to encode the output stream; see {@link
+./io/Files.java:   * @param from the character sequence to append
+./io/Files.java:   * @param to the destination file
+./io/Files.java:   * @param charset the charset used to encode the output stream; see {@link
+./io/Files.java:   * @param append true to append, false to overwrite
+./io/Files.java:   * @param from the source file
+./io/Files.java:   * @param charset the charset used to decode the input stream; see {@link
+./io/Files.java:   * @param to the appendable object
+./io/Files.java:   * @param file the file to create or update
+./io/Files.java:   * @param from the source file
+./io/Files.java:   * @param to the destination file
+./io/Files.java:   * @param file the file to read from
+./io/Files.java:   * @param charset the charset used to decode the input stream; see {@link
+./io/Files.java:   * @param file the file to read from
+./io/Files.java:   * @param charset the charset used to decode the input stream; see {@link
+./io/Files.java:   * @param file the file to read from
+./io/Files.java:   * @param charset the charset used to decode the input stream; see {@link
+./io/Files.java:   * @param callback the {@link LineProcessor} to use to handle the lines
+./io/Files.java:   * @param file the file to read
+./io/Files.java:   * @param processor the object to which the bytes of the file are passed.
+./io/Files.java:   * @param file the file to read
+./io/Files.java:   * @param hashFunction the hash function to use to hash the data
+./io/Files.java:   * @param file the file to map
+./io/Files.java:   * @param file the file to map
+./io/Files.java:   * @param mode the mode to use when mapping {@code file}
+./io/Files.java:   * @param file the file to map
+./io/Files.java:   * @param mode the mode to use when mapping {@code file}
+./io/Files.java:   * @param file The name of the file to trim the extension from. This can be either a fully
+./io/LittleEndianDataOutputStream.java:   * @param out the stream to delegate to
+./io/LittleEndianDataInputStream.java:   * @param in the stream to delegate to
+./io/CharStreams.java:   * @param from the object to read from
+./io/CharStreams.java:   * @param to the object to write to
+./io/CharStreams.java:   * @param r the object to read from
+./io/CharStreams.java:   * @param r the object to read from
+./io/CharStreams.java:   * @param r the object to read from
+./io/CharStreams.java:   * @param reader the reader to read from
+./io/CharStreams.java:   * @param n the number of characters to skip
+./io/CharStreams.java:   * @param target the object to which output will be sent
+./io/ByteProcessor.java:   * @param buf the byte array containing the data to process
+./io/ByteProcessor.java:   * @param off the initial offset into the array
+./io/ByteProcessor.java:   * @param len the length of data to be processed
+./io/PatternFilenameFilter.java:   * @param patternStr the pattern string on which to filter file names
+./io/PatternFilenameFilter.java:   * @param pattern the pattern on which to filter file names
+./io/LineBuffer.java:   * @param cbuf the character buffer to process
+./io/LineBuffer.java:   * @param off the offset into the buffer
+./io/LineBuffer.java:   * @param len the number of characters to process
+./io/LineBuffer.java:   * @param line a line of text (possibly empty), without any line separators
+./io/LineBuffer.java:   * @param end the line separator; one of {@code "\r"}, {@code "\n"},
+./io/FileBackedOutputStream.java:   * @param fileThreshold the number of bytes before the stream should
+./io/FileBackedOutputStream.java:   * @param fileThreshold the number of bytes before the stream should
+./io/FileBackedOutputStream.java:   * @param resetOnFinalize if true, the {@link #reset} method will
+./io/CharSource.java:   * @param sources the sources to concatenate
+./io/CharSource.java:   * @param sources the sources to concatenate
+./io/CharSource.java:   * @param sources the sources to concatenate
+./io/Closeables.java:   * @param closeable the {@code Closeable} object to be closed, or null, in which case this method
+./io/Closeables.java:   * @param swallowIOException if true, don't propagate IO exceptions thrown by the {@code close}
+./io/Closeables.java:   * @param inputStream the input stream to be closed, or {@code null} in which case this method
+./io/Closeables.java:   * @param reader the reader to be closed, or {@code null} in which case this method does nothing
+./io/CountingInputStream.java:   * @param in the input stream to be wrapped
+./io/CountingOutputStream.java:   * @param out the output stream to be wrapped
+./io/ByteSource.java:   * @param sources the sources to concatenate
+./io/ByteSource.java:   * @param sources the sources to concatenate
+./io/ByteSource.java:   * @param sources the sources to concatenate
+./io/Resources.java:   * @param url the URL to read from
+./io/Resources.java:   * @param url the URL to read from
+./io/Resources.java:   * @param charset the charset used to decode the input stream; see {@link
+./io/Resources.java:   * @param url the URL to read from
+./io/Resources.java:   * @param charset the charset used to decode the input stream; see {@link
+./io/Resources.java:   * @param callback the LineProcessor to use to handle the lines
+./io/Resources.java:   * @param url the URL to read from
+./io/Resources.java:   * @param charset the charset used to decode the input stream; see {@link
+./io/Resources.java:   * @param from the URL to read from
+./io/Resources.java:   * @param to the output stream
+./io/MultiInputStream.java:   * @param it an iterator of I/O suppliers that will provide each substream
+./io/Flushables.java:   * @param flushable the {@code Flushable} object to be flushed.
+./io/Flushables.java:   * @param swallowIOException if true, don't propagate IO exceptions
+./io/Flushables.java:   * @param flushable the {@code Flushable} object to be flushed.
+./math/DoubleMath.java:   * @param values a nonempty series of values
+./math/DoubleMath.java:   * @param values a nonempty series of values
+./math/DoubleMath.java:   * @param values a nonempty series of values, which will be converted to {@code double} values
+./math/DoubleMath.java:   * @param values a nonempty series of values, which will be converted to {@code double} values
+./math/DoubleMath.java:   * @param values a nonempty series of values, which will be converted to {@code double} values
+./net/InternetDomainName.java:   * @param domain A domain name (not IP address)
+./net/InternetDomainName.java:   * @param part The domain name part to be validated
+./net/InternetDomainName.java:   * @param isFinalPart Is this the final (rightmost) domain part?
+./net/PercentEscaper.java:   * @param safeChars a non null string specifying additional safe characters
+./net/PercentEscaper.java:   * @param plusForSpace true if ASCII space should be escaped to {@code +}
+./net/HostAndPort.java:   * @param host the host string to parse.  Must not contain a port number.
+./net/HostAndPort.java:   * @param port a port number from [0..65535]
+./net/HostAndPort.java:   * @param host the host-only string to parse.  Must not contain a port number.
+./net/HostAndPort.java:   * @param hostPortString the input string to parse.
+./net/HostAndPort.java:   * @param hostPortString the full bracketed host-port specification. Post might not be specified.
+./net/HostAndPort.java:   * @param defaultPort a port number, from [0..65535]
+./net/InetAddresses.java:   * @param bytes byte array representing an IPv4 address (should be of length 4)
+./net/InetAddresses.java:   * @param ipString {@code String} containing an IPv4 or IPv6 string literal, e.g.
+./net/InetAddresses.java:   * @param ipString {@code String} to evaluated as an IP string literal
+./net/InetAddresses.java:   * @param addr the raw 4-byte or 16-byte IP address in big-endian order
+./net/InetAddresses.java:   * @param ip {@link InetAddress} to be converted to an address string
+./net/InetAddresses.java:   * @param hextets {@code int[]} mutable array of eight 16-bit hextets
+./net/InetAddresses.java:   * @param hextets {@code int[]} array of eight 16-bit hextets, or -1s
+./net/InetAddresses.java:   * @param ip {@link InetAddress} to be converted to URI string literal
+./net/InetAddresses.java:   * @param hostAddr A RFC 3986 section 3.2.2 encoded IPv4 or IPv6 address
+./net/InetAddresses.java:   * @param ipString {@code String} to evaluated as an IP URI host string literal
+./net/InetAddresses.java:   * @param ip {@link Inet6Address} to be examined for embedded IPv4 compatible address format
+./net/InetAddresses.java:   * @param ip {@link Inet6Address} to be examined for an embedded IPv4 address
+./net/InetAddresses.java:   * @param ip {@link Inet6Address} to be examined for 6to4 address format
+./net/InetAddresses.java:   * @param ip {@link Inet6Address} to be examined for embedded IPv4 in 6to4 address
+./net/InetAddresses.java:   * @param ip {@link Inet6Address} to be examined for Teredo address format
+./net/InetAddresses.java:   * @param ip {@link Inet6Address} to be examined for embedded Teredo information
+./net/InetAddresses.java:   * @param ip {@link Inet6Address} to be examined for ISATAP address format
+./net/InetAddresses.java:   * @param ip {@link Inet6Address} to be examined for embedded IPv4 in ISATAP address
+./net/InetAddresses.java:   * @param ip {@link Inet6Address} to be examined for embedded IPv4 client address
+./net/InetAddresses.java:   * @param ip {@link Inet6Address} to be examined for embedded IPv4 client address
+./net/InetAddresses.java:   * @param ipString {@code String} to be examined for embedded IPv4-mapped IPv6 address format
+./net/InetAddresses.java:   * @param ip {@link InetAddress} to "coerce"
+./net/InetAddresses.java:   * @param ip {@link InetAddress} to convert
+./net/InetAddresses.java:   * @param address {@code int}, the 32bit integer address to be converted
+./net/InetAddresses.java:   * @param addr the raw IP address in little-endian byte order
+./net/InetAddresses.java:   * @param address the InetAddress to decrement
+./net/InetAddresses.java:   * @param address the InetAddress to increment
+./primitives/Doubles.java:   * @param value a primitive {@code double} value
+./primitives/Doubles.java:   * @param a the first {@code double} to compare
+./primitives/Doubles.java:   * @param b the second {@code double} to compare
+./primitives/Doubles.java:   * @param array an array of {@code double} values, possibly empty
+./primitives/Doubles.java:   * @param target a primitive {@code double} value
+./primitives/Doubles.java:   * @param array an array of {@code double} values, possibly empty
+./primitives/Doubles.java:   * @param target a primitive {@code double} value
+./primitives/Doubles.java:   * @param array the array to search for the sequence {@code target}
+./primitives/Doubles.java:   * @param target the array to search for as a sub-sequence of {@code array}
+./primitives/Doubles.java:   * @param array an array of {@code double} values, possibly empty
+./primitives/Doubles.java:   * @param target a primitive {@code double} value
+./primitives/Doubles.java:   * @param array a <i>nonempty</i> array of {@code double} values
+./primitives/Doubles.java:   * @param array a <i>nonempty</i> array of {@code double} values
+./primitives/Doubles.java:   * @param arrays zero or more {@code double} arrays
+./primitives/Doubles.java:   * @param array the source array
+./primitives/Doubles.java:   * @param minLength the minimum length the returned array must guarantee
+./primitives/Doubles.java:   * @param padding an extra amount to "grow" the array by if growth is
+./primitives/Doubles.java:   * @param separator the text that should appear between consecutive values in
+./primitives/Doubles.java:   * @param array an array of {@code double} values, possibly empty
+./primitives/Doubles.java:   * @param collection a collection of {@code Number} instances
+./primitives/Doubles.java:   * @param backingArray the array to back the list
+./primitives/Doubles.java:   * @param string the string representation of a {@code double} value
+./primitives/SignedBytes.java:   * @param value any value in the range of the {@code byte} type
+./primitives/SignedBytes.java:   * @param value any {@code long} value
+./primitives/SignedBytes.java:   * @param a the first {@code byte} to compare
+./primitives/SignedBytes.java:   * @param b the second {@code byte} to compare
+./primitives/SignedBytes.java:   * @param array a <i>nonempty</i> array of {@code byte} values
+./primitives/SignedBytes.java:   * @param array a <i>nonempty</i> array of {@code byte} values
+./primitives/SignedBytes.java:   * @param separator the text that should appear between consecutive values in
+./primitives/SignedBytes.java:   * @param array an array of {@code byte} values, possibly empty
+./primitives/Floats.java:   * @param value a primitive {@code float} value
+./primitives/Floats.java:   * @param a the first {@code float} to compare
+./primitives/Floats.java:   * @param b the second {@code float} to compare
+./primitives/Floats.java:   * @param array an array of {@code float} values, possibly empty
+./primitives/Floats.java:   * @param target a primitive {@code float} value
+./primitives/Floats.java:   * @param array an array of {@code float} values, possibly empty
+./primitives/Floats.java:   * @param target a primitive {@code float} value
+./primitives/Floats.java:   * @param array the array to search for the sequence {@code target}
+./primitives/Floats.java:   * @param target the array to search for as a sub-sequence of {@code array}
+./primitives/Floats.java:   * @param array an array of {@code float} values, possibly empty
+./primitives/Floats.java:   * @param target a primitive {@code float} value
+./primitives/Floats.java:   * @param array a <i>nonempty</i> array of {@code float} values
+./primitives/Floats.java:   * @param array a <i>nonempty</i> array of {@code float} values
+./primitives/Floats.java:   * @param arrays zero or more {@code float} arrays
+./primitives/Floats.java:   * @param array the source array
+./primitives/Floats.java:   * @param minLength the minimum length the returned array must guarantee
+./primitives/Floats.java:   * @param padding an extra amount to "grow" the array by if growth is
+./primitives/Floats.java:   * @param separator the text that should appear between consecutive values in
+./primitives/Floats.java:   * @param array an array of {@code float} values, possibly empty
+./primitives/Floats.java:   * @param collection a collection of {@code Number} instances
+./primitives/Floats.java:   * @param backingArray the array to back the list
+./primitives/Floats.java:   * @param string the string representation of a {@code float} value
+./primitives/UnsignedBytes.java:   * @param value a value between 0 and 255 inclusive
+./primitives/UnsignedBytes.java:   * @param value any {@code long} value
+./primitives/UnsignedBytes.java:   * @param a the first {@code byte} to compare
+./primitives/UnsignedBytes.java:   * @param b the second {@code byte} to compare
+./primitives/UnsignedBytes.java:   * @param array a <i>nonempty</i> array of {@code byte} values
+./primitives/UnsignedBytes.java:   * @param array a <i>nonempty</i> array of {@code byte} values
+./primitives/UnsignedBytes.java:   * @param x the value to convert to a string.
+./primitives/UnsignedBytes.java:   * @param radix the radix to use while working with {@code x}
+./primitives/UnsignedBytes.java:   * @param string the string containing the unsigned {@code byte} representation to be parsed.
+./primitives/UnsignedBytes.java:   * @param radix the radix to use while parsing {@code string}
+./primitives/UnsignedBytes.java:   * @param separator the text that should appear between consecutive values in
+./primitives/UnsignedBytes.java:   * @param array an array of {@code byte} values, possibly empty
+./primitives/Booleans.java:   * @param value a primitive {@code boolean} value
+./primitives/Booleans.java:   * @param a the first {@code boolean} to compare
+./primitives/Booleans.java:   * @param b the second {@code boolean} to compare
+./primitives/Booleans.java:   * @param array an array of {@code boolean} values, possibly empty
+./primitives/Booleans.java:   * @param target a primitive {@code boolean} value
+./primitives/Booleans.java:   * @param array an array of {@code boolean} values, possibly empty
+./primitives/Booleans.java:   * @param target a primitive {@code boolean} value
+./primitives/Booleans.java:   * @param array the array to search for the sequence {@code target}
+./primitives/Booleans.java:   * @param target the array to search for as a sub-sequence of {@code array}
+./primitives/Booleans.java:   * @param array an array of {@code boolean} values, possibly empty
+./primitives/Booleans.java:   * @param target a primitive {@code boolean} value
+./primitives/Booleans.java:   * @param arrays zero or more {@code boolean} arrays
+./primitives/Booleans.java:   * @param array the source array
+./primitives/Booleans.java:   * @param minLength the minimum length the returned array must guarantee
+./primitives/Booleans.java:   * @param padding an extra amount to "grow" the array by if growth is
+./primitives/Booleans.java:   * @param separator the text that should appear between consecutive values in
+./primitives/Booleans.java:   * @param array an array of {@code boolean} values, possibly empty
+./primitives/Booleans.java:   * @param collection a collection of {@code Boolean} objects
+./primitives/Booleans.java:   * @param backingArray the array to back the list
+./primitives/Shorts.java:   * @param value a primitive {@code short} value
+./primitives/Shorts.java:   * @param value any value in the range of the {@code short} type
+./primitives/Shorts.java:   * @param value any {@code long} value
+./primitives/Shorts.java:   * @param a the first {@code short} to compare
+./primitives/Shorts.java:   * @param b the second {@code short} to compare
+./primitives/Shorts.java:   * @param array an array of {@code short} values, possibly empty
+./primitives/Shorts.java:   * @param target a primitive {@code short} value
+./primitives/Shorts.java:   * @param array an array of {@code short} values, possibly empty
+./primitives/Shorts.java:   * @param target a primitive {@code short} value
+./primitives/Shorts.java:   * @param array the array to search for the sequence {@code target}
+./primitives/Shorts.java:   * @param target the array to search for as a sub-sequence of {@code array}
+./primitives/Shorts.java:   * @param array an array of {@code short} values, possibly empty
+./primitives/Shorts.java:   * @param target a primitive {@code short} value
+./primitives/Shorts.java:   * @param array a <i>nonempty</i> array of {@code short} values
+./primitives/Shorts.java:   * @param array a <i>nonempty</i> array of {@code short} values
+./primitives/Shorts.java:   * @param arrays zero or more {@code short} arrays
+./primitives/Shorts.java:   * @param array the source array
+./primitives/Shorts.java:   * @param minLength the minimum length the returned array must guarantee
+./primitives/Shorts.java:   * @param padding an extra amount to "grow" the array by if growth is
+./primitives/Shorts.java:   * @param separator the text that should appear between consecutive values in
+./primitives/Shorts.java:   * @param array an array of {@code short} values, possibly empty
+./primitives/Shorts.java:   * @param collection a collection of {@code Number} instances
+./primitives/Shorts.java:   * @param backingArray the array to back the list
+./primitives/Ints.java:   * @param value a primitive {@code int} value
+./primitives/Ints.java:   * @param value any value in the range of the {@code int} type
+./primitives/Ints.java:   * @param value any {@code long} value
+./primitives/Ints.java:   * @param a the first {@code int} to compare
+./primitives/Ints.java:   * @param b the second {@code int} to compare
+./primitives/Ints.java:   * @param array an array of {@code int} values, possibly empty
+./primitives/Ints.java:   * @param target a primitive {@code int} value
+./primitives/Ints.java:   * @param array an array of {@code int} values, possibly empty
+./primitives/Ints.java:   * @param target a primitive {@code int} value
+./primitives/Ints.java:   * @param array the array to search for the sequence {@code target}
+./primitives/Ints.java:   * @param target the array to search for as a sub-sequence of {@code array}
+./primitives/Ints.java:   * @param array an array of {@code int} values, possibly empty
+./primitives/Ints.java:   * @param target a primitive {@code int} value
+./primitives/Ints.java:   * @param array a <i>nonempty</i> array of {@code int} values
+./primitives/Ints.java:   * @param array a <i>nonempty</i> array of {@code int} values
+./primitives/Ints.java:   * @param arrays zero or more {@code int} arrays
+./primitives/Ints.java:   * @param array the source array
+./primitives/Ints.java:   * @param minLength the minimum length the returned array must guarantee
+./primitives/Ints.java:   * @param padding an extra amount to "grow" the array by if growth is
+./primitives/Ints.java:   * @param separator the text that should appear between consecutive values in
+./primitives/Ints.java:   * @param array an array of {@code int} values, possibly empty
+./primitives/Ints.java:   * @param collection a collection of {@code Number} instances
+./primitives/Ints.java:   * @param backingArray the array to back the list
+./primitives/Ints.java:   * @param string the string representation of an integer value
+./primitives/Ints.java:   * @param string the string representation of an integer value
+./primitives/Ints.java:   * @param radix the radix to use when parsing
+./primitives/Chars.java:   * @param value a primitive {@code char} value
+./primitives/Chars.java:   * @param value any value in the range of the {@code char} type
+./primitives/Chars.java:   * @param value any {@code long} value
+./primitives/Chars.java:   * @param a the first {@code char} to compare
+./primitives/Chars.java:   * @param b the second {@code char} to compare
+./primitives/Chars.java:   * @param array an array of {@code char} values, possibly empty
+./primitives/Chars.java:   * @param target a primitive {@code char} value
+./primitives/Chars.java:   * @param array an array of {@code char} values, possibly empty
+./primitives/Chars.java:   * @param target a primitive {@code char} value
+./primitives/Chars.java:   * @param array the array to search for the sequence {@code target}
+./primitives/Chars.java:   * @param target the array to search for as a sub-sequence of {@code array}
+./primitives/Chars.java:   * @param array an array of {@code char} values, possibly empty
+./primitives/Chars.java:   * @param target a primitive {@code char} value
+./primitives/Chars.java:   * @param array a <i>nonempty</i> array of {@code char} values
+./primitives/Chars.java:   * @param array a <i>nonempty</i> array of {@code char} values
+./primitives/Chars.java:   * @param arrays zero or more {@code char} arrays
+./primitives/Chars.java:   * @param array the source array
+./primitives/Chars.java:   * @param minLength the minimum length the returned array must guarantee
+./primitives/Chars.java:   * @param padding an extra amount to "grow" the array by if growth is
+./primitives/Chars.java:   * @param separator the text that should appear between consecutive values in
+./primitives/Chars.java:   * @param array an array of {@code char} values, possibly empty
+./primitives/Chars.java:   * @param collection a collection of {@code Character} objects
+./primitives/Chars.java:   * @param backingArray the array to back the list
+./primitives/Longs.java:   * @param value a primitive {@code long} value
+./primitives/Longs.java:   * @param a the first {@code long} to compare
+./primitives/Longs.java:   * @param b the second {@code long} to compare
+./primitives/Longs.java:   * @param array an array of {@code long} values, possibly empty
+./primitives/Longs.java:   * @param target a primitive {@code long} value
+./primitives/Longs.java:   * @param array an array of {@code long} values, possibly empty
+./primitives/Longs.java:   * @param target a primitive {@code long} value
+./primitives/Longs.java:   * @param array the array to search for the sequence {@code target}
+./primitives/Longs.java:   * @param target the array to search for as a sub-sequence of {@code array}
+./primitives/Longs.java:   * @param array an array of {@code long} values, possibly empty
+./primitives/Longs.java:   * @param target a primitive {@code long} value
+./primitives/Longs.java:   * @param array a <i>nonempty</i> array of {@code long} values
+./primitives/Longs.java:   * @param array a <i>nonempty</i> array of {@code long} values
+./primitives/Longs.java:   * @param arrays zero or more {@code long} arrays
+./primitives/Longs.java:   * @param string the string representation of a long value
+./primitives/Longs.java:   * @param string the string representation of an long value
+./primitives/Longs.java:   * @param radix the radix to use when parsing
+./primitives/Longs.java:   * @param array the source array
+./primitives/Longs.java:   * @param minLength the minimum length the returned array must guarantee
+./primitives/Longs.java:   * @param padding an extra amount to "grow" the array by if growth is
+./primitives/Longs.java:   * @param separator the text that should appear between consecutive values in
+./primitives/Longs.java:   * @param array an array of {@code long} values, possibly empty
+./primitives/Longs.java:   * @param collection a collection of {@code Number} instances
+./primitives/Longs.java:   * @param backingArray the array to back the list
+./primitives/UnsignedInts.java:   * @param a the first unsigned {@code int} to compare
+./primitives/UnsignedInts.java:   * @param b the second unsigned {@code int} to compare
+./primitives/UnsignedInts.java:   * @param array a <i>nonempty</i> array of unsigned {@code int} values
+./primitives/UnsignedInts.java:   * @param array a <i>nonempty</i> array of unsigned {@code int} values
+./primitives/UnsignedInts.java:   * @param separator the text that should appear between consecutive values in the resulting
+./primitives/UnsignedInts.java:   * @param array an array of unsigned {@code int} values, possibly empty
+./primitives/UnsignedInts.java:   * @param dividend the dividend (numerator)
+./primitives/UnsignedInts.java:   * @param divisor the divisor (denominator)
+./primitives/UnsignedInts.java:   * @param dividend the dividend (numerator)
+./primitives/UnsignedInts.java:   * @param divisor the divisor (denominator)
+./primitives/UnsignedInts.java:   * @param string the string containing the unsigned integer representation to be parsed.
+./primitives/UnsignedInts.java:   * @param radix the radix to use while parsing {@code s}; must be between
+./primitives/UnsignedInts.java:   * @param x the value to convert to a string.
+./primitives/UnsignedInts.java:   * @param radix the radix to use while working with {@code x}
+./primitives/UnsignedLongs.java:   * @param a the first unsigned {@code long} to compare
+./primitives/UnsignedLongs.java:   * @param b the second unsigned {@code long} to compare
+./primitives/UnsignedLongs.java:   * @param array a <i>nonempty</i> array of unsigned {@code long} values
+./primitives/UnsignedLongs.java:   * @param array a <i>nonempty</i> array of unsigned {@code long} values
+./primitives/UnsignedLongs.java:   * @param separator the text that should appear between consecutive values in the resulting
+./primitives/UnsignedLongs.java:   * @param array an array of unsigned {@code long} values, possibly empty
+./primitives/UnsignedLongs.java:   * @param dividend the dividend (numerator)
+./primitives/UnsignedLongs.java:   * @param divisor the divisor (denominator)
+./primitives/UnsignedLongs.java:   * @param dividend the dividend (numerator)
+./primitives/UnsignedLongs.java:   * @param divisor the divisor (denominator)
+./primitives/UnsignedLongs.java:   * @param s the string containing the unsigned {@code long} representation to be parsed.
+./primitives/UnsignedLongs.java:   * @param radix the radix to use while parsing {@code s}
+./primitives/UnsignedLongs.java:   * @param x the value to convert to a string.
+./primitives/UnsignedLongs.java:   * @param radix the radix to use while working with {@code x}
+./primitives/Bytes.java:   * @param value a primitive {@code byte} value
+./primitives/Bytes.java:   * @param array an array of {@code byte} values, possibly empty
+./primitives/Bytes.java:   * @param target a primitive {@code byte} value
+./primitives/Bytes.java:   * @param array an array of {@code byte} values, possibly empty
+./primitives/Bytes.java:   * @param target a primitive {@code byte} value
+./primitives/Bytes.java:   * @param array the array to search for the sequence {@code target}
+./primitives/Bytes.java:   * @param target the array to search for as a sub-sequence of {@code array}
+./primitives/Bytes.java:   * @param array an array of {@code byte} values, possibly empty
+./primitives/Bytes.java:   * @param target a primitive {@code byte} value
+./primitives/Bytes.java:   * @param arrays zero or more {@code byte} arrays
+./primitives/Bytes.java:   * @param array the source array
+./primitives/Bytes.java:   * @param minLength the minimum length the returned array must guarantee
+./primitives/Bytes.java:   * @param padding an extra amount to "grow" the array by if growth is
+./primitives/Bytes.java:   * @param collection a collection of {@code Number} instances
+./primitives/Bytes.java:   * @param backingArray the array to back the list
+./reflect/TypeToInstanceMap.java: * @param <B> the common supertype that all entries must share; often this is
+./reflect/TypeResolver.java:   * @param formal The type whose type variables or itself is mapped to other type(s). It's almost
+./reflect/TypeResolver.java:   * @param actual The type that the formal type variable(s) are mapped to. It can be or contain yet
+./reflect/TypeToken.java:   * @param <X> The parameter type
+./reflect/TypeToken.java:   * @param typeParam the parameter type variable
+./reflect/TypeToken.java:   * @param typeArg the actual type to substitute
+./reflect/TypeToken.java:   * @param <X> The parameter type
+./reflect/TypeToken.java:   * @param typeParam the parameter type variable
+./reflect/TypeToken.java:   * @param typeArg the actual type to substitute
+./reflect/TypeToken.java:   * @param <K> The type "kind". Either a TypeToken, or Class.
+./reflect/Invokable.java: * @param <T> the type that owns this method or constructor.
+./reflect/Invokable.java: * @param <R> the return type of (or supertype thereof) the method or the declaring type of the
+./util/concurrent/AtomicDoubleArray.java:   * @param length the length of the array
+./util/concurrent/AtomicDoubleArray.java:   * @param array the array to copy elements from
+./util/concurrent/AtomicDoubleArray.java:   * @param i the index
+./util/concurrent/AtomicDoubleArray.java:   * @param i the index
+./util/concurrent/AtomicDoubleArray.java:   * @param newValue the new value
+./util/concurrent/AtomicDoubleArray.java:   * @param i the index
+./util/concurrent/AtomicDoubleArray.java:   * @param newValue the new value
+./util/concurrent/AtomicDoubleArray.java:   * @param i the index
+./util/concurrent/AtomicDoubleArray.java:   * @param newValue the new value
+./util/concurrent/AtomicDoubleArray.java:   * @param i the index
+./util/concurrent/AtomicDoubleArray.java:   * @param expect the expected value
+./util/concurrent/AtomicDoubleArray.java:   * @param update the new value
+./util/concurrent/AtomicDoubleArray.java:   * @param i the index
+./util/concurrent/AtomicDoubleArray.java:   * @param expect the expected value
+./util/concurrent/AtomicDoubleArray.java:   * @param update the new value
+./util/concurrent/AtomicDoubleArray.java:   * @param i the index
+./util/concurrent/AtomicDoubleArray.java:   * @param delta the value to add
+./util/concurrent/AtomicDoubleArray.java:   * @param i the index
+./util/concurrent/AtomicDoubleArray.java:   * @param delta the value to add
+./util/concurrent/TrustedListenableFutureTask.java:   * @param callable the callable task
+./util/concurrent/TrustedListenableFutureTask.java:   * @param runnable the runnable task
+./util/concurrent/TrustedListenableFutureTask.java:   * @param result the result to return on successful completion. If you don't
+./util/concurrent/Atomics.java:   * @param initialValue the initial value
+./util/concurrent/Atomics.java:   * @param length the length of the array
+./util/concurrent/Atomics.java:   * @param array the array to copy elements from
+./util/concurrent/ForwardingCheckedFuture.java: * @param <V> The result type returned by this Future's {@code get} method
+./util/concurrent/ForwardingCheckedFuture.java: * @param <X> The type of the Exception thrown by the Future's 
+./util/concurrent/CycleDetectingLockFactory.java:   * @param <E> The Enum type representing the explicit lock ordering.
+./util/concurrent/MoreExecutors.java:   * @param executor the executor to modify to make sure it exits when the
+./util/concurrent/MoreExecutors.java:   * @param terminationTimeout how long to wait for the executor to
+./util/concurrent/MoreExecutors.java:   * @param timeUnit unit of time for the time parameter
+./util/concurrent/MoreExecutors.java:   * @param executor the executor to modify to make sure it exits when the
+./util/concurrent/MoreExecutors.java:   * @param terminationTimeout how long to wait for the executor to
+./util/concurrent/MoreExecutors.java:   * @param timeUnit unit of time for the time parameter
+./util/concurrent/MoreExecutors.java:   * @param service ExecutorService which uses daemon threads
+./util/concurrent/MoreExecutors.java:   * @param terminationTimeout how long to wait for the executor to finish
+./util/concurrent/MoreExecutors.java:   * @param timeUnit unit of time for the time parameter
+./util/concurrent/MoreExecutors.java:   * @param executor the executor to modify to make sure it exits when the
+./util/concurrent/MoreExecutors.java:   * @param executor the executor to modify to make sure it exits when the
+./util/concurrent/MoreExecutors.java:   * @param executor The executor to decorate
+./util/concurrent/MoreExecutors.java:   * @param nameSupplier The source of names for each task
+./util/concurrent/MoreExecutors.java:   * @param service The executor to decorate
+./util/concurrent/MoreExecutors.java:   * @param nameSupplier The source of names for each task
+./util/concurrent/MoreExecutors.java:   * @param service The executor to decorate
+./util/concurrent/MoreExecutors.java:   * @param nameSupplier The source of names for each task
+./util/concurrent/MoreExecutors.java:   * @param service the {@code ExecutorService} to shut down
+./util/concurrent/MoreExecutors.java:   * @param timeout the maximum time to wait for the {@code ExecutorService} to terminate
+./util/concurrent/MoreExecutors.java:   * @param unit the time unit of the timeout argument
+./util/concurrent/FutureFallback.java: * @param <V> the result type of the provided backup {@code Future}
+./util/concurrent/FutureFallback.java:   * @param t the exception that made the future fail. If the future's {@link Future#get() get}
+./util/concurrent/Service.java:   * @param timeout the maximum time to wait
+./util/concurrent/Service.java:   * @param unit the time unit of the timeout argument
+./util/concurrent/Service.java:   * @param timeout the maximum time to wait
+./util/concurrent/Service.java:   * @param unit the time unit of the timeout argument
+./util/concurrent/Service.java:   * @param listener the listener to run when the service changes state is complete
+./util/concurrent/Service.java:   * @param executor the executor in which the listeners callback methods will be run. For fast,
+./util/concurrent/Service.java:     * @param from The previous state that is being transitioned from.  
+./util/concurrent/Service.java:     * @param from The previous state that is being transitioned from.  The only valid values for 
+./util/concurrent/Service.java:     * @param from The previous state that is being transitioned from.  Failure can occur in any 
+./util/concurrent/Service.java:     * @param failure The exception that caused the failure.
+./util/concurrent/TimeLimiter.java:   * @param target the object to proxy
+./util/concurrent/TimeLimiter.java:   * @param interfaceType the interface you wish the returned proxy to
+./util/concurrent/TimeLimiter.java:   * @param timeoutDuration with timeoutUnit, the maximum length of time that
+./util/concurrent/TimeLimiter.java:   * @param timeoutUnit with timeoutDuration, the maximum length of time that
+./util/concurrent/TimeLimiter.java:   * @param callable the Callable to execute
+./util/concurrent/TimeLimiter.java:   * @param timeoutDuration with timeoutUnit, the maximum length of time to wait
+./util/concurrent/TimeLimiter.java:   * @param timeoutUnit with timeoutDuration, the maximum length of time to wait
+./util/concurrent/TimeLimiter.java:   * @param interruptible whether to respond to thread interruption by aborting
+./util/concurrent/AbstractScheduledService.java:     * @param initialDelay the time to delay first execution
+./util/concurrent/AbstractScheduledService.java:     * @param delay the delay between the termination of one execution and the commencement of the 
+./util/concurrent/AbstractScheduledService.java:     * @param unit the time unit of the initialDelay and delay parameters
+./util/concurrent/AbstractScheduledService.java:     * @param initialDelay the time to delay first execution
+./util/concurrent/AbstractScheduledService.java:     * @param period the period between successive executions of the task
+./util/concurrent/AbstractScheduledService.java:     * @param unit the time unit of the initialDelay and period parameters
+./util/concurrent/AbstractScheduledService.java:       * @param delay the time from now to delay execution
+./util/concurrent/AbstractScheduledService.java:       * @param unit the time unit of the delay parameter
+./util/concurrent/AggregateFuture.java: * @param <InputT> the type of the individual inputs
+./util/concurrent/AggregateFuture.java: * @param <OutputT> the type of the output (i.e. this) future
+./util/concurrent/ServiceManager.java:     * @param service The service that failed.
+./util/concurrent/ServiceManager.java:   * @param services The services to manage
+./util/concurrent/ServiceManager.java:   * @param listener the listener to run when the manager changes state
+./util/concurrent/ServiceManager.java:   * @param executor the executor in which the listeners callback methods will be run.
+./util/concurrent/ServiceManager.java:   * @param listener the listener to run when the manager changes state
+./util/concurrent/ServiceManager.java:   * @param timeout the maximum time to wait
+./util/concurrent/ServiceManager.java:   * @param unit the time unit of the timeout argument
+./util/concurrent/ServiceManager.java:   * @param timeout the maximum time to wait
+./util/concurrent/ServiceManager.java:   * @param unit the time unit of the timeout argument
+./util/concurrent/RateLimiter.java:   * @param permitsPerSecond the rate of the returned {@code RateLimiter}, measured in
+./util/concurrent/RateLimiter.java:   * @param permitsPerSecond the rate of the returned {@code RateLimiter}, measured in
+./util/concurrent/RateLimiter.java:   * @param warmupPeriod the duration of the period where the {@code RateLimiter} ramps up its
+./util/concurrent/RateLimiter.java:   * @param unit the time unit of the warmupPeriod argument
+./util/concurrent/RateLimiter.java:   * @param permitsPerSecond the new stable rate of this {@code RateLimiter}
+./util/concurrent/RateLimiter.java:   * @param permits the number of permits to acquire
+./util/concurrent/RateLimiter.java:   * @param timeout the maximum time to wait for the permit. Negative values are treated as zero.
+./util/concurrent/RateLimiter.java:   * @param unit the time unit of the timeout argument
+./util/concurrent/RateLimiter.java:   * @param permits the number of permits to acquire
+./util/concurrent/RateLimiter.java:   * @param permits the number of permits to acquire
+./util/concurrent/RateLimiter.java:   * @param timeout the maximum time to wait for the permits. Negative values are treated as zero.
+./util/concurrent/RateLimiter.java:   * @param unit the time unit of the timeout argument
+./util/concurrent/ForwardingListenableFuture.java: * @param <V> The result type returned by this Future's {@code get} method
+./util/concurrent/Callables.java:   * @param callable The callable to wrap
+./util/concurrent/Callables.java:   * @param nameSupplier The supplier of thread names, {@link Supplier#get get} will be called once
+./util/concurrent/Callables.java:   * @param task The Runnable to wrap
+./util/concurrent/Callables.java:   * @param nameSupplier The supplier of thread names, {@link Supplier#get get} will be called once
+./util/concurrent/Striped.java:   * @param key an arbitrary, non-null key
+./util/concurrent/Striped.java:   * @param index the index of the stripe to return; must be in {@code [0...size())}
+./util/concurrent/Striped.java:   * @param keys arbitrary non-null keys
+./util/concurrent/Striped.java:   * @param stripes the minimum number of stripes (locks) required
+./util/concurrent/Striped.java:   * @param stripes the minimum number of stripes (locks) required
+./util/concurrent/Striped.java:   * @param stripes the minimum number of stripes (semaphores) required
+./util/concurrent/Striped.java:   * @param permits the number of permits in each semaphore
+./util/concurrent/Striped.java:   * @param stripes the minimum number of stripes (semaphores) required
+./util/concurrent/Striped.java:   * @param permits the number of permits in each semaphore
+./util/concurrent/Striped.java:   * @param stripes the minimum number of stripes (locks) required
+./util/concurrent/Striped.java:   * @param stripes the minimum number of stripes (locks) required
+./util/concurrent/AtomicDouble.java:   * @param initialValue the initial value
+./util/concurrent/AtomicDouble.java:   * @param newValue the new value
+./util/concurrent/AtomicDouble.java:   * @param newValue the new value
+./util/concurrent/AtomicDouble.java:   * @param newValue the new value
+./util/concurrent/AtomicDouble.java:   * @param expect the expected value
+./util/concurrent/AtomicDouble.java:   * @param update the new value
+./util/concurrent/AtomicDouble.java:   * @param expect the expected value
+./util/concurrent/AtomicDouble.java:   * @param update the new value
+./util/concurrent/AtomicDouble.java:   * @param delta the value to add
+./util/concurrent/AtomicDouble.java:   * @param delta the value to add
+./util/concurrent/SimpleTimeLimiter.java:   * @param executor the ExecutorService that will execute the method calls on
+./util/concurrent/Monitor.java:   * @param fair whether this monitor should use a fair ordering policy rather than a non-fair (but
+./util/concurrent/ForwardingBlockingQueue.java: * @param <E> the type of elements held in this collection
+./util/concurrent/ListenableFuture.java:   * @param listener the listener to run when the computation is complete
+./util/concurrent/ListenableFuture.java:   * @param executor the executor to run the listener in
+./util/concurrent/ListenableFutureTask.java:   * @param callable the callable task
+./util/concurrent/ListenableFutureTask.java:   * @param runnable the runnable task
+./util/concurrent/ListenableFutureTask.java:   * @param result the result to return on successful completion. If you don't
+./util/concurrent/AbstractFuture.java:   * @param value the value to be used as the result
+./util/concurrent/AbstractFuture.java:   * @param throwable the exception to be used as the failed result
+./util/concurrent/AbstractFuture.java:   * @param future the future to delegate to
+./util/concurrent/AbstractFuture.java:   * @param future the done future to complete this future with.
+./util/concurrent/AbstractFuture.java:   * @param expected the expected value of the {@link #value} field.
+./util/concurrent/ThreadFactoryBuilder.java:   * @param nameFormat a {@link String#format(String, Object...)}-compatible
+./util/concurrent/ThreadFactoryBuilder.java:   * @param daemon whether or not new Threads created with this ThreadFactory
+./util/concurrent/ThreadFactoryBuilder.java:   * @param priority the priority for new Threads created with this
+./util/concurrent/ThreadFactoryBuilder.java:   * @param uncaughtExceptionHandler the uncaught exception handler for new
+./util/concurrent/ThreadFactoryBuilder.java:   * @param backingThreadFactory the backing {@link ThreadFactory} which will
+./util/concurrent/Futures.java:   * @param input the primary input {@code Future}
+./util/concurrent/Futures.java:   * @param fallback the {@link FutureFallback} implementation to be called if
+./util/concurrent/Futures.java:   * @param input the primary input {@code Future}
+./util/concurrent/Futures.java:   * @param fallback the {@link FutureFallback} implementation to be called if
+./util/concurrent/Futures.java:   * @param executor the executor that runs {@code fallback} if {@code input}
+./util/concurrent/Futures.java:   * @param input the primary input {@code Future}
+./util/concurrent/Futures.java:   * @param exceptionType the exception type that triggers use of {@code fallback}. To avoid hiding
+./util/concurrent/Futures.java:   * @param fallback the {@link Function} implementation to be called if {@code input} fails with
+./util/concurrent/Futures.java:   * @param input the primary input {@code Future}
+./util/concurrent/Futures.java:   * @param exceptionType the exception type that triggers use of {@code fallback}. To avoid hiding
+./util/concurrent/Futures.java:   * @param fallback the {@link Function} implementation to be called if {@code input} fails with
+./util/concurrent/Futures.java:   * @param executor the executor that runs {@code fallback} if {@code input} fails
+./util/concurrent/Futures.java:   * @param input the primary input {@code Future}
+./util/concurrent/Futures.java:   * @param exceptionType the exception type that triggers use of {@code fallback}. To avoid hiding
+./util/concurrent/Futures.java:   * @param fallback the {@link AsyncFunction} implementation to be called if {@code input} fails
+./util/concurrent/Futures.java:   * @param input the primary input {@code Future}
+./util/concurrent/Futures.java:   * @param exceptionType the exception type that triggers use of {@code fallback}. To avoid hiding
+./util/concurrent/Futures.java:   * @param fallback the {@link AsyncFunction} implementation to be called if {@code input} fails
+./util/concurrent/Futures.java:   * @param executor the executor that runs {@code fallback} if {@code input} fails
+./util/concurrent/Futures.java:   * @param delegate The future to delegate to.
+./util/concurrent/Futures.java:   * @param time when to timeout the future
+./util/concurrent/Futures.java:   * @param unit the time unit of the time parameter
+./util/concurrent/Futures.java:   * @param scheduledExecutor The executor service to enforce the timeout.
+./util/concurrent/Futures.java:   * @param input The future to transform
+./util/concurrent/Futures.java:   * @param function A function to transform the result of the input future
+./util/concurrent/Futures.java:   * @param input The future to transform
+./util/concurrent/Futures.java:   * @param function A function to transform the result of the input future
+./util/concurrent/Futures.java:   * @param executor Executor to run the function in.
+./util/concurrent/Futures.java:   * @param input The future to transform
+./util/concurrent/Futures.java:   * @param function A function to transform the result of the input future to the result of the
+./util/concurrent/Futures.java:   * @param input The future to transform
+./util/concurrent/Futures.java:   * @param function A function to transform the result of the input future to the result of the
+./util/concurrent/Futures.java:   * @param executor Executor to run the function in.
+./util/concurrent/Futures.java:   * @param input The future to transform
+./util/concurrent/Futures.java:   * @param function A Function to transform the results of the provided future
+./util/concurrent/Futures.java:   * @param input The future to transform
+./util/concurrent/Futures.java:   * @param function A Function to transform the results of the provided future
+./util/concurrent/Futures.java:   * @param executor Executor to run the function in.
+./util/concurrent/Futures.java:   * @param input The future to transform
+./util/concurrent/Futures.java:   * @param function A Function to transform the results of the provided future
+./util/concurrent/Futures.java:   * @param nested The nested future to transform.
+./util/concurrent/Futures.java:   * @param futures futures to combine
+./util/concurrent/Futures.java:   * @param futures futures to combine
+./util/concurrent/Futures.java:   * @param futures futures to combine
+./util/concurrent/Futures.java:   * @param futures futures to combine
+./util/concurrent/Futures.java:   * @param future The future attach the callback to.
+./util/concurrent/Futures.java:   * @param callback The callback to invoke when {@code future} is completed.
+./util/concurrent/Futures.java:   * @param future The future attach the callback to.
+./util/concurrent/Futures.java:   * @param callback The callback to invoke when {@code future} is completed.
+./util/concurrent/Futures.java:   * @param executor The executor to run {@code callback} when the future

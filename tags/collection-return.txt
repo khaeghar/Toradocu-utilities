@@ -1,0 +1,1475 @@
+./ArrayStack.java:     * @return true if the stack is currently empty
+./ArrayStack.java:     * @return the top item on the stack
+./ArrayStack.java:     * @return the n'th item on the stack, zero relative
+./ArrayStack.java:     * @return the top item on the stack
+./ArrayStack.java:     * @return the item just pushed
+./ArrayStack.java:     * @return the 1-based depth into the stack of the object, or -1 if not found
+./bag/UnmodifiableBag.java:     * @return an unmodifiable Bag
+./bag/PredicatedSortedBag.java:     * @return a new predicated SortedBag
+./bag/PredicatedSortedBag.java:     * @return the decorated bag
+./bag/AbstractSortedBagDecorator.java:     * @return the decorated bag
+./bag/TransformedSortedBag.java:     * @return a new transformed SortedBag
+./bag/TransformedSortedBag.java:     * @return a new transformed SortedBag
+./bag/TransformedSortedBag.java:     * @return the decorated bag
+./bag/TransformedBag.java:     * @return a new transformed Bag
+./bag/TransformedBag.java:     * @return a new transformed Bag
+./bag/TransformedBag.java:     * @return the decorated bag
+./bag/CollectionSortedBag.java:     * @return a SortedBag that complies to the Collection contract
+./bag/CollectionBag.java:     * @return a Bag that complies to the Collection contract
+./bag/CollectionBag.java:     * @return <code>true</code> if the Bag contains at least one of every object in the collection
+./bag/CollectionBag.java:     * @return <code>true</code>, always
+./bag/CollectionBag.java:     * @return <code>true</code> if this call changed the collection
+./bag/CollectionBag.java:     * @return <code>true</code> if this call changed the collection
+./bag/CollectionBag.java:     * @return <code>true</code> if this call changed the collection
+./bag/CollectionBag.java:     * @return <code>true</code>, always
+./bag/UnmodifiableSortedBag.java:     * @return an unmodifiable SortedBag
+./bag/AbstractBagDecorator.java:     * @return the decorated bag
+./bag/PredicatedBag.java:     * @return a new predicated Bag
+./bag/PredicatedBag.java:     * @return the decorated bag
+./bag/SynchronizedSortedBag.java:     * @return a new synchronized SortedBag
+./bag/SynchronizedSortedBag.java:     * @return the decorated bag
+./bag/AbstractMapBag.java:     * @return the map being used by the Bag
+./bag/AbstractMapBag.java:     * @return current size of the bag
+./bag/AbstractMapBag.java:     * @return true if bag is empty
+./bag/AbstractMapBag.java:     * @return the number of occurrences of the object, zero if not found
+./bag/AbstractMapBag.java:     * @return true if the bag contains the given element
+./bag/AbstractMapBag.java:     * @return <code>true</code> if the Bag contains all the collection
+./bag/AbstractMapBag.java:     * @return <code>true</code> if the Bag contains all the collection
+./bag/AbstractMapBag.java:     * @return the iterator
+./bag/AbstractMapBag.java:     * @return <code>true</code> if the object was not already in the <code>uniqueSet</code>
+./bag/AbstractMapBag.java:     * @return <code>true</code> if the object was not already in the <code>uniqueSet</code>
+./bag/AbstractMapBag.java:     * @return <code>true</code> if this call changed the bag
+./bag/AbstractMapBag.java:     * @return true if the bag changed
+./bag/AbstractMapBag.java:     * @return true if the bag changed
+./bag/AbstractMapBag.java:     * @return true if the bag changed
+./bag/AbstractMapBag.java:     * @return true if this call changed the collection
+./bag/AbstractMapBag.java:     * @return <code>true</code> if this call changed the collection
+./bag/AbstractMapBag.java:     * @return an array of all of this bag's elements
+./bag/AbstractMapBag.java:     * @return an array of all of this bag's elements
+./bag/AbstractMapBag.java:     * @return the set of unique elements in this bag
+./bag/AbstractMapBag.java:     * @return true if equal
+./bag/AbstractMapBag.java:     * @return the hash code of the Bag
+./bag/AbstractMapBag.java:     * @return a debugging toString
+./bag/SynchronizedBag.java:     * @return a new synchronized Bag
+./bag/SynchronizedBag.java:     * @return the decorated bag
+./Bag.java:     * @return the number of occurrences of the object, zero if not found
+./Bag.java:     * @return <code>true</code> if the object was not already in the <code>uniqueSet</code>
+./Bag.java:     * @return <code>true</code> if the object was not already in the <code>uniqueSet</code>
+./Bag.java:     * @return <code>true</code> if this call changed the collection
+./Bag.java:     * @return <code>true</code> if this call changed the collection
+./Bag.java:     * @return the Set of unique Bag elements
+./Bag.java:     * @return the total size of the Bag
+./Bag.java:     * @return <code>true</code> if the Bag contains all the collection
+./Bag.java:     * @return <code>true</code> if this call changed the collection
+./Bag.java:     * @return <code>true</code> if this call changed the collection
+./Bag.java:     * @return iterator over all elements in the Bag
+./Bag.java://     * @return true if equal
+./Bag.java://     * @return the hash code of the Bag
+./BagUtils.java:     * @return a synchronized bag backed by that bag
+./BagUtils.java:     * @return an unmodifiable view of that bag
+./BagUtils.java:     * @return a predicated bag backed by the given bag
+./BagUtils.java:     * @return a transformed bag backed by the given bag
+./BagUtils.java:     * @return a Bag that complies to the Collection contract
+./BagUtils.java:     * @return a synchronized bag backed by that bag
+./BagUtils.java:     * @return an unmodifiable view of that bag
+./BagUtils.java:     * @return a predicated bag backed by the given bag
+./BagUtils.java:     * @return a transformed bag backed by the given bag
+./BagUtils.java:     * @return an empty Bag
+./BagUtils.java:     * @return an empty sorted Bag
+./bidimap/AbstractSortedBidiMapDecorator.java:     * @return the decorated map
+./bidimap/AbstractOrderedBidiMapDecorator.java:     * @return the decorated map
+./bidimap/UnmodifiableBidiMap.java:     * @return an unmodifiable BidiMap
+./bidimap/AbstractDualBidiMap.java:     * @return the inverse map
+./bidimap/AbstractDualBidiMap.java:     * @return a map iterator
+./bidimap/AbstractDualBidiMap.java:     * @return the keySet view
+./bidimap/AbstractDualBidiMap.java:     * @return the keySet iterator
+./bidimap/AbstractDualBidiMap.java:     * @return the values view
+./bidimap/AbstractDualBidiMap.java:     * @return the values iterator
+./bidimap/AbstractDualBidiMap.java:     * @return the entrySet view
+./bidimap/AbstractDualBidiMap.java:     * @return the entrySet iterator
+./bidimap/AbstractBidiMapDecorator.java:     * @return the decorated map
+./bidimap/DualHashBidiMap.java:     * @return new bidi map
+./bidimap/DualLinkedHashBidiMap.java:     * @return new bidi map
+./bidimap/UnmodifiableSortedBidiMap.java:     * @return an unmodifiable SortedBidiMap
+./bidimap/DualTreeBidiMap.java:     * @return new bidi map
+./bidimap/DualTreeBidiMap.java:     * @return a new ordered map iterator
+./bidimap/UnmodifiableOrderedBidiMap.java:     * @return an unmodifiable OrderedBidiMap
+./bidimap/UnmodifiableOrderedBidiMap.java:     * @return an inverted unmodifiable bidirectional map
+./bidimap/TreeBidiMap.java:     * @return the number of key-value mappings in this map
+./bidimap/TreeBidiMap.java:     * @return true if the map is empty
+./bidimap/TreeBidiMap.java:     * @return true if this map contains a mapping for the specified key
+./bidimap/TreeBidiMap.java:     * @return true if this map contains a mapping for the specified value
+./bidimap/TreeBidiMap.java:     * @return the value to which this map maps the specified key,
+./bidimap/TreeBidiMap.java:     * @return the previous value for the key
+./bidimap/TreeBidiMap.java:     * @return previous value associated with specified key,
+./bidimap/TreeBidiMap.java:     * @return the key to which this map maps the specified value,
+./bidimap/TreeBidiMap.java:     * @return previous key associated with specified value,
+./bidimap/TreeBidiMap.java:     * @return the first (lowest) key currently in this sorted map
+./bidimap/TreeBidiMap.java:     * @return the last (highest) key currently in this sorted map
+./bidimap/TreeBidiMap.java:     * @return the next key, null if no match or at end
+./bidimap/TreeBidiMap.java:     * @return the previous key, null if no match or at start
+./bidimap/TreeBidiMap.java:     * @return a set view of the keys contained in this map.
+./bidimap/TreeBidiMap.java:     * @return a set view of the values contained in this map.
+./bidimap/TreeBidiMap.java:     * @return a set view of the values contained in this map.
+./bidimap/TreeBidiMap.java:     * @return the inverse map
+./bidimap/TreeBidiMap.java:     * @return true if equal
+./bidimap/TreeBidiMap.java:     * @return the hash code value for this map
+./bidimap/TreeBidiMap.java:     * @return a standard format string version of the map
+./bidimap/TreeBidiMap.java:     * @return the desired Node, or null if there is no mapping of the
+./bidimap/TreeBidiMap.java:     * @return the specified node
+./bidimap/TreeBidiMap.java:     * @return the specified node
+./bidimap/TreeBidiMap.java:     * @return negative value if o1 &lt; o2; 0 if o1 == o2; positive
+./bidimap/TreeBidiMap.java:     * @return the smallest node, from the specified node, in the
+./bidimap/TreeBidiMap.java:     * @return the greatest node, from the specified node
+./bidimap/TreeBidiMap.java:     * @return true if equal
+./bidimap/TreeBidiMap.java:     * @return the hash code value for this map
+./bidimap/TreeBidiMap.java:     * @return the string form of this map
+./bidimap/TreeBidiMap.java:         * @return the parent node, may be null
+./bidimap/TreeBidiMap.java:         * @return true if black (which is represented as a true boolean)
+./bidimap/TreeBidiMap.java:         * @return true if non-black
+./bidimap/TreeBidiMap.java:         * @return the key corresponding to this entry.
+./bidimap/TreeBidiMap.java:         * @return the value corresponding to this entry.
+./bidimap/TreeBidiMap.java:         * @return does not return
+./bidimap/TreeBidiMap.java:         * @return true if the specified object is equal to this entry.
+./bidimap/TreeBidiMap.java:         * @return the hash code value for this map entry.
+./BidiMap.java:     * @return the previous value mapped to this key
+./BidiMap.java:     * @return the mapped key, or <code>null</code> if not found
+./BidiMap.java:     * @return the key that was removed, <code>null</code> if nothing removed
+./BidiMap.java:     * @return an inverted bidirectional map
+./BidiMap.java:     * @return a set view of the values contained in this map
+./BoundedCollection.java:     * @return <code>true</code> if the collection is full
+./BoundedCollection.java:     * @return the maximum number of elements the collection can hold
+./BoundedMap.java:     * @return <code>true</code> if the map is full
+./BoundedMap.java:     * @return the maximum number of elements the map can hold
+./ClosureUtils.java:     * @return the closure
+./ClosureUtils.java:     * @return the closure
+./ClosureUtils.java:     * @return the closure
+./ClosureUtils.java:     * @return the <code>for</code> closure
+./ClosureUtils.java:     * @return the <code>while</code> closure
+./ClosureUtils.java:     * @return the <code>do-while</code> closure
+./ClosureUtils.java:     * @return the <code>invoker</code> closure
+./ClosureUtils.java:     * @return the <code>invoker</code> closure
+./ClosureUtils.java:     * @return the <code>chained</code> closure
+./ClosureUtils.java:     * @return the <code>chained</code> closure
+./ClosureUtils.java:     * @return the <code>if</code> closure
+./ClosureUtils.java:     * @return the <code>switch</code> closure
+./ClosureUtils.java:     * @return the <code>switch</code> closure
+./ClosureUtils.java:     * @return the <code>switch</code> closure
+./ClosureUtils.java:     * @return the <code>switch</code> closure
+./ClosureUtils.java:     * @return the closure
+./collection/SynchronizedCollection.java:     * @return a new synchronized collection
+./collection/SynchronizedCollection.java:     * @return the decorated collection
+./collection/SynchronizedCollection.java:     * @return an iterator that must be manually synchronized on the collection
+./collection/AbstractCollectionDecorator.java:     * @return the decorated collection
+./collection/CompositeCollection.java:     * @return total number of elements in all contained containers
+./collection/CompositeCollection.java:     * @return true if all of the contained collections are empty
+./collection/CompositeCollection.java:     * @return true if obj is contained in any of the contained collections
+./collection/CompositeCollection.java:     * @return an <code>IteratorChain</code> instance which supports
+./collection/CompositeCollection.java:     * @return an object array of all the elements in the collection
+./collection/CompositeCollection.java:     * @return an array of all the elements in the collection
+./collection/CompositeCollection.java:     * @return {@code true} if the collection was modified
+./collection/CompositeCollection.java:     * @return true if the collection is changed
+./collection/CompositeCollection.java:     * @return true if all elements contained
+./collection/CompositeCollection.java:     * @return true if the collection was modified
+./collection/CompositeCollection.java:     * @return true if the collection was modified
+./collection/CompositeCollection.java:     * @return true if the collection was modified
+./collection/CompositeCollection.java:     * @return A new ArrayList containing all of the elements in this composite.
+./collection/CompositeCollection.java:     * @return Unmodifiable list of all collections in this composite.
+./collection/CompositeCollection.java:     * @return CollectionMutator<E>
+./collection/CompositeCollection.java:         * @return true if the collection is changed
+./collection/CompositeCollection.java:         * @return true if the collection is changed
+./collection/CompositeCollection.java:         * @return true if the collection is changed
+./collection/UnmodifiableBoundedCollection.java:     * @return a new unmodifiable bounded collection
+./collection/UnmodifiableBoundedCollection.java:     * @return a new unmodifiable bounded collection
+./collection/UnmodifiableCollection.java:     * @return an unmodifiable collection
+./collection/TransformedCollection.java:     * @return a new transformed collection
+./collection/TransformedCollection.java:     * @return a new transformed Collection
+./collection/TransformedCollection.java:     * @return a transformed object
+./collection/TransformedCollection.java:     * @return a transformed object
+./collection/PredicatedCollection.java:     * @return a new Builder for predicated collections
+./collection/PredicatedCollection.java:     * @return a new Builder for predicated collections that ignores null values.
+./collection/PredicatedCollection.java:     * @return a new predicated collection
+./collection/PredicatedCollection.java:     * @return the result of adding to the underlying collection
+./collection/PredicatedCollection.java:     * @return the result of adding to the underlying collection
+./collection/PredicatedCollection.java:         * @return the PredicatedCollectionBuilder.
+./collection/PredicatedCollection.java:         * @return the PredicatedCollectionBuilder.
+./collection/PredicatedCollection.java:         * @return a new predicated list.
+./collection/PredicatedCollection.java:         * @return the decorated list.
+./collection/PredicatedCollection.java:         * @return a new predicated set.
+./collection/PredicatedCollection.java:         * @return the decorated set.
+./collection/PredicatedCollection.java:         * @return a new predicated multiset.
+./collection/PredicatedCollection.java:         * @return the decorated multiset.
+./collection/PredicatedCollection.java:         * @return a new predicated bag.
+./collection/PredicatedCollection.java:         * @return the decorated bag.
+./collection/PredicatedCollection.java:         * @return a new predicated queue.
+./collection/PredicatedCollection.java:         * @return the decorated queue.
+./collection/PredicatedCollection.java:         * @return an unmodifiable collection
+./collection/IndexedCollection.java:     * @return the created {@link IndexedCollection}.
+./collection/IndexedCollection.java:     * @return the created {@link IndexedCollection}.
+./collection/IndexedCollection.java:     * @return element found
+./collection/IndexedCollection.java:     * @return a collection of elements found, or null if {@code contains(key) == false}
+./CollectionUtils.java:         * @return the maximum frequency of the object
+./CollectionUtils.java:         * @return the minimum frequency of the object
+./CollectionUtils.java:         * @return the frequency of the object in collection A
+./CollectionUtils.java:         * @return the frequency of the object in collection B
+./CollectionUtils.java:         * @return the result
+./CollectionUtils.java:     * @return immutable empty collection
+./CollectionUtils.java:     * @return an empty collection if the argument is <code>null</code>
+./CollectionUtils.java:     * @return the union of the two collections
+./CollectionUtils.java:     * @return the intersection of the two collections
+./CollectionUtils.java:     * @return the symmetric difference of the two collections
+./CollectionUtils.java:     * @return a new collection with the results
+./CollectionUtils.java:     * @return a new collection with the results
+./CollectionUtils.java:     * @return <code>true</code> iff the intersection of the collections has the same cardinality
+./CollectionUtils.java:     * @return <code>true</code> iff the intersection of the collections is non-empty
+./CollectionUtils.java:     * @return the populated cardinality map
+./CollectionUtils.java:     * @return <code>true</code> iff <i>a</i> is a sub-collection of <i>b</i>
+./CollectionUtils.java:     * @return <code>true</code> iff <i>a</i> is a <i>proper</i> sub-collection of <i>b</i>
+./CollectionUtils.java:     * @return <code>true</code> iff the collections contain the same elements with the same cardinalities.
+./CollectionUtils.java:     * @return <code>true</code> iff the collections contain the same elements with the same cardinalities.
+./CollectionUtils.java:     * @return the the number of occurrences of obj in coll
+./CollectionUtils.java:     * @return the first element of the collection which matches the predicate or null if none could be found
+./CollectionUtils.java:     * @return closure
+./CollectionUtils.java:     * @return closure
+./CollectionUtils.java:     * @return the last element in the collection, or null if either collection or closure is null
+./CollectionUtils.java:     * @return the last element in the collection, or null if either iterator or closure is null
+./CollectionUtils.java:     * @return true if the collection is modified by this call, false otherwise.
+./CollectionUtils.java:     * @return true if the collection is modified by this call, false otherwise.
+./CollectionUtils.java:     * @return the number of matches for the predicate in the collection
+./CollectionUtils.java:     * @return true if at least one element of the collection matches the predicate
+./CollectionUtils.java:     * @return true if every element of the collection matches the predicate or if the
+./CollectionUtils.java:     * @return the elements matching the predicate (new list)
+./CollectionUtils.java:     * @return the outputCollection
+./CollectionUtils.java:     * @return the outputCollection
+./CollectionUtils.java:     * @return the elements <b>not</b> matching the predicate (new list)
+./CollectionUtils.java:     * @return outputCollection
+./CollectionUtils.java:     * @return the transformed result (new list)
+./CollectionUtils.java:     * @return the transformed result (new list)
+./CollectionUtils.java:     * @return the output collection with the transformed input added
+./CollectionUtils.java:     * @return the outputCollection with the transformed input added
+./CollectionUtils.java:     * @return true if the collection changed
+./CollectionUtils.java:     * @return a boolean indicating whether the collection has changed or not.
+./CollectionUtils.java:     * @return a boolean indicating whether the collection has changed or not.
+./CollectionUtils.java:     * @return {@code true} if the collections was changed, {@code false} otherwise
+./CollectionUtils.java:     * @return {@code true} if the collection was changed, {@code false} otherwise
+./CollectionUtils.java:     * @return the object at the specified index
+./CollectionUtils.java:     * @return the object at the specified index
+./CollectionUtils.java:     * @return the object at the specified index
+./CollectionUtils.java:     * @return the object at the specified index
+./CollectionUtils.java:     * @return the size of the specified collection or 0 if the object was null
+./CollectionUtils.java:     * @return true if empty or null
+./CollectionUtils.java:     * @return true if empty or null
+./CollectionUtils.java:     * @return true if non-null and non-empty
+./CollectionUtils.java:     * @return true if the BoundedCollection is full
+./CollectionUtils.java:     * @return the maximum size of the BoundedCollection, -1 if no maximum size
+./CollectionUtils.java:     * @return a new sorted List, containing the elements of Collection a and b
+./CollectionUtils.java:     * @return a new sorted List, containing the elements of Collection a and b
+./CollectionUtils.java:     * @return a new sorted List, containing the elements of Collection a and b
+./CollectionUtils.java:     * @return a new sorted List, containing the elements of Collection a and b
+./CollectionUtils.java:     * @return an unordered collection of all permutations of the input collection
+./CollectionUtils.java:     * @return a <code>Collection</code> containing all the elements of <code>collection</code>
+./CollectionUtils.java:     * @return a <code>Collection</code> containing all the elements of <code>collection</code>
+./CollectionUtils.java:     * @return a <code>Collection</code> containing all the elements of <code>collection</code> except
+./CollectionUtils.java:     * @return a <code>Collection</code> containing all the elements of <code>collection</code>
+./CollectionUtils.java:     * @return a synchronized collection backed by the given collection
+./CollectionUtils.java:     * @return an unmodifiable collection backed by the given collection
+./CollectionUtils.java:     * @return a predicated collection backed by the given collection
+./CollectionUtils.java:     * @return a transformed collection backed by the given collection
+./CollectionUtils.java:     * @return sole member of collection
+./comparators/NullComparator.java:     *  @return <code>-1</code> if <code>o1</code> is "lower" than (less than,
+./comparators/NullComparator.java:     *  @return a hash code for this comparator.
+./comparators/NullComparator.java:     *  @return <code>true</code> if the specified object is a NullComparator
+./comparators/ComparatorChain.java:     * @return Comparator count
+./comparators/ComparatorChain.java:     * @return true = ComparatorChain cannot be modified; false =
+./comparators/ComparatorChain.java:     * @return -1, 0, or 1
+./comparators/ComparatorChain.java:     * @return a suitable hash code
+./comparators/ComparatorChain.java:     * @return true if equal
+./comparators/ComparableComparator.java:     * @return the singleton ComparableComparator
+./comparators/ComparableComparator.java:     * @return negative if obj1 is less, positive if greater, zero if equal
+./comparators/ComparableComparator.java:     * @return a hash code for this comparator.
+./comparators/ComparableComparator.java:     * @return {@code true} if equal
+./comparators/FixedOrderComparator.java:     * @return true if attempts to change the FixedOrderComparator yield an
+./comparators/FixedOrderComparator.java:     * @return {@link UnknownObjectBehavior}
+./comparators/FixedOrderComparator.java:     * @return true if obj has been added for the first time, false if
+./comparators/FixedOrderComparator.java:     * @return true if newObj has been added for the first time, false if
+./comparators/FixedOrderComparator.java:     * @return negative if obj1 is less, positive if greater, zero if equal
+./comparators/FixedOrderComparator.java:     * @return a hash code for this comparator.
+./comparators/FixedOrderComparator.java:     * @return true if equal
+./comparators/BooleanComparator.java:     * @return the true first singleton BooleanComparator
+./comparators/BooleanComparator.java:     * @return the false first singleton BooleanComparator
+./comparators/BooleanComparator.java:     * @return a singleton BooleanComparator instance
+./comparators/BooleanComparator.java:     * @return negative if obj1 is less, positive if greater, zero if equal
+./comparators/BooleanComparator.java:     * @return a hash code for this comparator.
+./comparators/BooleanComparator.java:     * @return true if equal
+./comparators/BooleanComparator.java:     * @return the trueFirst flag
+./comparators/ReverseComparator.java:     * @return negative if obj1 is less, positive if greater, zero if equal
+./comparators/ReverseComparator.java:     * @return a suitable hash code
+./comparators/ReverseComparator.java:     * @return true if equal
+./comparators/TransformingComparator.java:     * @return negative if obj1 is less, positive if greater, zero if equal
+./comparators/TransformingComparator.java:     * @return a hash code for this comparator.
+./comparators/TransformingComparator.java:     * @return true if equal
+./ComparatorUtils.java:     * @return  a comparator which uses natural order
+./ComparatorUtils.java:     * @return a {@link ComparatorChain} formed from the input comparators
+./ComparatorUtils.java:     * @return a {@link ComparatorChain} formed from the input comparators
+./ComparatorUtils.java:     * @return  a comparator that reverses the order of the input comparator
+./ComparatorUtils.java:     * @return  a comparator that sorts booleans
+./ComparatorUtils.java:     * @return  a version of that comparator that allows nulls
+./ComparatorUtils.java:     * @return  a version of that comparator that allows nulls
+./ComparatorUtils.java:     * @return  a comparator that transforms its input objects before comparing them
+./ComparatorUtils.java:     * @return  the smaller of the two objects
+./ComparatorUtils.java:     * @return  the larger of the two objects
+./EnumerationUtils.java:     * @return the object at the specified index
+./EnumerationUtils.java:     * @return a list containing all elements of the given enumeration
+./EnumerationUtils.java:     * @return a list containing all tokens of the given StringTokenizer
+./Equator.java:     * @return whether the two objects are equal.
+./Equator.java:     * @return the hash of the object.
+./Factory.java:     * @return a new object
+./FactoryUtils.java:     * @return the factory
+./FactoryUtils.java:     * @return the factory
+./FactoryUtils.java:     * @return the <code>constant</code> factory.
+./FactoryUtils.java:     * @return the <code>prototype</code> factory, or a {@link ConstantFactory#NULL_INSTANCE} if
+./FactoryUtils.java:     * @return the <code>reflection</code> factory
+./FactoryUtils.java:     * @return the <code>reflection</code> factory
+./FluentIterable.java:     * @return a new empty FluentIterable
+./FluentIterable.java:     * @return a new FluentIterable containing the singleton
+./FluentIterable.java:     * @return a new FluentIterable containing the provided elements
+./FluentIterable.java:     * @return a new FluentIterable wrapping the provided iterable
+./FluentIterable.java:     * @return a new iterable, combining this iterable with the elements
+./FluentIterable.java:     * @return a new iterable, combining this iterable with other
+./FluentIterable.java:     * @return a new iterable, collating this iterable with the other in natural order
+./FluentIterable.java:     * @return a new iterable, collating this iterable with the other in natural order
+./FluentIterable.java:     * @return a new iterable with the same contents as this iterable
+./FluentIterable.java:     * @return a new iterable, providing a filtered view of this iterable
+./FluentIterable.java:     * @return a new iterable, providing a bounded view of this iterable
+./FluentIterable.java:     * @return a new iterable, providing a looping view of this iterable
+./FluentIterable.java:     * @return a new iterable, providing a reversed view of this iterable
+./FluentIterable.java:     * @return a new iterable, providing a view of this iterable by skipping
+./FluentIterable.java:     * @return a new iterable, providing a transformed view of this iterable
+./FluentIterable.java:     * @return a new iterable, providing a unique view of this iterable
+./FluentIterable.java:     * @return a new iterable, providing an unmodifiable view of this iterable
+./FluentIterable.java:     * @return a new iterable, interleaving this iterable with others
+./FluentIterable.java:     * @return a new iterable, interleaving this iterable with others
+./FluentIterable.java:     * @return an Enumeration over the elements of this iterable
+./FluentIterable.java:     * @return true if all elements contained in this iterable match the predicate,
+./FluentIterable.java:     * @return true if at least one element contained in this iterable matches the predicate,
+./FluentIterable.java:     * @return true if this iterable does not contain any elements, false otherwise
+./FluentIterable.java:     * @return true if the object is contained in this iterable, false otherwise
+./FluentIterable.java:     * @return the element
+./FluentIterable.java:     * @return the size of this iterable
+./FluentIterable.java:     * @return an array of the iterable contents
+./FluentIterable.java:     * @return a list of the iterable contents
+./functors/StringValueTransformer.java:     * @return the singleton instance
+./functors/StringValueTransformer.java:     * @return the transformed result
+./functors/NOPClosure.java:     * @return the singleton instance
+./functors/UniquePredicate.java:     * @return the predicate
+./functors/UniquePredicate.java:     * @return true if this is the first time the object is seen
+./functors/IfClosure.java:     * @return the <code>if</code> closure
+./functors/IfClosure.java:     * @return the <code>if</code> closure
+./functors/IfClosure.java:     * @return the predicate
+./functors/IfClosure.java:     * @return the closure
+./functors/IfClosure.java:     * @return the closure
+./functors/NullIsFalsePredicate.java:     * @return the predicate
+./functors/NullIsFalsePredicate.java:     * @return true if decorated predicate returns true, false if input is null
+./functors/NullIsFalsePredicate.java:     * @return the predicate as the only element in an array
+./functors/IdentityPredicate.java:     * @return the predicate
+./functors/IdentityPredicate.java:     * @return true if input is the same object as the stored value
+./functors/IdentityPredicate.java:     * @return the value
+./functors/AbstractQuantifierPredicate.java:     * @return a copy of the predicates
+./functors/FactoryTransformer.java:     * @return the <code>factory</code> transformer
+./functors/FactoryTransformer.java:     * @return the transformed result
+./functors/FactoryTransformer.java:     * @return the factory
+./functors/NonePredicate.java:     * @return the <code>any</code> predicate
+./functors/NonePredicate.java:     * @return the <code>one</code> predicate
+./functors/NonePredicate.java:     * @return true if none of decorated predicates return true
+./functors/PrototypeFactory.java:     * @return the <code>prototype</code> factory, or a {@link ConstantFactory#NULL_INSTANCE} if
+./functors/PrototypeFactory.java:         * @return the new object
+./functors/PrototypeFactory.java:         * @return the new object
+./functors/TransformerPredicate.java:     * @return the predicate
+./functors/TransformerPredicate.java:     * @return true if decorated transformer returns Boolean.TRUE
+./functors/TransformerPredicate.java:     * @return the transformer
+./functors/AnyPredicate.java:     * @return the <code>any</code> predicate
+./functors/AnyPredicate.java:     * @return the <code>all</code> predicate
+./functors/AnyPredicate.java:     * @return true if any decorated predicate return true
+./functors/MapTransformer.java:     * @return the transformer
+./functors/MapTransformer.java:     * @return the transformed result
+./functors/MapTransformer.java:     * @return the map
+./functors/DefaultEquator.java:     * @return the singleton instance
+./functors/DefaultEquator.java:     * @return <code>o.hashCode()</code> if <code>o</code> is non-
+./functors/TruePredicate.java:     * @return the singleton instance
+./functors/TruePredicate.java:     * @return true always
+./functors/ExceptionPredicate.java:     * @return the singleton instance
+./functors/ExceptionPredicate.java:     * @return never
+./functors/OnePredicate.java:     * @return the <code>any</code> predicate
+./functors/OnePredicate.java:     * @return the <code>one</code> predicate
+./functors/OnePredicate.java:     * @return true if only one decorated predicate returns true
+./functors/ClosureTransformer.java:     * @return the <code>closure</code> transformer
+./functors/ClosureTransformer.java:     * @return the transformed result
+./functors/ClosureTransformer.java:     * @return the closure
+./functors/ConstantTransformer.java:     * @return Transformer<I, O> that always returns null.
+./functors/ConstantTransformer.java:     * @return the <code>constant</code> factory.
+./functors/ConstantTransformer.java:     * @return the stored constant
+./functors/ConstantTransformer.java:     * @return the constant
+./functors/AllPredicate.java:     * @return the <code>all</code> predicate
+./functors/AllPredicate.java:     * @return the <code>all</code> predicate
+./functors/AllPredicate.java:     * @return true if all decorated predicates return true
+./functors/FunctorUtils.java:     * @return the cloned predicates
+./functors/FunctorUtils.java:     * @return the coerced predicate.
+./functors/FunctorUtils.java:     * @return predicate array
+./functors/FunctorUtils.java:     * @return the cloned closures
+./functors/FunctorUtils.java:     * @return the coerced closure.
+./functors/FunctorUtils.java:     * @return a clone of the transformers
+./functors/FunctorUtils.java:     * @return the coerced transformer.
+./functors/TransformerClosure.java:     * @return the <code>transformer</code> closure
+./functors/TransformerClosure.java:     * @return the transformer
+./functors/NotPredicate.java:     * @return the predicate
+./functors/NotPredicate.java:     * @return true if predicate returns false
+./functors/NotPredicate.java:     * @return the predicate as the only element in an array
+./functors/OrPredicate.java:     * @return the <code>and</code> predicate
+./functors/OrPredicate.java:     * @return true if either decorated predicate returns true
+./functors/OrPredicate.java:     * @return the predicates
+./functors/IfTransformer.java:     * @return the <code>if</code> transformer
+./functors/IfTransformer.java:     * @return the <code>if</code> transformer
+./functors/IfTransformer.java:     * @return the transformed result
+./functors/IfTransformer.java:     * @return the predicate
+./functors/IfTransformer.java:     * @return the transformer
+./functors/IfTransformer.java:     * @return the transformer
+./functors/ExceptionClosure.java:     * @return the singleton instance
+./functors/ChainedTransformer.java:     * @return the <code>chained</code> transformer
+./functors/ChainedTransformer.java:     * @return the <code>chained</code> transformer
+./functors/ChainedTransformer.java:     * @return the transformed result
+./functors/ChainedTransformer.java:     * @return a copy of the transformers
+./functors/EqualPredicate.java:     * @return the predicate
+./functors/EqualPredicate.java:     * @return the predicate
+./functors/EqualPredicate.java:     * @return true if input object equals stored value
+./functors/EqualPredicate.java:     * @return the value
+./functors/TransformedPredicate.java:     * @return the predicate
+./functors/TransformedPredicate.java:     * @return true if decorated predicate returns true
+./functors/TransformedPredicate.java:     * @return the predicate as the only element in an array
+./functors/TransformedPredicate.java:     * @return the transformer
+./functors/ExceptionFactory.java:     * @return the singleton instance
+./functors/ExceptionFactory.java:     * @return never
+./functors/AndPredicate.java:     * @return the <code>and</code> predicate
+./functors/AndPredicate.java:     * @return true if both decorated predicates return true
+./functors/AndPredicate.java:     * @return the predicates
+./functors/SwitchClosure.java:     * @return the <code>chained</code> closure
+./functors/SwitchClosure.java:     * @return the <code>switch</code> closure
+./functors/SwitchClosure.java:     * @return a copy of the predicates
+./functors/SwitchClosure.java:     * @return a copy of the closures
+./functors/SwitchClosure.java:     * @return the default closure
+./functors/InstantiateFactory.java:     * @return a new instantiate factory
+./functors/InstantiateFactory.java:     * @return the new object
+./functors/ComparatorPredicate.java:     * @return the predicate
+./functors/ComparatorPredicate.java:     * @return the predicate
+./functors/ComparatorPredicate.java:     * @return {@code true} if the comparison succeeds according to the selected criterion
+./functors/ConstantFactory.java:     * @return the <code>constant</code> factory.
+./functors/ConstantFactory.java:     * @return the stored constant value
+./functors/ConstantFactory.java:     * @return the constant
+./functors/PredicateDecorator.java:     * @return the predicates being decorated
+./functors/ForClosure.java:     * @return the <code>for</code> closure
+./functors/ForClosure.java:     * @return the closure
+./functors/ForClosure.java:     * @return the count
+./functors/NOPTransformer.java:     * @return the singleton instance
+./functors/NOPTransformer.java:     * @return the transformed result which is the input
+./functors/SwitchTransformer.java:     * @return the <code>chained</code> transformer
+./functors/SwitchTransformer.java:     * @return the <code>switch</code> transformer
+./functors/SwitchTransformer.java:     * @return the transformed result
+./functors/SwitchTransformer.java:     * @return a copy of the predicates
+./functors/SwitchTransformer.java:     * @return a copy of the transformers
+./functors/SwitchTransformer.java:     * @return the default transformer
+./functors/NullPredicate.java:     * @return the singleton instance
+./functors/NullPredicate.java:     * @return true if input is null
+./functors/NotNullPredicate.java:     * @return the singleton instance
+./functors/NotNullPredicate.java:     * @return true if not null
+./functors/PredicateTransformer.java:     * @return the <code>predicate</code> transformer
+./functors/PredicateTransformer.java:     * @return the transformed result
+./functors/PredicateTransformer.java:     * @return the predicate
+./functors/CloneTransformer.java:     * @return the singleton instance
+./functors/CloneTransformer.java:     * @return the transformed result
+./functors/FalsePredicate.java:     * @return the singleton instance
+./functors/FalsePredicate.java:     * @return false always
+./functors/ChainedClosure.java:     * @return the <code>chained</code> closure
+./functors/ChainedClosure.java:     * @return the <code>chained</code> closure
+./functors/ChainedClosure.java:     * @return a copy of the closures
+./functors/InstanceofPredicate.java:     * @return the predicate
+./functors/InstanceofPredicate.java:     * @return true if input is of stored type
+./functors/InstanceofPredicate.java:     * @return the type
+./functors/ExceptionTransformer.java:     * @return the singleton instance
+./functors/ExceptionTransformer.java:     * @return never
+./functors/WhileClosure.java:     * @return the <code>while</code> closure
+./functors/WhileClosure.java:     * @return the predicate
+./functors/WhileClosure.java:     * @return the closure
+./functors/WhileClosure.java:     * @return true is do-while, false if while
+./functors/InvokerTransformer.java:     * @return an invoker transformer
+./functors/InvokerTransformer.java:     * @return an invoker transformer
+./functors/InvokerTransformer.java:     * @return the transformed result, null if null input
+./functors/InstantiateTransformer.java:     * @return Transformer<Class<? extends T>, T>
+./functors/InstantiateTransformer.java:     * @return an instantiate transformer
+./functors/InstantiateTransformer.java:     * @return the transformed result
+./functors/NullIsExceptionPredicate.java:     * @return the predicate
+./functors/NullIsExceptionPredicate.java:     * @return true if decorated predicate returns true
+./functors/NullIsExceptionPredicate.java:     * @return the predicate as the only element in an array
+./functors/NullIsTruePredicate.java:     * @return the predicate
+./functors/NullIsTruePredicate.java:     * @return true if decorated predicate returns true or input is null
+./functors/NullIsTruePredicate.java:     * @return the predicate as the only element in an array
+./IterableGet.java:     * @return a map iterator
+./IterableUtils.java:     * @return an empty iterable
+./IterableUtils.java:     * @return a new iterable, combining the provided iterables
+./IterableUtils.java:     * @return a new iterable, combining the provided iterables
+./IterableUtils.java:     * @return a new iterable, combining the provided iterables
+./IterableUtils.java:     * @return a new iterable, combining the provided iterables
+./IterableUtils.java:     * @return a filtered view on the specified iterable
+./IterableUtils.java:     * @return a filtered view on the specified iterable
+./IterableUtils.java:     * @return a filtered view on the specified iterable
+./IterableUtils.java:     * @return a bounded view on the specified iterable
+./IterableUtils.java:     * @return a view of the iterable, providing an infinite loop over its elements
+./IterableUtils.java:     * @return a reversed view of the specified iterable
+./IterableUtils.java:     * @return a view of the specified iterable, skipping the first N elements
+./IterableUtils.java:     * @return a transformed view of the specified iterable
+./IterableUtils.java:     * @return a unique view of the specified iterable
+./IterableUtils.java:     * @return an unmodifiable view of the specified iterable
+./IterableUtils.java:     * @return a new iterable, interleaving the provided iterables
+./IterableUtils.java:     * @return a new iterable, interleaving the provided iterables
+./IterableUtils.java:     * @return an empty iterable if the argument is null
+./IterableUtils.java:     * @return the last element in the iterable, or null if iterable is null or empty
+./IterableUtils.java:     * @return the first element of the iterable which matches the predicate or null if none could be found
+./IterableUtils.java:     * @return the index of the first element which matches the predicate or -1 if none matches
+./IterableUtils.java:     * @return true if every element of the collection matches the predicate or if the
+./IterableUtils.java:     * @return true if any element of the collection matches the predicate, false otherwise
+./IterableUtils.java:     * @return the number of matches for the predicate in the collection
+./IterableUtils.java:     * @return true if the iterable is null or empty, false otherwise
+./IterableUtils.java:     * @return true if the object is contained in the iterable, false otherwise
+./IterableUtils.java:     * @return true if the object is contained in the iterable, false otherwise
+./IterableUtils.java:     * @return the the number of occurrences of obj in iterable
+./IterableUtils.java:     * @return the object at the specified index
+./IterableUtils.java:     * @return the number of elements contained in the iterable
+./IterableUtils.java:     * @return a list containing the output collections
+./IterableUtils.java:     * @return a list containing the output collections
+./IterableUtils.java:     * @return a list containing the output collections
+./IterableUtils.java:     * @return a list of the iterator contents
+./IterableUtils.java:     * @return a string representation of {@code iterable}
+./IterableUtils.java:     * @return a string representation of {@code iterable}
+./IterableUtils.java:     * @return a string representation of {@code iterable}
+./IterableUtils.java:     * @return an empty iterator if the argument is <code>null</code>
+./iterators/IteratorIterable.java:     * @return the iterator
+./iterators/UnmodifiableMapIterator.java:     * @return a new unmodifiable map iterator
+./iterators/CollatingIterator.java:     * @return the unmodifiable list of iterators added
+./iterators/CollatingIterator.java:     * @return the {@link Comparator}
+./iterators/CollatingIterator.java:     * @return true if this iterator has remaining elements
+./iterators/CollatingIterator.java:     * @return the next ordered element
+./iterators/CollatingIterator.java:     * @return the index of the iterator that returned the last element
+./iterators/CollatingIterator.java:     * @return {@code false} iff there was no value to set
+./iterators/EnumerationIterator.java:     * @return true if the underlying enumeration has more elements
+./iterators/EnumerationIterator.java:     * @return the next object from the enumeration
+./iterators/EnumerationIterator.java:     * @return the underlying enumeration
+./iterators/UnmodifiableOrderedMapIterator.java:     * @return a new unmodifiable ordered map iterator
+./iterators/UnmodifiableIterator.java:     * @return a new unmodifiable iterator
+./iterators/AbstractMapIteratorDecorator.java:     * @return the decorated iterator
+./iterators/EntrySetMapIterator.java:     * @return <code>true</code> if the iterator has more elements
+./iterators/EntrySetMapIterator.java:     * @return the next key in the iteration
+./iterators/EntrySetMapIterator.java:     * @return the current key
+./iterators/EntrySetMapIterator.java:     * @return the current value
+./iterators/EntrySetMapIterator.java:     * @return the previous value
+./iterators/EntrySetMapIterator.java:     * @return a string version of the iterator
+./iterators/BoundedIterator.java:     * @return {@code true} if the iterator is within its bounds, {@code false} otherwise
+./iterators/FilterListIterator.java:     * @return the iterator.
+./iterators/FilterListIterator.java:     * @return the predicate.
+./iterators/ObjectGraphIterator.java:     * @return true if elements remain in the iteration
+./iterators/ObjectGraphIterator.java:     * @return the next element from the iteration
+./iterators/ObjectArrayListIterator.java:     * @return true if there is a previous element to return
+./iterators/ObjectArrayListIterator.java:     * @return the previous element
+./iterators/ObjectArrayListIterator.java:     * @return the next element
+./iterators/ObjectArrayListIterator.java:     * @return the index of the item to be retrieved next
+./iterators/ObjectArrayListIterator.java:     * @return the index of the item to be retrieved next
+./iterators/FilterIterator.java:     * @return true if there is another object that matches the predicate
+./iterators/FilterIterator.java:     * @return the next object which matches the given predicate
+./iterators/FilterIterator.java:     * @return the iterator
+./iterators/FilterIterator.java:     * @return the predicate
+./iterators/LoopingListIterator.java:     * @return <code>true</code> if there are more elements
+./iterators/LoopingListIterator.java:     * @return the object after the last element returned
+./iterators/LoopingListIterator.java:     * @return the index of the element that would be returned if next() were called
+./iterators/LoopingListIterator.java:     * @return <code>true</code> if there are more elements
+./iterators/LoopingListIterator.java:     * @return the object before the last element returned
+./iterators/LoopingListIterator.java:     * @return the index of the element that would be returned if previous() were called
+./iterators/LoopingListIterator.java:     * @return the current list size
+./iterators/LoopingIterator.java:     * @return <code>true</code> if there are more elements
+./iterators/LoopingIterator.java:     * @return the next object
+./iterators/LoopingIterator.java:     * @return the current collection size
+./iterators/IteratorEnumeration.java:     * @return true if the underlying iterator has more elements
+./iterators/IteratorEnumeration.java:     * @return the next element from the underlying iterator.
+./iterators/IteratorEnumeration.java:     * @return the underlying iterator
+./iterators/AbstractListIteratorDecorator.java:     * @return the decorated iterator
+./iterators/EmptyOrderedIterator.java:     * @return OrderedIterator<E>
+./iterators/ArrayListIterator.java:     * @return true if there is a previous element to return
+./iterators/ArrayListIterator.java:     * @return the previous element
+./iterators/ArrayListIterator.java:     * @return the next element
+./iterators/ArrayListIterator.java:     * @return the index of the item to be retrieved next
+./iterators/ArrayListIterator.java:     * @return the index of the item to be retrieved next
+./iterators/IteratorChain.java:     * @return Iterator count
+./iterators/IteratorChain.java:     * @return true if IteratorChain cannot be modified, false if it can
+./iterators/IteratorChain.java:     * @return true if elements remain
+./iterators/IteratorChain.java:     * @return Object from the current Iterator
+./iterators/PeekingIterator.java:     * @return a new peeking iterator
+./iterators/PeekingIterator.java:     * @return the next element from the iterator
+./iterators/PeekingIterator.java:     * @return the next element from the iterator
+./iterators/PermutationIterator.java:     * @return true if there are more permutations, otherwise false
+./iterators/PermutationIterator.java:     * @return a list of the permutator's elements representing a permutation
+./iterators/ReverseListIterator.java:     * @return true if there is another element
+./iterators/ReverseListIterator.java:     * @return the next element in the iterator
+./iterators/ReverseListIterator.java:     * @return the index of the next element in the iterator
+./iterators/ReverseListIterator.java:     * @return true if there is a previous element
+./iterators/ReverseListIterator.java:     * @return the previous element in the iterator
+./iterators/ReverseListIterator.java:     * @return the index of the previous element in the iterator
+./iterators/AbstractUntypedIteratorDecorator.java:     * @return the decorated iterator
+./iterators/LazyIteratorChain.java:     * @return the next iterator, or null if there are no more.
+./iterators/LazyIteratorChain.java:     * @return true if elements remain
+./iterators/LazyIteratorChain.java:     * @return element from the current Iterator
+./iterators/ZippingIterator.java:     * @return true if this iterator has remaining elements
+./iterators/ZippingIterator.java:     * @return the next interleaved element
+./iterators/PushbackIterator.java:     * @return a new peeking iterator
+./iterators/EmptyIterator.java:     * @return ResettableIterator<E>
+./iterators/EmptyIterator.java:     * @return Iterator<E>
+./iterators/SingletonIterator.java:     * @return true if the single object hasn't been returned yet
+./iterators/SingletonIterator.java:     * @return the single object
+./iterators/EmptyMapIterator.java:     * @return {@link MapIterator}<K, V>
+./iterators/SingletonListIterator.java:     * @return true if the single object hasn't been returned yet
+./iterators/SingletonListIterator.java:     * @return true if the single object has been returned
+./iterators/SingletonListIterator.java:     * @return 0 or 1 depending on current state.
+./iterators/SingletonListIterator.java:     * @return 0 or -1 depending on current state.
+./iterators/SingletonListIterator.java:     * @return the single object
+./iterators/SingletonListIterator.java:     * @return the single object
+./iterators/ListIteratorWrapper.java:     * @return true if there are more elements
+./iterators/ListIteratorWrapper.java:     * @return true if there are previous elements
+./iterators/ListIteratorWrapper.java:     * @return the next element from the iterator
+./iterators/ListIteratorWrapper.java:     * @return the index of the next element
+./iterators/ListIteratorWrapper.java:     * @return the previous element
+./iterators/ListIteratorWrapper.java:     * @return  the index of the previous element
+./iterators/UnmodifiableListIterator.java:     * @return a new unmodifiable list iterator
+./iterators/TransformIterator.java:     * @return the next object
+./iterators/TransformIterator.java:     * @return the iterator.
+./iterators/TransformIterator.java:     * @return the transformer.
+./iterators/TransformIterator.java:     * @return the transformed object
+./iterators/ObjectArrayIterator.java:     * @return true if there is a next element to return
+./iterators/ObjectArrayIterator.java:     * @return the next element in the array
+./iterators/ObjectArrayIterator.java:     * @return the array this iterator iterates over
+./iterators/ObjectArrayIterator.java:     * @return the start index
+./iterators/ObjectArrayIterator.java:     * @return the end index
+./iterators/EmptyListIterator.java:     * @return {@link ResettableListIterator}<E>
+./iterators/EmptyListIterator.java:     * @return {@link ListIterator}<E>
+./iterators/ArrayIterator.java:     * @return true if there is a next element to return
+./iterators/ArrayIterator.java:     * @return the next element in the array
+./iterators/ArrayIterator.java:     * @return the array this iterator iterates over.
+./iterators/ArrayIterator.java:     * @return the start index
+./iterators/ArrayIterator.java:     * @return the end index
+./iterators/AbstractOrderedMapIteratorDecorator.java:     * @return the decorated iterator
+./iterators/EmptyOrderedMapIterator.java:     * @return {@link OrderedMapIterator}<K, V>
+./IteratorUtils.java:     * @return an iterator over nothing
+./IteratorUtils.java:     * @return a list iterator over nothing
+./IteratorUtils.java:     * @return an ordered iterator over nothing
+./IteratorUtils.java:     * @return a map iterator over nothing
+./IteratorUtils.java:     * @return a map iterator over nothing
+./IteratorUtils.java:     * @return a singleton iterator over the object
+./IteratorUtils.java:     * @return a singleton list iterator over the object
+./IteratorUtils.java:     * @return an iterator over the array
+./IteratorUtils.java:     * @return an iterator over the array
+./IteratorUtils.java:     * @return an iterator over part of the array
+./IteratorUtils.java:     * @return an iterator over part of the array
+./IteratorUtils.java:     * @return an iterator over part of the array
+./IteratorUtils.java:     * @return an iterator over part of the array
+./IteratorUtils.java:     * @return a list iterator over the array
+./IteratorUtils.java:     * @return a list iterator over the array
+./IteratorUtils.java:     * @return a list iterator over part of the array
+./IteratorUtils.java:     * @return a list iterator over part of the array
+./IteratorUtils.java:     * @return a list iterator over part of the array
+./IteratorUtils.java:     * @return a list iterator over part of the array
+./IteratorUtils.java:     * @return a new bounded iterator
+./IteratorUtils.java:     * @return a new bounded iterator
+./IteratorUtils.java:     * @return an immutable version of the iterator
+./IteratorUtils.java:     * @return an immutable version of the iterator
+./IteratorUtils.java:     * @return an immutable version of the iterator
+./IteratorUtils.java:     * @return a combination iterator over the iterators
+./IteratorUtils.java:     * @return a combination iterator over the iterators
+./IteratorUtils.java:     * @return a combination iterator over the iterators
+./IteratorUtils.java:     * @return a combination iterator over the iterators
+./IteratorUtils.java:     * @return a combination iterator over the iterators
+./IteratorUtils.java:     * @return a combination iterator over the iterators
+./IteratorUtils.java:     * @return a new object graph iterator
+./IteratorUtils.java:     * @return a new transforming iterator
+./IteratorUtils.java:     * @return a new filtered iterator
+./IteratorUtils.java:     * @return a new filtered iterator
+./IteratorUtils.java:     * @return a new looping iterator
+./IteratorUtils.java:     * @return a new looping iterator
+./IteratorUtils.java:     * @return a new, single use {@link Iterator}
+./IteratorUtils.java:     * @return a new, single use {@link Iterator}
+./IteratorUtils.java:     * @return a peeking iterator
+./IteratorUtils.java:     * @return a pushback iterator
+./IteratorUtils.java:     * @return a new skipping iterator
+./IteratorUtils.java:     * @return an iterator, interleaving the decorated iterators
+./IteratorUtils.java:     * @return an iterator, interleaving the decorated iterators
+./IteratorUtils.java:     * @return an iterator, interleaving the decorated iterators
+./IteratorUtils.java:     * @return a new iterator
+./IteratorUtils.java:     * @return a new iterator
+./IteratorUtils.java:     * @return a new enumeration
+./IteratorUtils.java:     * @return a new, single use {@link Iterable}
+./IteratorUtils.java:     * @return a new, multiple use iterable
+./IteratorUtils.java:     * @return a new iterator
+./IteratorUtils.java:     * @return an array of the iterator contents
+./IteratorUtils.java:     * @return an array of the iterator contents
+./IteratorUtils.java:     * @return a list of the iterator contents
+./IteratorUtils.java:     * @return a list of the iterator contents
+./IteratorUtils.java:     * @return a suitable iterator, never null
+./IteratorUtils.java:     * @return the last element in the iterator, or null if iterator is null or empty
+./IteratorUtils.java:     * @return the first element of the iterator which matches the predicate or null if none could be found
+./IteratorUtils.java:     * @return the index of the first element which matches the predicate or -1 if none matches
+./IteratorUtils.java:     * @return true if any element of the collection matches the predicate, false otherwise
+./IteratorUtils.java:     * @return true if every element of the collection matches the predicate or if the
+./IteratorUtils.java:     * @return true if the iterator is exhausted or null, false otherwise
+./IteratorUtils.java:     * @return true if the object is contained in the iterator, false otherwise
+./IteratorUtils.java:     * @return the object at the specified index
+./IteratorUtils.java:     * @return the number of elements contained in the iterator
+./IteratorUtils.java:     * @return a string representation of {@code iterator}
+./IteratorUtils.java:     * @return a string representation of {@code iterator}
+./IteratorUtils.java:     * @return a string representation of {@code iterator}
+./keyvalue/DefaultKeyValue.java:     * @return the old key
+./keyvalue/DefaultKeyValue.java:     * @return the old value of the value
+./keyvalue/DefaultKeyValue.java:     * @return a MapEntry instance
+./keyvalue/DefaultKeyValue.java:     * @return true if equal key and value
+./keyvalue/DefaultKeyValue.java:     * @return a suitable hash code
+./keyvalue/MultiKey.java:     * @return the individual keys
+./keyvalue/MultiKey.java:     * @return the key at the index
+./keyvalue/MultiKey.java:     * @return the size of the list of keys
+./keyvalue/MultiKey.java:     * @return true if equal
+./keyvalue/MultiKey.java:     * @return the hash code
+./keyvalue/MultiKey.java:     * @return a debugging string
+./keyvalue/MultiKey.java:     * @return the instance with recalculated hash code
+./keyvalue/UnmodifiableMapEntry.java:     * @return the previous value
+./keyvalue/TiedMapEntry.java:     * @return the key
+./keyvalue/TiedMapEntry.java:     * @return the value
+./keyvalue/TiedMapEntry.java:     * @return the old value
+./keyvalue/TiedMapEntry.java:     * @return true if equal key and value
+./keyvalue/TiedMapEntry.java:     * @return a suitable hash code
+./keyvalue/TiedMapEntry.java:     * @return entry as a string
+./keyvalue/AbstractMapEntryDecorator.java:     * @return the decorated map
+./keyvalue/AbstractMapEntry.java:     * @return the previous value
+./keyvalue/AbstractMapEntry.java:     * @return true if equal key and value
+./keyvalue/AbstractMapEntry.java:     * @return a suitable hash code
+./keyvalue/AbstractKeyValue.java:     * @return the key
+./keyvalue/AbstractKeyValue.java:     * @return the value
+./keyvalue/AbstractKeyValue.java:     * @return a String view of the entry
+./KeyValue.java:     * @return the key
+./KeyValue.java:     * @return the value
+./list/UnmodifiableList.java:     * @return a new unmodifiable list
+./list/TransformedList.java:     * @return a new transformed list
+./list/TransformedList.java:     * @return a new transformed List
+./list/TransformedList.java:     * @return the decorated list
+./list/SetUniqueList.java:     * @return a new {@link SetUniqueList}
+./list/SetUniqueList.java:     * @return an unmodifiable set view
+./list/SetUniqueList.java:     * @return true if object was added
+./list/SetUniqueList.java:     * @return true if this collection changed
+./list/SetUniqueList.java:     * @return true if this collection changed
+./list/SetUniqueList.java:     * @return the previous object
+./list/SetUniqueList.java:     * @return a new {@link Set} populated with all elements of the provided
+./list/TreeList.java:     * @return the element at the specified index
+./list/TreeList.java:     * @return the current size
+./list/TreeList.java:     * @return an iterator over the list
+./list/TreeList.java:     * @return the new iterator
+./list/TreeList.java:     * @return the new iterator
+./list/TreeList.java:     * @return the index of the object, -1 if not found
+./list/TreeList.java:     * @return true if the object is found
+./list/TreeList.java:     * @return the list as an array
+./list/TreeList.java:     * @return {@code true} if this list changed as a result of the call
+./list/TreeList.java:     * @return the previous object at that index
+./list/TreeList.java:     * @return the previous object at that index
+./list/TreeList.java:         * @return the value of this node
+./list/TreeList.java:         * @return the next node
+./list/TreeList.java:         * @return the previous node
+./list/TreeList.java:         * @return the rightmost child (greatest index)
+./list/TreeList.java:         * @return the leftmost child (smallest index)
+./list/TreeList.java:         * @return the node that replaces this one in the parent
+./list/TreeList.java:         * @return the root of the new, merged AVL tree
+./list/AbstractLinkedList.java:     * @return the new sublist
+./list/AbstractLinkedList.java:     * @return true if equal
+./list/AbstractLinkedList.java:     * @return  newly created node
+./list/AbstractLinkedList.java:     * @return a new node containing the value
+./list/AbstractLinkedList.java:     * @return the node at the given index
+./list/AbstractLinkedList.java:     * @return a new iterator on the given sublist
+./list/AbstractLinkedList.java:     * @return a new list iterator on the given sublist
+./list/AbstractLinkedList.java:         * @return the value
+./list/AbstractLinkedList.java:         * @return the previous node
+./list/AbstractLinkedList.java:         * @return the next node
+./list/AbstractLinkedList.java:         * @return the last node returned
+./list/GrowthList.java:     * @return a new growth list
+./list/GrowthList.java:     * @return true if the list changed
+./list/GrowthList.java:     * @return the object previously at that index
+./list/AbstractListDecorator.java:     * @return the decorated list
+./list/LazyList.java:     * @return a new lazy list
+./list/LazyList.java:     * @return the element at the given index
+./list/NodeCachingLinkedList.java:     * @return the maximum cache size
+./list/NodeCachingLinkedList.java:     * @return a node, or <code>null</code> if there are no nodes in the cache.
+./list/NodeCachingLinkedList.java:     * @return true if the cache is full
+./list/NodeCachingLinkedList.java:     * @return the newly created node
+./list/PredicatedList.java:     * @return a new predicated list
+./list/PredicatedList.java:     * @return the decorated list
+./list/CursorableLinkedList.java:     * @return a new iterator that does <b>not</b> support concurrent modification
+./list/CursorableLinkedList.java:     * @return a new cursor iterator
+./list/CursorableLinkedList.java:     * @return a new cursor iterator
+./list/CursorableLinkedList.java:     * @return a new cursor iterator
+./list/CursorableLinkedList.java:     * @return a new cursor iterator
+./list/CursorableLinkedList.java:     * @return the list iterator for the sublist
+./list/CursorableLinkedList.java:         * @return the next index
+./list/FixedSizeList.java:     * @return a new fixed size list
+./ListUtils.java:     * @return an empty list if the argument is <code>null</code>
+./ListUtils.java:     * @return an empty list if the argument is <code>null</code>
+./ListUtils.java:     * @return  the intersection of those two lists
+./ListUtils.java:     * @return a new list containing the results
+./ListUtils.java:     * @return  a new list containing the sum of those lists
+./ListUtils.java:     * @return a new list containing the union of those lists
+./ListUtils.java:     * @return the elements matching the predicate (new list)
+./ListUtils.java:     * @return the elements <b>not</b> matching the predicate (new list)
+./ListUtils.java:     * @return whether the lists are equal by value comparison
+./ListUtils.java:     * @return the hash code
+./ListUtils.java:     * @return a <code>List</code> containing all the elements of <code>c</code>
+./ListUtils.java:     * @return a <code>List</code> containing all the elements of <code>c</code> except
+./ListUtils.java:     * @return a synchronized list backed by the given list
+./ListUtils.java:     * @return an unmodifiable list backed by the given list
+./ListUtils.java:     * @return a predicated list backed by the given list
+./ListUtils.java:     * @return a transformed list backed by the given list
+./ListUtils.java:     * @return a lazy list backed by the given list
+./ListUtils.java:     * @return a fixed-size list backed by that list
+./ListUtils.java:     * @return the first index of an Object in the List which matches the predicate or -1 if none could be found
+./ListUtils.java:     * @return the longest common subsequence
+./ListUtils.java:     * @return the longest common subsequence
+./ListUtils.java:     * @return the longest common subsequence as {@link String}
+./ListUtils.java:     * @return a list of consecutive sublists
+./ListValuedMap.java:     * @return the {@code List} of values, implementations should return an
+./ListValuedMap.java:     * @return the {@code List} of values removed, implementations
+./map/AbstractOrderedMapDecorator.java:     * @return the decorated map
+./map/AbstractMapDecorator.java:     * @return the decorated map
+./map/TransformedSortedMap.java:     * @return a new transformed sorted map
+./map/TransformedSortedMap.java:     * @return a new transformed sorted map
+./map/TransformedSortedMap.java:     * @return the decorated map
+./map/PredicatedSortedMap.java:     * @return a new predicated sorted map
+./map/PredicatedSortedMap.java:     * @return the decorated map
+./map/HashedMap.java:     * @return a shallow clone
+./map/PassiveExpiringMap.java:         * @return if {@link #timeToLiveMillis} &ge; 0, an expiration time of
+./map/PassiveExpiringMap.java:         * @return the expiration time value measured in milliseconds. A
+./map/PassiveExpiringMap.java:     * @return <code>true</code> if <code>expirationTimeObject</code> is &ge; 0
+./map/LRUMap.java:     * @return the mapped value, null if no match
+./map/LRUMap.java:     * @return the mapped value, null if no match
+./map/LRUMap.java:     * @return {@code true}
+./map/LRUMap.java:     * @return <code>true</code> if the map is full
+./map/LRUMap.java:     * @return the maximum number of elements the map can hold
+./map/LRUMap.java:     * @return true if this map scans
+./map/LRUMap.java:     * @return a shallow clone
+./map/ReferenceIdentityMap.java:     * @return the hash code
+./map/ReferenceIdentityMap.java:     * @return the hash code, as per the MapEntry specification
+./map/ReferenceIdentityMap.java:     * @return true if equal by identity
+./map/ReferenceIdentityMap.java:     * @return true if equal by identity
+./map/StaticBucketMap.java:     * @return the current size
+./map/StaticBucketMap.java:     * @return true if empty
+./map/StaticBucketMap.java:     * @return the associated value
+./map/StaticBucketMap.java:     * @return true if found
+./map/StaticBucketMap.java:     * @return true if found
+./map/StaticBucketMap.java:     * @return the previous mapping for the key
+./map/StaticBucketMap.java:     * @return the previous value at this key
+./map/StaticBucketMap.java:     * @return the key set
+./map/StaticBucketMap.java:     * @return the values
+./map/StaticBucketMap.java:     * @return the entry set
+./map/StaticBucketMap.java:     * @return true if equal
+./map/StaticBucketMap.java:     * @return the hash code
+./map/AbstractSortedMapDecorator.java:     * @return the decorated map
+./map/MultiKeyMap.java:     * @return a new multi key map
+./map/MultiKeyMap.java:     * @return the mapped value, null if no match
+./map/MultiKeyMap.java:     * @return true if the map contains the key
+./map/MultiKeyMap.java:     * @return the value previously mapped to this combined key, null if none
+./map/MultiKeyMap.java:     * @return the value mapped to the removed key, null if key not in map
+./map/MultiKeyMap.java:     * @return the hash code
+./map/MultiKeyMap.java:     * @return true if the key matches
+./map/MultiKeyMap.java:     * @return the mapped value, null if no match
+./map/MultiKeyMap.java:     * @return true if the map contains the key
+./map/MultiKeyMap.java:     * @return the value previously mapped to this combined key, null if none
+./map/MultiKeyMap.java:     * @return the value mapped to the removed key, null if key not in map
+./map/MultiKeyMap.java:     * @return the hash code
+./map/MultiKeyMap.java:     * @return true if the key matches
+./map/MultiKeyMap.java:     * @return the mapped value, null if no match
+./map/MultiKeyMap.java:     * @return true if the map contains the key
+./map/MultiKeyMap.java:     * @return the value previously mapped to this combined key, null if none
+./map/MultiKeyMap.java:     * @return the value mapped to the removed key, null if key not in map
+./map/MultiKeyMap.java:     * @return the hash code
+./map/MultiKeyMap.java:     * @return true if the key matches
+./map/MultiKeyMap.java:     * @return the mapped value, null if no match
+./map/MultiKeyMap.java:     * @return true if the map contains the key
+./map/MultiKeyMap.java:     * @return the value previously mapped to this combined key, null if none
+./map/MultiKeyMap.java:     * @return the value mapped to the removed key, null if key not in map
+./map/MultiKeyMap.java:     * @return the hash code
+./map/MultiKeyMap.java:     * @return true if the key matches
+./map/MultiKeyMap.java:     * @return true if any elements were removed
+./map/MultiKeyMap.java:     * @return true if any elements were removed
+./map/MultiKeyMap.java:     * @return true if any elements were removed
+./map/MultiKeyMap.java:     * @return true if any elements were removed
+./map/MultiKeyMap.java:     * @return a shallow clone
+./map/MultiKeyMap.java:     * @return the previous value for the key
+./map/ListOrderedMap.java:     * @return a new list ordered map
+./map/ListOrderedMap.java:     * @return the first key currently in this map
+./map/ListOrderedMap.java:     * @return the last key currently in this map
+./map/ListOrderedMap.java:     * @return the next key, null if no match or at start
+./map/ListOrderedMap.java:     * @return the previous key, null if no match or at start
+./map/ListOrderedMap.java:     * @return the fully modifiable collection view over the keys
+./map/ListOrderedMap.java:     * @return the unmodifiable list view over the keys
+./map/ListOrderedMap.java:     * @return the fully modifiable collection view over the values
+./map/ListOrderedMap.java:     * @return the partially modifiable list view over the values
+./map/ListOrderedMap.java:     * @return the fully modifiable set view over the entries
+./map/ListOrderedMap.java:     * @return the Map as a String
+./map/ListOrderedMap.java:     * @return the key at the specified index
+./map/ListOrderedMap.java:     * @return the key at the specified index
+./map/ListOrderedMap.java:     * @return the index, or -1 if not found
+./map/ListOrderedMap.java:     * @return the previous value at that index
+./map/ListOrderedMap.java:     * @return the value previously mapped to the key
+./map/ListOrderedMap.java:     * @return the removed value, or <code>null</code> if none existed
+./map/ListOrderedMap.java:     * @return The ordered list of keys.
+./map/SingletonMap.java:     * @return the key
+./map/SingletonMap.java:     * @return the value
+./map/SingletonMap.java:     * @return the old value
+./map/SingletonMap.java:     * @return true always
+./map/SingletonMap.java:     * @return 1 always
+./map/SingletonMap.java:     * @return the mapped value, null if no match
+./map/SingletonMap.java:     * @return the size of 1
+./map/SingletonMap.java:     * @return false always
+./map/SingletonMap.java:     * @return true if the map contains the key
+./map/SingletonMap.java:     * @return true if the map contains the key
+./map/SingletonMap.java:     * @return the value previously mapped to this key, null if none
+./map/SingletonMap.java:     * @return the value mapped to the removed key, null if key not in map
+./map/SingletonMap.java:     * @return the entrySet view
+./map/SingletonMap.java:     * @return the keySet view
+./map/SingletonMap.java:     * @return the values view
+./map/SingletonMap.java:     * @return the key
+./map/SingletonMap.java:     * @return the key
+./map/SingletonMap.java:     * @return null always
+./map/SingletonMap.java:     * @return null always
+./map/SingletonMap.java:     * @return true if equal
+./map/SingletonMap.java:     * @return true if equal
+./map/SingletonMap.java:     * @return a shallow clone
+./map/SingletonMap.java:     * @return true if equal
+./map/SingletonMap.java:     * @return the hash code defined in the Map interface
+./map/SingletonMap.java:     * @return a string version of the map
+./map/CaseInsensitiveMap.java:     * @return the converted key
+./map/CaseInsensitiveMap.java:     * @return a shallow clone
+./map/AbstractInputCheckedMapDecorator.java:     * @return true always
+./map/UnmodifiableOrderedMap.java:     * @return a new ordered map
+./map/AbstractLinkedMap.java:     * @return true if the map contains the value
+./map/AbstractLinkedMap.java:     * @return the eldest key
+./map/AbstractLinkedMap.java:     * @return the most recently inserted key
+./map/AbstractLinkedMap.java:     * @return the next key
+./map/AbstractLinkedMap.java:     * @return the previous key
+./map/AbstractLinkedMap.java:     * @return the key at the specified index
+./map/AbstractLinkedMap.java:     * @return the newly created entry
+./map/AbstractLinkedMap.java:     * @return the <code>before</code> field of the entry
+./map/AbstractLinkedMap.java:     * @return the <code>after</code> field of the entry
+./map/AbstractLinkedMap.java:     * @return the entrySet iterator
+./map/AbstractLinkedMap.java:     * @return the keySet iterator
+./map/AbstractLinkedMap.java:     * @return the values iterator
+./map/UnmodifiableEntrySet.java:     * @return a new unmodifiable entry set
+./map/MultiValueMap.java:     * @return a new multi-value map
+./map/MultiValueMap.java:     * @return a new multi-value map
+./map/MultiValueMap.java:     * @return a new multi-value map
+./map/MultiValueMap.java:     * @return {@code true} if the mapping was removed, {@code false} otherwise
+./map/MultiValueMap.java:     * @return true if the map contains the value
+./map/MultiValueMap.java:     * @return the value added if the map changed and null if the map did not change
+./map/MultiValueMap.java:     * @return a collection view of the values contained in this map
+./map/MultiValueMap.java:     * @return true if the map contains the value
+./map/MultiValueMap.java:     * @return the collection mapped to the key, null if no mapping
+./map/MultiValueMap.java:     * @return the size of the collection at the key, zero if key not in map
+./map/MultiValueMap.java:     * @return true if this map changed
+./map/MultiValueMap.java:     * @return the iterator of the collection at the key, empty iterator if key not in map
+./map/MultiValueMap.java:     * @return the iterator of all mappings in this map
+./map/MultiValueMap.java:     * @return the total size of the map counting all values
+./map/MultiValueMap.java:     * @return the new collection
+./map/AbstractHashedMap.java:     * @return the mapped value, null if no match
+./map/AbstractHashedMap.java:     * @return the size
+./map/AbstractHashedMap.java:     * @return true if the map is currently size zero
+./map/AbstractHashedMap.java:     * @return true if the map contains the key
+./map/AbstractHashedMap.java:     * @return true if the map contains the value
+./map/AbstractHashedMap.java:     * @return the value previously mapped to this key, null if none
+./map/AbstractHashedMap.java:     * @return the value mapped to the removed key, null if key not in map
+./map/AbstractHashedMap.java:     * @return the converted key
+./map/AbstractHashedMap.java:     * @return the hash code
+./map/AbstractHashedMap.java:     * @return true if equal
+./map/AbstractHashedMap.java:     * @return true if equal
+./map/AbstractHashedMap.java:     * @return the bucket index
+./map/AbstractHashedMap.java:     * @return the entry, null if no match
+./map/AbstractHashedMap.java:     * @return the newly created entry
+./map/AbstractHashedMap.java:     * @return the normalized new capacity
+./map/AbstractHashedMap.java:     * @return the new resize threshold
+./map/AbstractHashedMap.java:     * @return the <code>next</code> field of the entry
+./map/AbstractHashedMap.java:     * @return the <code>hashCode</code> field of the entry
+./map/AbstractHashedMap.java:     * @return the <code>key</code> field of the entry
+./map/AbstractHashedMap.java:     * @return the <code>value</code> field of the entry
+./map/AbstractHashedMap.java:     * @return the map iterator
+./map/AbstractHashedMap.java:     * @return the entrySet view
+./map/AbstractHashedMap.java:     * @return the entrySet iterator
+./map/AbstractHashedMap.java:     * @return the keySet view
+./map/AbstractHashedMap.java:     * @return the keySet iterator
+./map/AbstractHashedMap.java:     * @return the values view
+./map/AbstractHashedMap.java:     * @return the values iterator
+./map/AbstractHashedMap.java:     * @return a shallow clone
+./map/AbstractHashedMap.java:     * @return true if equal
+./map/AbstractHashedMap.java:     * @return the hash code defined in the Map interface
+./map/AbstractHashedMap.java:     * @return a string version of the map
+./map/TransformedMap.java:     * @return a new transformed map
+./map/TransformedMap.java:     * @return a new transformed map
+./map/TransformedMap.java:     * @return the transformed object
+./map/TransformedMap.java:     * @return the transformed object
+./map/TransformedMap.java:     * @return the transformed object
+./map/TransformedMap.java:     * @return the transformed value
+./map/TransformedMap.java:     * @return true if a value transformer is in use
+./map/DefaultedMap.java:     * @return a new defaulting map
+./map/DefaultedMap.java:     * @return a new defaulting map
+./map/DefaultedMap.java:     * @return a new defaulting map
+./map/UnmodifiableSortedMap.java:     * @return a new unmodifiable sorted map
+./map/LazySortedMap.java:     * @return a new lazy sorted map
+./map/LazySortedMap.java:     * @return a new lazy sorted map
+./map/LazySortedMap.java:     * @return the decorated map
+./map/Flat3Map.java:     * @return the mapped value, null if no match
+./map/Flat3Map.java:     * @return the size
+./map/Flat3Map.java:     * @return true if the map is currently size zero
+./map/Flat3Map.java:     * @return true if the map contains the key
+./map/Flat3Map.java:     * @return true if the map contains the key
+./map/Flat3Map.java:     * @return the value previously mapped to this key, null if none
+./map/Flat3Map.java:     * @return a new AbstractHashedMap or subclass
+./map/Flat3Map.java:     * @return the value mapped to the removed key, null if key not in map
+./map/Flat3Map.java:     * @return the map iterator
+./map/Flat3Map.java:     * @return the entrySet view
+./map/Flat3Map.java:     * @return the keySet view
+./map/Flat3Map.java:     * @return the values view
+./map/Flat3Map.java:     * @return a shallow clone
+./map/Flat3Map.java:     * @return true if equal
+./map/Flat3Map.java:     * @return the hash code defined in the Map interface
+./map/Flat3Map.java:     * @return a string version of the map
+./map/AbstractReferenceMap.java:         * @return ReferenceType
+./map/AbstractReferenceMap.java:     * @return the size
+./map/AbstractReferenceMap.java:     * @return true if the map is currently size zero
+./map/AbstractReferenceMap.java:     * @return true if the map contains the key
+./map/AbstractReferenceMap.java:     * @return true if the map contains the value
+./map/AbstractReferenceMap.java:     * @return the mapped value, null if no match
+./map/AbstractReferenceMap.java:     * @return the value previously mapped to this key, null if none
+./map/AbstractReferenceMap.java:     * @return the value mapped to the removed key, null if key not in map
+./map/AbstractReferenceMap.java:     * @return a map iterator
+./map/AbstractReferenceMap.java:     * @return a set view of this map's entries
+./map/AbstractReferenceMap.java:     * @return a set view of this map's keys
+./map/AbstractReferenceMap.java:     * @return a set view of this map's values
+./map/AbstractReferenceMap.java:     * @return the entry, null if no match
+./map/AbstractReferenceMap.java:     * @return the hash code, as per the MapEntry specification
+./map/AbstractReferenceMap.java:     * @return true if equal
+./map/AbstractReferenceMap.java:     * @return the newly created entry
+./map/AbstractReferenceMap.java:     * @return the entrySet iterator
+./map/AbstractReferenceMap.java:     * @return the keySet iterator
+./map/AbstractReferenceMap.java:     * @return the values iterator
+./map/AbstractReferenceMap.java:         * @return the key, which may be null if it was garbage collected
+./map/AbstractReferenceMap.java:         * @return the value, which may be null if it was garbage collected
+./map/AbstractReferenceMap.java:         * @return the previous value
+./map/AbstractReferenceMap.java:         * @return true if equal, false if not
+./map/AbstractReferenceMap.java:         * @return the hashcode of the entry
+./map/AbstractReferenceMap.java:         * @return the reference to the object
+./map/AbstractReferenceMap.java:         * @return true or false
+./map/AbstractReferenceMap.java:         * @return the next entry in the bucket
+./map/AbstractReferenceMap.java:     * @return true if keyType has the specified type
+./map/LinkedMap.java:     * @return a shallow clone
+./map/LinkedMap.java:     * @return the key at the specified index
+./map/LinkedMap.java:     * @return the value at the specified index
+./map/LinkedMap.java:     * @return the index, or -1 if not found
+./map/LinkedMap.java:     * @return the previous value corresponding the <code>key</code>,
+./map/LinkedMap.java:     * @return The ordered list of keys.
+./map/FixedSizeSortedMap.java:     * @return a new fixed size sorted map
+./map/FixedSizeSortedMap.java:     * @return the decorated map
+./map/EntrySetToMapIteratorAdapter.java:     * @return Map.Entry<K, V>
+./map/CompositeMap.java:     * @return The removed Map or <code>null</code> if map is not in the composite
+./map/CompositeMap.java:     * @return {@code true} if this map contains a mapping for the specified
+./map/CompositeMap.java:     * @return {@code true} if this map maps one or more keys to the
+./map/CompositeMap.java:     * @return a set view of the mappings contained in this map.
+./map/CompositeMap.java:     * @return the value to which this map maps the specified key, or
+./map/CompositeMap.java:     * @return {@code true} if this map contains no key-value mappings.
+./map/CompositeMap.java:     * @return a set view of the keys contained in this map.
+./map/CompositeMap.java:     * @return previous value associated with specified key, or {@code null}
+./map/CompositeMap.java:     * @return previous value associated with specified key, or {@code null}
+./map/CompositeMap.java:     * @return the number of key-value mappings in this map.
+./map/CompositeMap.java:     * @return a collection view of the values contained in this map.
+./map/CompositeMap.java:     * @return true if the maps are equal
+./map/CompositeMap.java:         * @return previous value associated with specified key, or {@code null}
+./map/LazyMap.java:     * @return a new lazy map
+./map/LazyMap.java:     * @return a new lazy map
+./map/PredicatedMap.java:     * @return a new predicated map
+./map/PredicatedMap.java:     * @return the value itself
+./map/PredicatedMap.java:     * @return true if a value predicate is in use
+./map/FixedSizeMap.java:     * @return a new fixed size map
+./map/UnmodifiableMap.java:     * @return a new unmodifiable map
+./MapIterator.java:     * @return <code>true</code> if the iterator has more elements
+./MapIterator.java:     * @return the next key in the iteration
+./MapIterator.java:     * @return the current key
+./MapIterator.java:     * @return the current value
+./MapIterator.java:     * @return the previous value
+./MapUtils.java:     * @return the value in the Map, <code>null</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a String, <code>null</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a Boolean, <code>null</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a Number, <code>null</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a Byte, <code>null</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a Short, <code>null</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a Integer, <code>null</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a Long, <code>null</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a Float, <code>null</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a Double, <code>null</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a Map, <code>null</code> if null map input
+./MapUtils.java:     * @return  the value in the map, or defaultValue if the original value
+./MapUtils.java:     * @return  the value in the map as a string, or defaultValue if the
+./MapUtils.java:     * @return  the value in the map as a boolean, or defaultValue if the
+./MapUtils.java:     * @return  the value in the map as a number, or defaultValue if the
+./MapUtils.java:     * @return  the value in the map as a number, or defaultValue if the
+./MapUtils.java:     * @return  the value in the map as a number, or defaultValue if the
+./MapUtils.java:     * @return  the value in the map as a number, or defaultValue if the
+./MapUtils.java:     * @return  the value in the map as a number, or defaultValue if the
+./MapUtils.java:     * @return  the value in the map as a number, or defaultValue if the
+./MapUtils.java:     * @return  the value in the map as a number, or defaultValue if the
+./MapUtils.java:     * @return  the value in the map as a number, or defaultValue if the
+./MapUtils.java:     * @return the value in the Map as a Boolean, <code>false</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a byte, <code>0</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a short, <code>0</code> if null map input
+./MapUtils.java:     * @return the value in the Map as an int, <code>0</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a long, <code>0L</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a float, <code>0.0F</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a double, <code>0.0</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a Boolean, <code>defaultValue</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a byte, <code>defaultValue</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a short, <code>defaultValue</code> if null map input
+./MapUtils.java:     * @return the value in the Map as an int, <code>defaultValue</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a long, <code>defaultValue</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a float, <code>defaultValue</code> if null map input
+./MapUtils.java:     * @return the value in the Map as a double, <code>defaultValue</code> if null map input
+./MapUtils.java:     * @return the properties object
+./MapUtils.java:     * @return the hashmap containing the data
+./MapUtils.java:     * @return a new HashMap containing the inverted data
+./MapUtils.java:     * @return the input map
+./MapUtils.java:     * @return an empty map if the argument is <code>null</code>
+./MapUtils.java:     * @return true if empty or null
+./MapUtils.java:     * @return true if non-null and non-empty
+./MapUtils.java:     * @return a synchronized map backed by the given map
+./MapUtils.java:     * @return an unmodifiable map backed by the given map
+./MapUtils.java:     * @return a predicated map backed by the given map
+./MapUtils.java:     * @return a transformed map backed by the given map
+./MapUtils.java:     * @return a fixed-size map backed by that map
+./MapUtils.java:     * @return a lazy map backed by the given map
+./MapUtils.java:     * @return a lazy map backed by the given map
+./MapUtils.java:     * @return an ordered map backed by the given map
+./MapUtils.java:     * @return a multi-value map backed by the given map which returns ArrayLists of values.
+./MapUtils.java:     * @return a multi-value map backed by the given map which returns collections of the specified type
+./MapUtils.java:     * @return a multi-value map backed by the given map which returns collections
+./MapUtils.java:     * @return a synchronized map backed by the given map
+./MapUtils.java:     * @return an unmodifiable map backed by the given map
+./MapUtils.java:     * @return a predicated map backed by the given map
+./MapUtils.java:     * @return a transformed map backed by the given map
+./MapUtils.java:     * @return a fixed-size map backed by that map
+./MapUtils.java:     * @return a lazy map backed by the given map
+./MapUtils.java:     * @return a lazy map backed by the given map
+./MapUtils.java:     * @return IterableMap<K, V>
+./MapUtils.java:     * @return {@link IterableSortedMap}<K, V>
+./multimap/AbstractMultiValuedMapDecorator.java:     * @return the map to decorate
+./multimap/AbstractListValuedMap.java:     * @return a new list
+./multimap/AbstractListValuedMap.java:     * @return the {@code List} of values, will return an empty {@link List} for no mapping
+./multimap/AbstractListValuedMap.java:     * @return the <code>List</code> of values removed, will return an empty,
+./multimap/TransformedMultiValuedMap.java:     * @return a new transformed MultiValuedMap
+./multimap/TransformedMultiValuedMap.java:     * @return a new transformed MultiValuedMap
+./multimap/TransformedMultiValuedMap.java:     * @return the transformed object
+./multimap/TransformedMultiValuedMap.java:     * @return the transformed object
+./multimap/AbstractMultiValuedMap.java:     * @return the wrapped map
+./multimap/AbstractMultiValuedMap.java:     * @return the {@code Collection} of values, will return an empty {@code Collection} for no mapping
+./multimap/AbstractMultiValuedMap.java:     * @return the <code>Collection</code> of values removed, will return an
+./multimap/AbstractMultiValuedMap.java:     * @return true if the mapping was removed, false otherwise
+./multimap/AbstractMultiValuedMap.java:     * @return a collection view of the values contained in this map
+./multimap/AbstractMultiValuedMap.java:     * @return the value added if the map changed and null if the map did not change
+./multimap/AbstractMultiValuedMap.java:     * @return true if the map changed as a result of this operation
+./multimap/AbstractMultiValuedMap.java:     * @return true if the map changed as a result of this operation
+./multimap/AbstractMultiValuedMap.java:     * @return a bag view of the key mapping contained in this map
+./multimap/AbstractMultiValuedMap.java:     * @return true if this map changed
+./multimap/UnmodifiableMultiValuedMap.java:     * @return an unmodifiable MultiValuedMap
+./multimap/AbstractSetValuedMap.java:     * @return a new list
+./multimap/AbstractSetValuedMap.java:     * @return the <code>Set</code> of values, will return an empty
+./multimap/AbstractSetValuedMap.java:     * @return the <code>Set</code> of values removed, will return an empty,
+./MultiMap.java:     * @return {@code true} if the mapping was removed, {@code false} otherwise
+./MultiMap.java:     * @return the number of key-collection mappings in this map
+./MultiMap.java:     * @return the <code>Collection</code> of values, implementations should
+./MultiMap.java:     * @return true if the map contains the value
+./MultiMap.java:     * @return typically the value added if the map changed and null if the map did not change
+./MultiMap.java:     * @return the <code>Collection</code> of values removed, implementations should
+./MultiMap.java:     * @return a collection view of the values contained in this map
+./MultiMapUtils.java:     * @return immutable and empty <code>MultiValuedMap</code>
+./MultiMapUtils.java:     * @return an empty {@link MultiValuedMap} if the argument is null
+./MultiMapUtils.java:     * @return true if the map is empty or null
+./MultiMapUtils.java:     * @return the Collection in the {@link MultiValuedMap}, or null if input map is null
+./MultiMapUtils.java:     * @return the Collection in the {@link MultiValuedMap} as List, or null if input map is null
+./MultiMapUtils.java:     * @return the Collection in the {@link MultiValuedMap} as Set, or null if input map is null
+./MultiMapUtils.java:     * @return the Collection in the {@link MultiValuedMap} as Bag, or null if input map is null
+./MultiMapUtils.java:     * @return a new <code>ListValuedMap</code>
+./MultiMapUtils.java:     * @return a new {@link SetValuedMap}
+./MultiMapUtils.java:     * @return an unmodifiable {@link MultiValuedMap} backed by the provided map
+./MultiMapUtils.java:     * @return a transformed <code>MultiValuedMap</code> backed by the given map
+./multiset/UnmodifiableMultiSet.java:     * @return an unmodifiable MultiSet
+./multiset/SynchronizedMultiSet.java:     * @return a new synchronized MultiSet
+./multiset/SynchronizedMultiSet.java:     * @return the decorated multiset
+./multiset/PredicatedMultiSet.java:     * @return a new predicated MultiSet
+./multiset/PredicatedMultiSet.java:     * @return the decorated multiset
+./multiset/AbstractMapMultiSet.java:     * @return the map being used by the MultiSet
+./multiset/AbstractMapMultiSet.java:     * @return current size of the multiset
+./multiset/AbstractMapMultiSet.java:     * @return true if multiset is empty
+./multiset/AbstractMapMultiSet.java:     * @return the number of occurrences of the object, zero if not found
+./multiset/AbstractMapMultiSet.java:     * @return true if the multiset contains the given element
+./multiset/AbstractMapMultiSet.java:     * @return the iterator
+./multiset/AbstractMapMultiSet.java:     * @return an array of all of this multiset's elements
+./multiset/AbstractMapMultiSet.java:     * @return an array of all of this multiset's elements
+./multiset/AbstractMultiSetDecorator.java:     * @return the decorated multiset
+./multiset/AbstractMultiSet.java:     * @return current size of the multiset
+./multiset/AbstractMultiSet.java:     * @return the number of occurrences of the object, zero if not found
+./multiset/AbstractMultiSet.java:     * @return true if the multiset contains the given element
+./multiset/AbstractMultiSet.java:     * @return the iterator
+./multiset/AbstractMultiSet.java:     * @return the set of unique elements in this multiset
+./multiset/AbstractMultiSet.java:     * @return a view of the set of unique elements
+./multiset/AbstractMultiSet.java:     * @return the uniqueSet iterator
+./multiset/AbstractMultiSet.java:     * @return the set of entries in this multiset
+./multiset/AbstractMultiSet.java:     * @return a view of the set of entries
+./multiset/AbstractMultiSet.java:     * @return the number of unique elements
+./multiset/AbstractMultiSet.java:     * @return the entrySet iterator
+./multiset/AbstractMultiSet.java:     * @return a debugging toString
+./MultiSet.java:     * @return the number of occurrences of the object, zero if not found
+./MultiSet.java:     * @return the number of occurrences of the object before this operation, zero
+./MultiSet.java:     * @return <code>true</code> always, as the size of the MultiSet is increased
+./MultiSet.java:     * @return the number of occurrences of the object in the multiset before
+./MultiSet.java:     * @return <code>true</code> if this call changed the collection
+./MultiSet.java:     * @return the number of occurrences of the object in the multiset
+./MultiSet.java:     * @return the Set of unique MultiSet elements
+./MultiSet.java:     * @return the Set of MultiSet entries
+./MultiSet.java:     * @return iterator over all elements in the MultiSet
+./MultiSet.java:     * @return the total size of the multiset
+./MultiSet.java:     * @return <code>true</code> if the MultiSet contains all the collection
+./MultiSet.java:     * @return <code>true</code> if this call changed the multiset
+./MultiSet.java:     * @return <code>true</code> if this call changed the multiset
+./MultiSet.java:     * @return true if equal
+./MultiSet.java:     * @return the hash code of the MultiSet
+./MultiSet.java:         * @return the element corresponding to this entry
+./MultiSet.java:         * @return the number of occurrences of the element
+./MultiSet.java:         * @return true if the specified object is equal to this multiset entry
+./MultiSet.java:         * @return the hash code value for this multiset entry
+./MultiSetUtils.java:     * @return a synchronized multiset backed by that multiset
+./MultiSetUtils.java:     * @return an unmodifiable view of that multiset
+./MultiSetUtils.java:     * @return a predicated multiset backed by the given multiset
+./MultiSetUtils.java:     * @return an empty MultiSet
+./MultiValuedMap.java:     * @return the total size of the map
+./MultiValuedMap.java:     * @return {@code true} if this map contains no key-value mappings
+./MultiValuedMap.java:     * @return true if this map contains a mapping for the specified key
+./MultiValuedMap.java:     * @return true if the map contains the value
+./MultiValuedMap.java:     * @return true if the map contains the value
+./MultiValuedMap.java:     * @return the {@code Collection} of values, implementations should
+./MultiValuedMap.java:     * @return true if the map changed as a result of this put operation, or false
+./MultiValuedMap.java:     * @return true if the map changed as a result of this operation
+./MultiValuedMap.java:     * @return true if the map changed as a result of this operation
+./MultiValuedMap.java:     * @return true if the map changed as a result of this operation
+./MultiValuedMap.java:     * @return the values that were removed
+./MultiValuedMap.java:     * @return true if the mapping was removed, false otherwise
+./MultiValuedMap.java:     * @return a set view of the mappings contained in this map
+./MultiValuedMap.java:     * @return a multiset view of the keys contained in this map
+./MultiValuedMap.java:     * @return a set view of the keys contained in this map
+./MultiValuedMap.java:     * @return a collection view of the values contained in this multi-valued map
+./MultiValuedMap.java:     * @return a map view of the mappings in this multi-valued map
+./MultiValuedMap.java:     * @return a map iterator
+./OrderedBidiMap.java:     * @return an inverted bidirectional map
+./OrderedIterator.java:     * @return <code>true</code> if the iterator has a previous element
+./OrderedIterator.java:     * @return the previous element in the iteration
+./OrderedMapIterator.java:     * @return <code>true</code> if the iterator has a previous element
+./OrderedMapIterator.java:     * @return the previous key in the iteration
+./OrderedMap.java:     * @return a map iterator
+./OrderedMap.java:     * @return the first key currently in this map
+./OrderedMap.java:     * @return the last key currently in this map
+./OrderedMap.java:     * @return the next key, null if no match or at end
+./OrderedMap.java:     * @return the previous key, null if no match or at start
+./Predicate.java:     * @return true or false
+./PredicateUtils.java:     * @return the predicate
+./PredicateUtils.java:     * @return the predicate
+./PredicateUtils.java:     * @return the predicate
+./PredicateUtils.java:     * @return the predicate
+./PredicateUtils.java:     * @return the predicate
+./PredicateUtils.java:     * @return the predicate
+./PredicateUtils.java:     * @return the predicate
+./PredicateUtils.java:     * @return the predicate
+./PredicateUtils.java:     * @return the predicate
+./PredicateUtils.java:     * @return the predicate
+./PredicateUtils.java:     * @return the predicate
+./PredicateUtils.java:     * @return the <code>and</code> predicate
+./PredicateUtils.java:     * @return the <code>all</code> predicate
+./PredicateUtils.java:     * @return the <code>all</code> predicate
+./PredicateUtils.java:     * @return the <code>or</code> predicate
+./PredicateUtils.java:     * @return the <code>any</code> predicate
+./PredicateUtils.java:     * @return the <code>any</code> predicate
+./PredicateUtils.java:     * @return the <code>either</code> predicate
+./PredicateUtils.java:     * @return the <code>one</code> predicate
+./PredicateUtils.java:     * @return the <code>one</code> predicate
+./PredicateUtils.java:     * @return the <code>neither</code> predicate
+./PredicateUtils.java:     * @return the <code>none</code> predicate
+./PredicateUtils.java:     * @return the <code>none</code> predicate
+./PredicateUtils.java:     * @return the <code>not</code> predicate
+./PredicateUtils.java:     * @return the transformer wrapping predicate
+./PredicateUtils.java:     * @return the predicate
+./PredicateUtils.java:     * @return the predicate
+./PredicateUtils.java:     * @return the predicate
+./PredicateUtils.java:     * @return the predicate
+./queue/TransformedQueue.java:     * @return a new transformed Queue
+./queue/TransformedQueue.java:     * @return a new transformed Queue
+./queue/TransformedQueue.java:     * @return the decorated queue
+./queue/UnmodifiableQueue.java:     * @return an unmodifiable Queue
+./queue/AbstractQueueDecorator.java:     * @return the decorated queue
+./queue/PredicatedQueue.java:     * @return a new predicated queue
+./queue/PredicatedQueue.java:     * @return the decorated queue
+./queue/PredicatedQueue.java:     * @return the result of adding to the underlying queue
+./queue/CircularFifoQueue.java:     * @return this queue's size
+./queue/CircularFifoQueue.java:     * @return true if this queue is empty
+./queue/CircularFifoQueue.java:     * @return always returns {@code false}
+./queue/CircularFifoQueue.java:     * @return {@code true} if the capacity limit has been reached, {@code false} otherwise
+./queue/CircularFifoQueue.java:     * @return the maximum number of elements the collection can hold
+./queue/CircularFifoQueue.java:     * @return true, always
+./queue/CircularFifoQueue.java:     * @return the element at position {@code index}
+./queue/CircularFifoQueue.java:     * @return true, always
+./queue/CircularFifoQueue.java:     * @return the updated index
+./queue/CircularFifoQueue.java:     * @return the updated index
+./queue/CircularFifoQueue.java:     * @return an iterator over this queue's elements
+./QueueUtils.java:     * @return an unmodifiable queue backed by that queue
+./QueueUtils.java:     * @return a predicated queue
+./QueueUtils.java:     * @return a transformed queue backed by the given queue
+./QueueUtils.java:     * @return an empty {@link Queue}
+./sequence/SequencesComparator.java:     * @return the edit script resulting from the comparison of the two
+./sequence/SequencesComparator.java:     * @return the snake built
+./sequence/SequencesComparator.java:     * @return the middle snake
+./sequence/SequencesComparator.java:         * @return start index of the snake
+./sequence/SequencesComparator.java:         * @return end index of the snake
+./sequence/SequencesComparator.java:         * @return diagonal number of the snake
+./sequence/EditCommand.java:     * @return the object on which the command is applied
+./sequence/EditScript.java:     * @return length of the Longest Common Subsequence
+./sequence/EditScript.java:     * @return number of effective modifications
+./set/ListOrderedSet.java:     * @return a new ordered set
+./set/ListOrderedSet.java:     * @return a new ordered set
+./set/ListOrderedSet.java:     * @return a new ordered set
+./set/ListOrderedSet.java:     * @return an unmodifiable list view
+./set/ListOrderedSet.java:     * @return the element at position {@code index}
+./set/ListOrderedSet.java:     * @return the index of the first occurrence of the object, or {@code -1} if
+./set/ListOrderedSet.java:     * @return {@code true} if this ordered set changed as a result of the call
+./set/ListOrderedSet.java:     * @return the element that has been remove from the ordered set
+./set/ListOrderedSet.java:     * @return a string representation of the ordered set
+./set/PredicatedNavigableSet.java:     * @return a new predicated navigable set.
+./set/PredicatedNavigableSet.java:     * @return the decorated navigable set
+./set/TransformedNavigableSet.java:     * @return a new transformed {@link NavigableSet}
+./set/TransformedNavigableSet.java:     * @return a new transformed {@link NavigableSet}
+./set/TransformedNavigableSet.java:     * @return the decorated navigable set
+./set/UnmodifiableSortedSet.java:     * @return a new unmodifiable {@link SortedSet}
+./set/AbstractSetDecorator.java:     * @return the decorated set
+./set/TransformedSet.java:     * @return a new transformed set
+./set/TransformedSet.java:     * @return a new transformed set
+./set/UnmodifiableNavigableSet.java:     * @return a new unmodifiable {@link NavigableSet}
+./set/PredicatedSortedSet.java:     * @return a new predicated sorted set.
+./set/PredicatedSortedSet.java:     * @return the decorated sorted set
+./set/UnmodifiableSet.java:     * @return a new unmodifiable set
+./set/AbstractNavigableSetDecorator.java:     * @return the decorated set
+./set/AbstractSortedSetDecorator.java:     * @return the decorated set
+./set/MapBackedSet.java:     * @return a new map backed set
+./set/MapBackedSet.java:     * @return a new map backed set
+./set/TransformedSortedSet.java:     * @return a new transformed {@link SortedSet}
+./set/TransformedSortedSet.java:     * @return a new transformed {@link SortedSet}
+./set/TransformedSortedSet.java:     * @return the decorated set
+./set/CompositeSet.java:     * @return total number of elements in all contained containers
+./set/CompositeSet.java:     * @return true if all of the contained sets are empty
+./set/CompositeSet.java:     * @return true if obj is contained in any of the contained sets
+./set/CompositeSet.java:     * @return an <code>IteratorChain</code> instance which supports
+./set/CompositeSet.java:     * @return an object array of all the elements in the collection
+./set/CompositeSet.java:     * @return an array of all the elements in the collection
+./set/CompositeSet.java:     * @return {@code true} if the collection was modified
+./set/CompositeSet.java:     * @return true if the object is removed, false otherwise
+./set/CompositeSet.java:     * @return true if all elements contained
+./set/CompositeSet.java:     * @return true if the composite was modified
+./set/CompositeSet.java:     * @return true if the composite was modified
+./set/CompositeSet.java:     * @return true if the composite was modified
+./set/CompositeSet.java:     * @return A new HashSet containing all of the elements in this composite.
+./set/CompositeSet.java:     * @return Unmodifiable list of all sets in this composite.
+./set/CompositeSet.java:     * @return the set mutator
+./set/CompositeSet.java:         * @return true if the collection is changed
+./set/CompositeSet.java:         * @return true if the collection is changed
+./set/PredicatedSet.java:     * @return a decorated set
+./set/PredicatedSet.java:     * @return the decorated set
+./SetUtils.java:     * @return an empty Set
+./SetUtils.java:     * @return an empty sorted Set
+./SetUtils.java:     * @return an empty set if the argument is <code>null</code>
+./SetUtils.java:     * @return whether the sets are equal by value comparison
+./SetUtils.java:     * @return the hash code
+./SetUtils.java:     * @return a new identity hash set
+./SetUtils.java:     * @return a synchronized set backed by the given set
+./SetUtils.java:     * @return an unmodifiable set backed by the given set
+./SetUtils.java:     * @return a predicated set backed by the given set
+./SetUtils.java:     * @return a transformed set backed by the given set
+./SetUtils.java:     * @return an ordered set backed by the given set
+./SetUtils.java:     * @return a synchronized set backed by the given set
+./SetUtils.java:     * @return an unmodifiable set backed by the given set
+./SetUtils.java:     * @return a predicated sorted set backed by the given sorted set
+./SetUtils.java:     * @return a transformed set backed by the given set
+./SetUtils.java:     * @return an unmodifiable set backed by the given set
+./SetUtils.java:     * @return a predicated navigable set backed by the given navigable set
+./SetUtils.java:     * @return a transformed set backed by the given set
+./SetUtils.java:     * @return a view of the union of the two set
+./SetUtils.java:     * @return a view of the relative complement of  of the two sets
+./SetUtils.java:     * @return a view of the intersection of the two sets
+./SetUtils.java:     * @return a view of the symmetric difference of the two sets
+./SetUtils.java:         * @return a new iterator for this view
+./SetUtils.java:         * @return a new set containing all elements of this view
+./SetValuedMap.java:     * @return the {@code Set} of values, implementations should return an
+./SetValuedMap.java:     * @return the {@code Set} of values removed, implementations should
+./SortedBag.java:     * @return the comparator in use, or null if natural ordering
+./SortedBag.java:     * @return the first element in the sorted bag
+./SortedBag.java:     * @return the last element in the sorted bag
+./SortedBidiMap.java:     * @return an inverted bidirectional map
+./SortedBidiMap.java:     * @return Comparator<? super V>
+./splitmap/AbstractIterableGetMapDecorator.java:     * @return the decorated map
+./splitmap/AbstractIterableGetMapDecorator.java:     * @return MapIterator<K, V>
+./splitmap/TransformedSplitMap.java:     * @return a new transformed map
+./splitmap/TransformedSplitMap.java:     * @return the transformed object
+./splitmap/TransformedSplitMap.java:     * @return the transformed object
+./splitmap/TransformedSplitMap.java:     * @return the transformed object
+./splitmap/TransformedSplitMap.java:     * @return the transformed value
+./SplitMapUtils.java:     * @return {@link IterableMap}
+./SplitMapUtils.java:     * @return {@link Map}
+./Transformer.java:     * @return a transformed object
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer.
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer, or {@link ConstantTransformer#nullTransformer()} if the
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./TransformerUtils.java:     * @return the transformer
+./trie/AbstractBitwiseTrie.java:     * @return the {@link KeyAnalyzer} used by this {@link Trie}
+./trie/UnmodifiableTrie.java:     * @return a new unmodifiable trie
+./trie/AbstractPatriciaTrie.java:     * @return the {@link Entry} whose key is closest in a bitwise XOR metric
+./trie/AbstractPatriciaTrie.java:     * @return the key that is closest in a bitwise XOR metric to the provided key
+./trie/AbstractPatriciaTrie.java:     * @return the value whose key is closest in a bitwise XOR metric
+./trie/AbstractPatriciaTrie.java:     * @return a {@link SortedMap} view of this {@link Trie} with all elements whose
+./trie/KeyAnalyzer.java:     * @return the number of bits per element
+./trie/KeyAnalyzer.java:     * @return the bit length of the key
+./trie/KeyAnalyzer.java:     * @return {@code true} if the bit is set in the given key and
+./trie/KeyAnalyzer.java:     * @return the bit index where the key and other first differ
+./trie/KeyAnalyzer.java:     * @return {@code true} if this is a valid prefix for the given key
+./Trie.java:     * @return a {@link SortedMap} view of this {@link Trie} with all elements whose
+./TrieUtils.java:     * @return an unmodifiable trie backed by the given trie

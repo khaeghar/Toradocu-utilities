@@ -1,0 +1,653 @@
+./base/Verify.java:   * @return {@code reference}, guaranteed to be non-null, for convenience
+./base/Verify.java:   * @return {@code reference}, guaranteed to be non-null, for convenience
+./base/Converter.java:   * @return the converted instance; <b>must not</b> be null
+./base/Converter.java:   * @return the converted instance; <b>must not</b> be null
+./base/Converter.java:   * @return the converted value; is null <i>if and only if</i> {@code a} is null
+./base/Objects.java:   * @return {@code first} if {@code first} is not {@code null}, or
+./base/Preconditions.java:   * @return the non-null reference that was validated
+./base/Preconditions.java:   * @return the non-null reference that was validated
+./base/Preconditions.java:   * @return the non-null reference that was validated
+./base/Preconditions.java:   * @return the value of {@code index}
+./base/Preconditions.java:   * @return the value of {@code index}
+./base/Preconditions.java:   * @return the value of {@code index}
+./base/Preconditions.java:   * @return the value of {@code index}
+./base/Functions.java:   * @return function that returns {@code map.get(a)} when {@code a} is a key, or {@code
+./base/Functions.java:   * @return the composition of {@code f} and {@code g}
+./base/Functions.java:   * @return a function that always returns {@code value}
+./base/FinalizableReferenceQueue.java:   * @return Finalizer.class
+./base/internal/Finalizer.java:   * @return true if the caller should continue, false if the associated FinalizableReferenceQueue
+./base/Predicates.java:   * @return the composition of the provided function and predicate
+./base/MoreObjects.java:   * @return {@code first} if it is non-null; otherwise {@code second} if it is non-null
+./base/CharMatcher.java:   * @return {@code true} if this matcher matches at least one character in the sequence
+./base/CharMatcher.java:   * @return {@code true} if this matcher matches every character in the sequence, including when
+./base/CharMatcher.java:   * @return {@code true} if this matcher matches every character in the sequence, including when
+./base/CharMatcher.java:   * @return an index, or {@code -1} if no character matches
+./base/CharMatcher.java:   * @return the index of the first matching character, guaranteed to be no less than {@code start},
+./base/CharMatcher.java:   * @return an index, or {@code -1} if no character matches
+./base/CharMatcher.java:   * @return the new string
+./base/CharMatcher.java:   * @return the new string
+./base/CharMatcher.java:   * @return the new string
+./base/Throwables.java:   * @return nothing will ever be returned; this return type is only for your convenience, as
+./base/Throwables.java:   * @return an unmodifiable list containing the cause chain starting with {@code throwable}
+./base/Strings.java:   * @return {@code string} itself if it is non-null; {@code ""} if it is null
+./base/Strings.java:   * @return {@code string} itself if it is nonempty; {@code null} if it is
+./base/Strings.java:   * @return {@code true} if the string is null or is the empty string
+./base/Strings.java:   * @return the padded string
+./base/Strings.java:   * @return the padded string
+./base/Strings.java:   * @return a string containing {@code string} repeated {@code count} times
+./base/Stopwatch.java:   * @return this {@code Stopwatch} instance
+./base/Stopwatch.java:   * @return this {@code Stopwatch} instance
+./base/Stopwatch.java:   * @return this {@code Stopwatch} instance
+./base/Splitter.java:   * @return a splitter, with default settings, that recognizes that separator
+./base/Splitter.java:   * @return a splitter, with default settings, that uses this matcher
+./base/Splitter.java:   * @return a splitter, with default settings, that recognizes that separator
+./base/Splitter.java:   * @return a splitter, with default settings, that uses this pattern
+./base/Splitter.java:   * @return a splitter, with default settings, that uses this pattern
+./base/Splitter.java:   * @return a splitter, with default settings, that can split into fixed sized
+./base/Splitter.java:   * @return a splitter with the desired configuration
+./base/Splitter.java:   * @return a splitter with the desired configuration
+./base/Splitter.java:   * @return a splitter with the desired configuration
+./base/Splitter.java:   * @return a splitter with the desired configuration
+./base/Splitter.java:   * @return an iteration over the segments split from the parameter.
+./base/Splitter.java:   * @return an immutable list of the segments split from the parameter
+./base/Supplier.java:   * @return an instance of the appropriate type
+./cache/CacheBuilder.java:   * @return the cache builder reference that should be used instead of {@code this} for any
+./cache/CacheBuilder.java:   * @return a cache having the requested features
+./cache/CacheBuilder.java:   * @return a cache having the requested features
+./cache/Weigher.java:   * @return the weight of the entry; must be non-negative
+./cache/LocalCache.java:   * @return the segment
+./cache/CacheLoader.java:   * @return the value associated with {@code key}; <b>must not be null</b>
+./cache/CacheLoader.java:   * @return the future new value associated with {@code key};
+./cache/CacheLoader.java:   * @return a map from each key in {@code keys} to the value associated with that key;
+./cache/CacheLoader.java:   * @return a cache loader that loads values by passing each key to {@code function}
+./cache/CacheLoader.java:   * @return a cache loader that loads values by calling {@link Supplier#get}, irrespective of the
+./cache/Striped64.java:     * @return result of the update function
+./cache/Striped64.java:     * @return a sun.misc.Unsafe
+./cache/LongAdder.java:     * @return the sum
+./cache/LongAdder.java:     * @return the sum
+./cache/LongAdder.java:     * @return the String representation of the {@link #sum}
+./cache/LongAdder.java:     * @return the sum
+./collect/MapConstraints.java:   * @return a constrained view of the specified map
+./collect/MapConstraints.java:   * @return a constrained view of the multimap
+./collect/MapConstraints.java:   * @return a constrained view of the specified multimap
+./collect/MapConstraints.java:   * @return a constrained view of the specified multimap
+./collect/MapConstraints.java:   * @return a constrained view of the specified multimap
+./collect/MapConstraints.java:   * @return a constrained view of the specified entry
+./collect/MapConstraints.java:   * @return a constrained view of the specified entry
+./collect/MapConstraints.java:   * @return a constrained view of the entries
+./collect/MapConstraints.java:   * @return a constrained view of the specified entries
+./collect/MapConstraints.java:   * @return a constrained view of the specified entries
+./collect/MapConstraints.java:   * @return a constrained view of the specified bimap
+./collect/AbstractListMultimap.java:   * @return {@code true} always
+./collect/Multimap.java:   * @return {@code true} if the method increased the size of the multimap, or
+./collect/Multimap.java:   * @return {@code true} if the multimap changed
+./collect/Multimap.java:   * @return {@code true} if the multimap changed
+./collect/Multimap.java:   * @return {@code true} if the multimap changed
+./collect/Multimap.java:   * @return the collection of replaced values, or an empty collection if no
+./collect/Multimap.java:   * @return the values that were removed (possibly empty). The returned
+./collect/HashMultimap.java:   * @return a new {@code HashSet} containing a collection of values for one key
+./collect/AbstractMultimap.java:   * @return a string representation of the multimap
+./collect/MapMakerInternalMap.java:   * @return the segment
+./collect/MapMakerInternalMap.java:     * @return {@code true} if eviction occurred
+./collect/MapMakerInternalMap.java:     * @return the new first entry for the table
+./collect/ImmutableSortedSet.java:     * @return this {@code Builder} object
+./collect/ImmutableSortedSet.java:     * @return this {@code Builder} object
+./collect/ImmutableSortedSet.java:     * @return this {@code Builder} object
+./collect/ImmutableSortedSet.java:     * @return this {@code Builder} object
+./collect/MinMaxPriorityQueue.java:   * @return {@code true} always
+./collect/MinMaxPriorityQueue.java:     * @return the position of the new hole (where the lowest grandchild moved
+./collect/MinMaxPriorityQueue.java:   * @return an iterator over the elements contained in this collection
+./collect/Iterators.java:   * @return {@code true} if any element was removed from {@code iterator}
+./collect/Iterators.java:   * @return {@code true} if any elements were removed from the iterator
+./collect/Iterators.java:   * @return {@code true} if any element was removed from {@code iterator}
+./collect/Iterators.java:   * @return a newly-allocated array into which all the elements of the iterator
+./collect/Iterators.java:   * @return {@code true} if {@code collection} was modified as a result of this
+./collect/Iterators.java:   * @return an iterator of immutable lists containing the elements of {@code
+./collect/Iterators.java:   * @return an iterator of immutable lists containing the elements of {@code
+./collect/Iterators.java:   * @return an unmodifiable iterator containing all elements of the original
+./collect/Iterators.java:   * @return the element at the specified position in {@code iterator}
+./collect/Iterators.java:   * @return the element at the specified position in {@code iterator} or
+./collect/Iterators.java:   * @return the next element of {@code iterator} or the default value
+./collect/Iterators.java:   * @return the last element of {@code iterator}
+./collect/Iterators.java:   * @return the last element of {@code iterator}
+./collect/Iterators.java:   * @return the number of elements the iterator was advanced
+./collect/Iterators.java:   * @return an iterator that removes and returns elements from the
+./collect/Iterators.java:   * @return a peeking iterator backed by that iterator. Apart from the
+./collect/Ordering.java:   * @return comparator itself if it is already an {@code Ordering}; otherwise
+./collect/Ordering.java:   * @return the comparator described above
+./collect/Ordering.java:   * @return the comparator described above
+./collect/Ordering.java:   * @return an immutable {@code RandomAccess} list of the {@code k} least
+./collect/Ordering.java:   * @return an immutable {@code RandomAccess} list of the {@code k} least
+./collect/Ordering.java:   * @return an immutable {@code RandomAccess} list of the {@code k} greatest
+./collect/Ordering.java:   * @return an immutable {@code RandomAccess} list of the {@code k} greatest
+./collect/FluentIterable.java:   * @return a map mapping the result of evaluating the function {@code
+./collect/FluentIterable.java:   * @return a newly-allocated array into which all the elements of this fluent iterable have
+./collect/FluentIterable.java:   * @return {@code collection}, for convenience
+./collect/FluentIterable.java:   * @return the element at the specified position in this fluent iterable
+./collect/Lists.java:   * @return a new, empty {@code ArrayList} which is guaranteed not to resize
+./collect/Lists.java:   * @return a new, empty {@code ArrayList}, sized appropriately to hold the
+./collect/Lists.java:   * @return a new, empty {@code CopyOnWriteArrayList}
+./collect/Lists.java:   * @return a new {@code CopyOnWriteArrayList} containing those elements
+./collect/Lists.java:   * @return an unmodifiable list containing the specified elements
+./collect/Lists.java:   * @return an unmodifiable list containing the specified elements
+./collect/Lists.java:   * @return the Cartesian product, as an immutable list containing immutable
+./collect/Lists.java:   * @return the Cartesian product, as an immutable list containing immutable
+./collect/Lists.java:   * @return a list of consecutive sublists
+./collect/Lists.java:   * @return an {@code List<Character>} view of the character sequence
+./collect/LinkedListMultimap.java:   * @return {@code true} always
+./collect/Tables.java:   * @return an unmodifiable view of the specified table
+./collect/Tables.java:   * @return an unmodifiable view of the specified table
+./collect/EvictingQueue.java:   * @return {@code true} always
+./collect/EvictingQueue.java:   * @return {@code true} always
+./collect/ImmutableSortedMultiset.java:     * @return this {@code Builder} object
+./collect/ImmutableSortedMultiset.java:     * @return this {@code Builder} object
+./collect/ImmutableSortedMultiset.java:     * @return this {@code Builder} object
+./collect/ImmutableSortedMultiset.java:     * @return this {@code Builder} object
+./collect/ImmutableSortedMultiset.java:     * @return this {@code Builder} object
+./collect/ImmutableSortedMultiset.java:     * @return this {@code Builder} object
+./collect/ImmutableList.java:   * @return a view of this immutable list in reverse order
+./collect/ImmutableList.java:     * @return this {@code Builder} object
+./collect/ImmutableList.java:     * @return this {@code Builder} object
+./collect/ImmutableList.java:     * @return this {@code Builder} object
+./collect/ImmutableList.java:     * @return this {@code Builder} object
+./collect/Queues.java:   * @return a new {@code LinkedBlockingQueue} containing those elements
+./collect/Queues.java:   * @return the number of elements transferred
+./collect/Queues.java:   * @return the number of elements transferred
+./collect/Queues.java:   * @return a synchronized view of the specified queue
+./collect/Queues.java:   * @return a synchronized view of the specified deque
+./collect/Multiset.java:   * @return the number of occurrences of the element in this multiset; possibly
+./collect/Multiset.java:   * @return the count of the element before the operation; possibly zero
+./collect/Multiset.java:   * @return the count of the element before the operation; possibly zero
+./collect/Multiset.java:   * @return the count of the element before the operation; possibly zero
+./collect/Multiset.java:   * @return {@code true} if the condition for modification was met. This
+./collect/Multiset.java:   * @return a view of the set of distinct elements in this multiset
+./collect/Multiset.java:   * @return a set of entries representing the data of this multiset
+./collect/Multiset.java:     * @return the element corresponding to this entry
+./collect/Multiset.java:     * @return the count of the element; never negative
+./collect/Multiset.java:   * @return {@code true} if this multiset contains at least one occurrence of
+./collect/Multiset.java:   * @return {@code true} if this multiset contains at least one occurrence of
+./collect/Multiset.java:   * @return {@code true} always, since this call is required to modify the
+./collect/Multiset.java:   * @return {@code true} if an occurrence was found and removed
+./collect/Collections2.java:   * @return an immutable {@link Collection} containing all the different
+./collect/Collections2.java:   * @return an immutable {@link Collection} containing all the different
+./collect/Collections2.java:   * @return an immutable {@link Collection} containing all the different
+./collect/AbstractIterator.java:   * @return the next element if there was one. If {@code endOfData} was called
+./collect/AbstractIterator.java:   * @return {@code null}; a convenience so your {@code computeNext}
+./collect/MapMaker.java:   * @return a serializable concurrent map having the requested features
+./collect/MapMaker.java:   * @return a serializable concurrent map having the requested features
+./collect/ObjectArrays.java:   * @return an array whose size is one larger than {@code array}, with
+./collect/ObjectArrays.java:   * @return an array whose size is one larger than {@code array}, with
+./collect/DiscreteDomain.java:   * @return the least value greater than {@code value}, or {@code null} if
+./collect/DiscreteDomain.java:   * @return the greatest value less than {@code value}, or {@code null} if
+./collect/DiscreteDomain.java:   * @return the distance as described above, or {@link Long#MIN_VALUE} or
+./collect/DiscreteDomain.java:   * @return the minimum value of type {@code C}; never null
+./collect/DiscreteDomain.java:   * @return the maximum value of type {@code C}; never null
+./collect/Multimaps.java:   * @return {@code dest}
+./collect/Multimaps.java:   * @return a synchronized view of the specified multimap
+./collect/Multimaps.java:   * @return an unmodifiable view of the specified multimap
+./collect/Multimaps.java:   * @return a synchronized view of the specified multimap
+./collect/Multimaps.java:   * @return an unmodifiable view of the specified multimap
+./collect/Multimaps.java:   * @return a synchronized view of the specified multimap
+./collect/Multimaps.java:   * @return an unmodifiable view of the specified multimap
+./collect/Multimaps.java:   * @return a synchronized view of the specified multimap
+./collect/Multimaps.java:   * @return an unmodifiable view of the specified multimap
+./collect/Multimaps.java:   * @return an unmodifiable view of the collection
+./collect/Multimaps.java:   * @return an unmodifiable view of the entries
+./collect/Multimaps.java:   * @return {@code ImmutableListMultimap} mapping the result of evaluating the
+./collect/Multimaps.java:   * @return {@code ImmutableListMultimap} mapping the result of evaluating the
+./collect/ConcurrentHashMultiset.java:   * @return the nonnegative number of occurrences of the element
+./collect/ConcurrentHashMultiset.java:   * @return the previous count of the element before the operation; possibly zero
+./collect/ConcurrentHashMultiset.java:   * @return the count of the element before the operation; possibly zero
+./collect/ConcurrentHashMultiset.java:   * @return {@code true} if the removal was possible (including if {@code occurrences} is zero)
+./collect/ConcurrentHashMultiset.java:   * @return the count of {@code element} in the multiset before this call
+./collect/ConcurrentHashMultiset.java:   * @return {@code true} if the change was successful. This usually indicates
+./collect/LinkedHashMultimap.java:   * @return a new {@code LinkedHashSet} containing a collection of values for
+./collect/LinkedHashMultimap.java:   * @return a new decorated set containing a collection of values for one key
+./collect/Sets.java:   * @return an immutable set containing those elements, minus duplicates
+./collect/Sets.java:   * @return an immutable set containing those elements, minus duplicates
+./collect/Sets.java:   * @return a new, empty {@code HashSet} with enough capacity to hold {@code
+./collect/Sets.java:   * @return a new, empty thread-safe {@code Set}
+./collect/Sets.java:   * @return a new thread-safe set containing those elements (minus duplicates)
+./collect/Sets.java:   * @return a new, empty {@code LinkedHashSet}
+./collect/Sets.java:   * @return a new, empty {@code LinkedHashSet} with enough capacity to hold
+./collect/Sets.java:   * @return a new {@code LinkedHashSet} containing those elements (minus
+./collect/Sets.java:   * @return a new, empty {@code TreeSet}
+./collect/Sets.java:   * @return a new {@code TreeSet} containing those elements (minus duplicates)
+./collect/Sets.java:   * @return a new, empty {@code TreeSet}
+./collect/Sets.java:   * @return a new, empty {@code CopyOnWriteArraySet}
+./collect/Sets.java:   * @return a new {@code CopyOnWriteArraySet} containing those elements
+./collect/Sets.java:   * @return a new, modifiable {@code EnumSet} containing all values of the enum
+./collect/Sets.java:   * @return a new, modifiable {@code EnumSet} initially containing all the
+./collect/Sets.java:   * @return the set backed by the map
+./collect/Sets.java:     * @return a reference to {@code set}, for convenience
+./collect/Sets.java:   * @return the Cartesian product, as an immutable set containing immutable
+./collect/Sets.java:   * @return the Cartesian product, as an immutable set containing immutable
+./collect/Sets.java:   * @return the power set, as an immutable set of immutable sets
+./collect/Sets.java:   * @return an unmodifiable view of the specified navigable set
+./collect/Sets.java:   * @return a synchronized view of the specified navigable set.
+./collect/Multisets.java:   * @return an unmodifiable view of the multiset
+./collect/Multisets.java:   * @return an unmodifiable view of the multiset
+./collect/Multisets.java:   * @return {@code true} if {@code multisetToModify} was changed as a result
+./collect/Multisets.java:   * @return {@code true} if {@code multisetToModify} was changed as a result of
+./collect/Multisets.java:   * @return {@code true} if {@code multisetToModify} was changed as a result of
+./collect/ImmutableCollection.java:     * @return this {@code Builder} instance
+./collect/ImmutableCollection.java:     * @return this {@code Builder} instance
+./collect/ImmutableCollection.java:     * @return this {@code Builder} instance
+./collect/ImmutableCollection.java:     * @return this {@code Builder} instance
+./collect/Constraints.java:   * @return a constrained view of the collection
+./collect/Constraints.java:   * @return a constrained view of the set
+./collect/Constraints.java:   * @return a constrained view of the sorted set
+./collect/Constraints.java:   * @return a constrained view of the list
+./collect/Constraints.java:   * @return a constrained view of the specified iterator
+./collect/Maps.java:   * @return an immutable map containing those entries
+./collect/Maps.java:   * @return a new, empty {@code HashMap}
+./collect/Maps.java:   * @return a new, empty {@code HashMap} with enough capacity to hold {@code
+./collect/Maps.java:   * @return a new {@code HashMap} initialized with the mappings from {@code
+./collect/Maps.java:   * @return a new, empty {@code LinkedHashMap}
+./collect/Maps.java:   * @return a new, empty {@code LinkedHashMap} with enough capacity to hold
+./collect/Maps.java:   * @return a new, {@code LinkedHashMap} initialized with the mappings from
+./collect/Maps.java:   * @return a new, empty {@code ConcurrentMap}
+./collect/Maps.java:   * @return a new, empty {@code TreeMap}
+./collect/Maps.java:   * @return a new {@code TreeMap} initialized with the mappings from {@code
+./collect/Maps.java:   * @return a new, empty {@code TreeMap}
+./collect/Maps.java:   * @return a new, empty {@code EnumMap}
+./collect/Maps.java:   * @return a new {@code EnumMap} initialized with the mappings from {@code
+./collect/Maps.java:   * @return a new, empty {@code IdentityHashMap}
+./collect/Maps.java:   * @return the difference between the two maps
+./collect/Maps.java:   * @return the difference between the two maps
+./collect/Maps.java:   * @return the difference between the two maps
+./collect/Maps.java:   * @return a map mapping the result of evaluating the function {@code
+./collect/Maps.java:   * @return a map mapping the result of evaluating the function {@code
+./collect/Maps.java:   * @return an immutable map containing all the entries in {@code properties}
+./collect/Maps.java:   * @return an unmodifiable view of the entries
+./collect/Maps.java:   * @return an unmodifiable view of the entry
+./collect/Maps.java:   * @return a sychronized view of the specified bimap
+./collect/Maps.java:   * @return an unmodifiable view of the specified bimap
+./collect/Maps.java:   * @return an unmodifiable view of the specified navigable map
+./collect/Maps.java:   * @return a synchronized view of the specified navigable map.
+./collect/Maps.java:   * @return {@code true} if {@code c} contains {@code o}
+./collect/Maps.java:   * @return {@code true} if {@code c} was changed
+./collect/AbstractSetMultimap.java:   * @return {@code true} if the method increased the size of the multimap, or
+./collect/TreeMultimap.java:   * @return a new {@code TreeSet} containing a collection of values for one
+./collect/ImmutableSet.java:     * @return this {@code Builder} object
+./collect/ImmutableSet.java:     * @return this {@code Builder} object
+./collect/ImmutableSet.java:     * @return this {@code Builder} object
+./collect/ImmutableSet.java:     * @return this {@code Builder} object
+./collect/ImmutableMultiset.java:     * @return this {@code Builder} object
+./collect/ImmutableMultiset.java:     * @return this {@code Builder} object
+./collect/ImmutableMultiset.java:     * @return this {@code Builder} object
+./collect/ImmutableMultiset.java:     * @return this {@code Builder} object
+./collect/ImmutableMultiset.java:     * @return this {@code Builder} object
+./collect/ImmutableMultiset.java:     * @return this {@code Builder} object
+./collect/AbstractMapBasedMultimap.java:   * @return an empty collection of values
+./collect/AbstractMapBasedMultimap.java:   * @return an empty collection of values
+./collect/AbstractMapBasedMultimap.java:   * @return an iterator across map entries
+./collect/Table.java:   * @return the value previously associated with the keys, or {@code null} if
+./collect/Table.java:   * @return the value previously associated with the keys, or {@code null} if
+./collect/Table.java:   * @return the corresponding map from column keys to values
+./collect/Table.java:   * @return the corresponding map from row keys to values
+./collect/Table.java:   * @return set of table cells consisting of row key / column key / value
+./collect/Table.java:   * @return set of row keys
+./collect/Table.java:   * @return set of column keys
+./collect/Table.java:   * @return collection of values
+./collect/Table.java:   * @return a map view from each row key to a secondary map from column keys to
+./collect/Table.java:   * @return a map view from each column key to a secondary map from row keys to
+./collect/Iterables.java:   * @return {@code true} if any element was removed from {@code iterable}
+./collect/Iterables.java:   * @return {@code true} if any element was removed from {@code iterable}
+./collect/Iterables.java:   * @return {@code true} if any elements were removed from the iterable
+./collect/Iterables.java:   * @return a newly-allocated array into which all the elements of the iterable
+./collect/Iterables.java:   * @return a newly-allocated array into which all the elements of the iterable
+./collect/Iterables.java:   * @return {@code true} if {@code collection} was modified as a result of this
+./collect/Iterables.java:   * @return an iterable of unmodifiable lists containing the elements of {@code
+./collect/Iterables.java:   * @return an iterable of unmodifiable lists containing the elements of {@code
+./collect/Iterables.java:   * @return an unmodifiable iterable containing all elements of the original
+./collect/Iterables.java:   * @return the element at the specified position in {@code iterable}
+./collect/Iterables.java:   * @return the element at the specified position in {@code iterable} or
+./collect/Iterables.java:   * @return the first element of {@code iterable} or the default value
+./collect/Iterables.java:   * @return the last element of {@code iterable}
+./collect/Iterables.java:   * @return the last element of {@code iterable} or the default value
+./collect/Iterables.java:   * @return a view of the supplied iterable that wraps each generated iterator
+./collect/Iterables.java:   * @return {@code true} if the iterable contains no elements
+./collect/ClassToInstanceMap.java:   * @return the value previously associated with this class (possibly {@code
+./collect/SortedLists.java:   * @return the index determined by the {@code KeyPresentBehavior}, if the key is in the list;
+./collect/ArrayTable.java:   * @return the value with the specified row and column
+./collect/ArrayTable.java:   * @return the previous value with the specified row and column
+./collect/ArrayTable.java:   * @return the value previously associated with the keys, or {@code null} if
+./collect/ArrayTable.java:   * @return set of table cells consisting of row key / column key / value
+./collect/ArrayTable.java:   * @return the corresponding map from row keys to values
+./collect/ArrayTable.java:   * @return immutable set of column keys
+./collect/ArrayTable.java:   * @return the corresponding map from column keys to values
+./collect/ArrayTable.java:   * @return immutable set of row keys
+./collect/ArrayTable.java:   * @return collection of values
+./collect/Constraint.java:   * @return the provided element
+./collect/BiMap.java:   * @return the value which was previously associated with the key, which may
+./collect/BiMap.java:   * @return the inverse view of this bimap
+./escape/Escapers.java:     * @return the builder instance
+./escape/Escapers.java:     * @return the builder instance
+./escape/Escapers.java:     * @return the builder instance
+./escape/Escapers.java:   * @return a UnicodeEscaper with the same behavior as the given instance
+./escape/Escapers.java:   * @return the replacement string, or {@code null} if no escaping was needed
+./escape/Escapers.java:   * @return the replacement string, or {@code null} if no escaping was needed
+./escape/ArrayBasedCharEscaper.java:   * @return the replacement characters, or {@code null} if no escaping was
+./escape/Escaper.java:   * @return the escaped form of {@code string}
+./escape/CharEscaperBuilder.java:   * @return a "sparse" array that holds the replacement mappings.
+./escape/CharEscaperBuilder.java:   * @return an escaper that escapes based on the underlying array.
+./escape/UnicodeEscaper.java:   * @return the replacement characters, or {@code null} if no escaping was
+./escape/UnicodeEscaper.java:   * @return the escaped form of {@code string}
+./escape/UnicodeEscaper.java:   * @return the escaped form of {@code string}
+./escape/UnicodeEscaper.java:   * @return the Unicode code point for the given index or the negated value of
+./escape/ArrayBasedUnicodeEscaper.java:   * @return the replacement characters, or {@code null} if no escaping was
+./escape/CharEscaper.java:   * @return the escaped form of {@code string}
+./escape/CharEscaper.java:   * @return the escaped form of {@code string}
+./escape/CharEscaper.java:   * @return the replacement characters, or {@code null} if no escaping was needed
+./eventbus/SubscriberExceptionContext.java:   * @return The {@link EventBus} that handled the event and the subscriber.
+./eventbus/SubscriberExceptionContext.java:   * @return The event object that caused the subscriber to throw.
+./eventbus/SubscriberExceptionContext.java:   * @return The object context that the subscriber was called on.
+./eventbus/SubscriberExceptionContext.java:   * @return The subscribed method that threw the exception.
+./eventbus/DeadEvent.java:   * @return the source of this event.
+./eventbus/DeadEvent.java:   * @return the 'dead' event that could not be delivered.
+./hash/PrimitiveSink.java:   * @return this instance
+./hash/PrimitiveSink.java:   * @return this instance
+./hash/PrimitiveSink.java:   * @return this instance
+./hash/HashCode.java:   * @return the number of bytes written to {@code dest}
+./hash/Hashing.java:   * @return a hash function, described above, that produces hash codes of length {@code
+./hash/HashingInputStream.java:   * @return {@code false} always
+./hash/BloomFilter.java:   * @return true if the bloom filter's bits changed as a result of this operation. If the bits
+./hash/BloomFilter.java:   * @return a {@code BloomFilter}
+./hash/BloomFilter.java:   * @return a {@code BloomFilter}
+./hash/BloomFilter.java:   * @return a {@code BloomFilter}
+./hash/BloomFilter.java:   * @return a {@code BloomFilter}
+./io/ByteStreams.java:   * @return the number of bytes copied
+./io/ByteStreams.java:   * @return the number of bytes copied
+./io/ByteStreams.java:   * @return a byte array containing all the bytes from the stream
+./io/ByteStreams.java:   * @return a length-limited {@link InputStream}
+./io/ByteStreams.java:   * @return the result of the byte processor
+./io/ByteStreams.java:   * @return the number of bytes read
+./io/LineProcessor.java:   * @return true to continue processing, false to stop
+./io/Files.java:   * @return the buffered reader
+./io/Files.java:   * @return the buffered writer
+./io/Files.java:   * @return a byte array containing all the bytes from file
+./io/Files.java:   * @return a string containing all the characters from the file
+./io/Files.java:   * @return the newly-created directory
+./io/Files.java:   * @return the first line, or null if the file is empty
+./io/Files.java:   * @return a mutable {@link List} containing all the lines
+./io/Files.java:   * @return the output of processing the lines
+./io/Files.java:   * @return the result of the byte processor
+./io/Files.java:   * @return the {@link HashCode} of all of the bytes in the file
+./io/Files.java:   * @return a read-only buffer reflecting {@code file}
+./io/Files.java:   * @return a buffer reflecting {@code file}
+./io/Files.java:   * @return a buffer reflecting {@code file}
+./io/Files.java:   * @return The file name without its path or extension.
+./io/LittleEndianDataInputStream.java:   * @return the next two bytes of the input stream, interpreted as an 
+./io/LittleEndianDataInputStream.java:   * @return the next four bytes of the input stream, interpreted as an 
+./io/LittleEndianDataInputStream.java:   * @return the next eight bytes of the input stream, interpreted as a 
+./io/LittleEndianDataInputStream.java:   * @return the next four bytes of the input stream, interpreted as a
+./io/LittleEndianDataInputStream.java:   * @return the next eight bytes of the input stream, interpreted as a
+./io/LittleEndianDataInputStream.java:   * @return the next two bytes of the input stream, interpreted as a
+./io/LittleEndianDataInputStream.java:   * @return the next two bytes of the input stream, interpreted as a 
+./io/LittleEndianDataInputStream.java:   * @return byte read from input
+./io/CharStreams.java:   * @return the number of characters copied
+./io/CharStreams.java:   * @return a string containing all the characters
+./io/CharStreams.java:   * @return a {@link StringBuilder} containing all the characters
+./io/CharStreams.java:   * @return a mutable {@link List} containing all the lines
+./io/CharStreams.java:   * @return a new Writer object, unless target is a Writer, in which case the
+./io/ByteProcessor.java:   * @return true to continue processing, false to stop
+./io/CharSource.java:   * @return a {@code CharSource} containing the concatenated data
+./io/CharSource.java:   * @return a {@code CharSource} containing the concatenated data
+./io/CharSource.java:   * @return a {@code CharSource} containing the concatenated data
+./io/ByteSource.java:   * @return a {@code ByteSource} containing the concatenated data
+./io/ByteSource.java:   * @return a {@code ByteSource} containing the concatenated data
+./io/ByteSource.java:   * @return a {@code ByteSource} containing the concatenated data
+./io/Resources.java:   * @return a byte array containing all the bytes from the URL
+./io/Resources.java:   * @return a string containing all the characters from the URL
+./io/Resources.java:   * @return the output of processing the lines
+./io/Resources.java:   * @return a mutable {@link List} containing all the lines
+./io/Closer.java:   * @return the given {@code closeable}
+./io/Closer.java:   * @return this method does not return; it always throws
+./io/Closer.java:   * @return this method does not return; it always throws
+./io/Closer.java:   * @return this method does not return; it always throws
+./io/LineReader.java:   * @return a {@code String} containing the contents of the line, not
+./net/InternetDomainName.java:   * @return Is the domain name syntactically valid?
+./net/InternetDomainName.java:   * @return Whether the part is valid
+./net/InternetDomainName.java:   * @return {@code true} if this domain name appears exactly on the public
+./net/HostAndPort.java:   * @return a validated port number, in the range [0..65535]
+./net/HostAndPort.java:   * @return if parsing was successful, a populated HostAndPort object.
+./net/HostAndPort.java:   * @return if parsing was successful, a populated HostAndPort object.
+./net/HostAndPort.java:   * @return if parsing was successful, a populated HostAndPort object.
+./net/HostAndPort.java:   * @return an array with 2 strings: host and port, in that order.
+./net/HostAndPort.java:   * @return a HostAndPort instance, guaranteed to have a defined port.
+./net/HostAndPort.java:   * @return {@code this}, to enable chaining of calls.
+./net/InetAddresses.java:   * @return {@link Inet4Address} corresponding to the supplied byte array
+./net/InetAddresses.java:   * @return {@link InetAddress} representing the argument
+./net/InetAddresses.java:   * @return {@code true} if the argument is a valid IP string literal
+./net/InetAddresses.java:   * @return an InetAddress object created from the raw IP address
+./net/InetAddresses.java:   * @return {@code String} containing the text-formatted IP address
+./net/InetAddresses.java:   * @return {@code String} containing URI-safe string literal
+./net/InetAddresses.java:   * @return an InetAddress representing the address in {@code hostAddr}
+./net/InetAddresses.java:   * @return {@code true} if the argument is a valid IP URI host
+./net/InetAddresses.java:   * @return {@code true} if the argument is a valid "compat" address
+./net/InetAddresses.java:   * @return {@link Inet4Address} of the embedded IPv4 address
+./net/InetAddresses.java:   * @return {@code true} if the argument is a 6to4 address
+./net/InetAddresses.java:   * @return {@link Inet4Address} of embedded IPv4 in 6to4 address
+./net/InetAddresses.java:   * @return {@code true} if the argument is a Teredo address
+./net/InetAddresses.java:   * @return extracted {@code TeredoInfo}
+./net/InetAddresses.java:   * @return {@code true} if the argument is an ISATAP address
+./net/InetAddresses.java:   * @return {@link Inet4Address} of embedded IPv4 in an ISATAP address
+./net/InetAddresses.java:   * @return {@code true} if there is an embedded IPv4 client address
+./net/InetAddresses.java:   * @return {@link Inet4Address} of embedded IPv4 client address
+./net/InetAddresses.java:   * @return {@code true} if the argument is a valid "mapped" address
+./net/InetAddresses.java:   * @return {@link Inet4Address} represented "coerced" address
+./net/InetAddresses.java:   * @return {@code int}, "coerced" if ip is not an IPv4 address
+./net/InetAddresses.java:   * @return {@link Inet4Address} equivalent of the argument
+./net/InetAddresses.java:   * @return an InetAddress object created from the raw IP address
+./net/InetAddresses.java:   * @return a new InetAddress that is one less than the passed in address
+./net/InetAddresses.java:   * @return a new InetAddress that is one more than the passed in address
+./net/InetAddresses.java:   * @return true if the InetAddress is either 255.255.255.255 for IPv4 or
+./primitives/Doubles.java:   * @return a hash code for the value
+./primitives/Doubles.java:   * @return a negative value if {@code a} is less than {@code b}; a positive
+./primitives/Doubles.java:   * @return {@code true} if {@code array[i] == target} for some value of {@code
+./primitives/Doubles.java:   * @return the least index {@code i} for which {@code array[i] == target}, or
+./primitives/Doubles.java:   * @return the greatest index {@code i} for which {@code array[i] == target},
+./primitives/Doubles.java:   * @return the value present in {@code array} that is less than or equal to
+./primitives/Doubles.java:   * @return the value present in {@code array} that is greater than or equal to
+./primitives/Doubles.java:   * @return a single array containing all the values from the source arrays, in
+./primitives/Doubles.java:   * @return an array containing the values of {@code array}, with guaranteed
+./primitives/Doubles.java:   * @return an array containing the same values as {@code collection}, in the
+./primitives/Doubles.java:   * @return a list view of the array
+./primitives/Doubles.java:   * @return the floating point value represented by {@code string}, or
+./primitives/SignedBytes.java:   * @return the {@code byte} value that equals {@code value}
+./primitives/SignedBytes.java:   * @return the same value cast to {@code byte} if it is in the range of the
+./primitives/SignedBytes.java:   * @return a negative value if {@code a} is less than {@code b}; a positive
+./primitives/SignedBytes.java:   * @return the value present in {@code array} that is less than or equal to
+./primitives/SignedBytes.java:   * @return the value present in {@code array} that is greater than or equal to
+./primitives/Floats.java:   * @return a hash code for the value
+./primitives/Floats.java:   * @return the result of invoking {@link Float#compare(float, float)}
+./primitives/Floats.java:   * @return {@code true} if {@code array[i] == target} for some value of {@code
+./primitives/Floats.java:   * @return the least index {@code i} for which {@code array[i] == target}, or
+./primitives/Floats.java:   * @return the greatest index {@code i} for which {@code array[i] == target},
+./primitives/Floats.java:   * @return the value present in {@code array} that is less than or equal to
+./primitives/Floats.java:   * @return the value present in {@code array} that is greater than or equal to
+./primitives/Floats.java:   * @return a single array containing all the values from the source arrays, in
+./primitives/Floats.java:   * @return an array containing the values of {@code array}, with guaranteed
+./primitives/Floats.java:   * @return an array containing the same values as {@code collection}, in the
+./primitives/Floats.java:   * @return a list view of the array
+./primitives/Floats.java:   * @return the floating point value represented by {@code string}, or
+./primitives/UnsignedBytes.java:   * @return the {@code byte} value that, when treated as unsigned, equals
+./primitives/UnsignedBytes.java:   * @return {@code (byte) 255} if {@code value >= 255}, {@code (byte) 0} if
+./primitives/UnsignedBytes.java:   * @return a negative value if {@code a} is less than {@code b}; a positive
+./primitives/UnsignedBytes.java:   * @return the value present in {@code array} that is less than or equal to
+./primitives/UnsignedBytes.java:   * @return the value present in {@code array} that is greater than or equal
+./primitives/UnsignedBytes.java:       * @return a sun.misc.Unsafe
+./primitives/Booleans.java:   * @return a hash code for the value
+./primitives/Booleans.java:   * @return a positive number if only {@code a} is {@code true}, a negative
+./primitives/Booleans.java:   * @return {@code true} if {@code array[i] == target} for some value of {@code
+./primitives/Booleans.java:   * @return the least index {@code i} for which {@code array[i] == target}, or
+./primitives/Booleans.java:   * @return the greatest index {@code i} for which {@code array[i] == target},
+./primitives/Booleans.java:   * @return a single array containing all the values from the source arrays, in
+./primitives/Booleans.java:   * @return an array containing the values of {@code array}, with guaranteed
+./primitives/Booleans.java:   * @return an array containing the same values as {@code collection}, in the
+./primitives/Booleans.java:   * @return a list view of the array
+./primitives/Shorts.java:   * @return a hash code for the value
+./primitives/Shorts.java:   * @return the {@code short} value that equals {@code value}
+./primitives/Shorts.java:   * @return the same value cast to {@code short} if it is in the range of the
+./primitives/Shorts.java:   * @return a negative value if {@code a} is less than {@code b}; a positive
+./primitives/Shorts.java:   * @return {@code true} if {@code array[i] == target} for some value of {@code
+./primitives/Shorts.java:   * @return the least index {@code i} for which {@code array[i] == target}, or
+./primitives/Shorts.java:   * @return the greatest index {@code i} for which {@code array[i] == target},
+./primitives/Shorts.java:   * @return the value present in {@code array} that is less than or equal to
+./primitives/Shorts.java:   * @return the value present in {@code array} that is greater than or equal to
+./primitives/Shorts.java:   * @return a single array containing all the values from the source arrays, in
+./primitives/Shorts.java:   * @return an array containing the values of {@code array}, with guaranteed
+./primitives/Shorts.java:   * @return an array containing the same values as {@code collection}, in the
+./primitives/Shorts.java:   * @return a list view of the array
+./primitives/Ints.java:   * @return a hash code for the value
+./primitives/Ints.java:   * @return the {@code int} value that equals {@code value}
+./primitives/Ints.java:   * @return the same value cast to {@code int} if it is in the range of the
+./primitives/Ints.java:   * @return a negative value if {@code a} is less than {@code b}; a positive
+./primitives/Ints.java:   * @return {@code true} if {@code array[i] == target} for some value of {@code
+./primitives/Ints.java:   * @return the least index {@code i} for which {@code array[i] == target}, or
+./primitives/Ints.java:   * @return the greatest index {@code i} for which {@code array[i] == target},
+./primitives/Ints.java:   * @return the value present in {@code array} that is less than or equal to
+./primitives/Ints.java:   * @return the value present in {@code array} that is greater than or equal to
+./primitives/Ints.java:   * @return a single array containing all the values from the source arrays, in
+./primitives/Ints.java:   * @return an array containing the values of {@code array}, with guaranteed
+./primitives/Ints.java:   * @return an array containing the same values as {@code collection}, in the
+./primitives/Ints.java:   * @return a list view of the array
+./primitives/Ints.java:   * @return the integer value represented by {@code string}, or {@code null} if
+./primitives/Ints.java:   * @return the integer value represented by {@code string} using
+./primitives/Chars.java:   * @return a hash code for the value
+./primitives/Chars.java:   * @return the {@code char} value that equals {@code value}
+./primitives/Chars.java:   * @return the same value cast to {@code char} if it is in the range of the
+./primitives/Chars.java:   * @return a negative value if {@code a} is less than {@code b}; a positive
+./primitives/Chars.java:   * @return {@code true} if {@code array[i] == target} for some value of {@code
+./primitives/Chars.java:   * @return the least index {@code i} for which {@code array[i] == target}, or
+./primitives/Chars.java:   * @return the greatest index {@code i} for which {@code array[i] == target},
+./primitives/Chars.java:   * @return the value present in {@code array} that is less than or equal to
+./primitives/Chars.java:   * @return the value present in {@code array} that is greater than or equal to
+./primitives/Chars.java:   * @return a single array containing all the values from the source arrays, in
+./primitives/Chars.java:   * @return an array containing the values of {@code array}, with guaranteed
+./primitives/Chars.java:   * @return an array containing the same values as {@code collection}, in the
+./primitives/Chars.java:   * @return a list view of the array
+./primitives/Longs.java:   * @return a hash code for the value
+./primitives/Longs.java:   * @return a negative value if {@code a} is less than {@code b}; a positive
+./primitives/Longs.java:   * @return {@code true} if {@code array[i] == target} for some value of {@code
+./primitives/Longs.java:   * @return the least index {@code i} for which {@code array[i] == target}, or
+./primitives/Longs.java:   * @return the greatest index {@code i} for which {@code array[i] == target},
+./primitives/Longs.java:   * @return the value present in {@code array} that is less than or equal to
+./primitives/Longs.java:   * @return the value present in {@code array} that is greater than or equal to
+./primitives/Longs.java:   * @return a single array containing all the values from the source arrays, in
+./primitives/Longs.java:   * @return the long value represented by {@code string}, or {@code null} if
+./primitives/Longs.java:   * @return the long value represented by {@code string} using
+./primitives/Longs.java:   * @return an array containing the values of {@code array}, with guaranteed
+./primitives/Longs.java:   * @return an array containing the same values as {@code collection}, in the
+./primitives/Longs.java:   * @return a list view of the array
+./primitives/UnsignedInts.java:   * @return a negative value if {@code a} is less than {@code b}; a positive value if {@code a} is
+./primitives/UnsignedInts.java:   * @return the value present in {@code array} that is less than or equal to every other value in
+./primitives/UnsignedInts.java:   * @return the value present in {@code array} that is greater than or equal to every other value
+./primitives/UnsignedLongs.java:   * @return a negative value if {@code a} is less than {@code b}; a positive value if {@code a} is
+./primitives/UnsignedLongs.java:   * @return the value present in {@code array} that is less than or equal to every other value in
+./primitives/UnsignedLongs.java:   * @return the value present in {@code array} that is greater than or equal to every other value
+./primitives/Bytes.java:   * @return a hash code for the value
+./primitives/Bytes.java:   * @return {@code true} if {@code array[i] == target} for some value of {@code
+./primitives/Bytes.java:   * @return the least index {@code i} for which {@code array[i] == target}, or
+./primitives/Bytes.java:   * @return the greatest index {@code i} for which {@code array[i] == target},
+./primitives/Bytes.java:   * @return a single array containing all the values from the source arrays, in
+./primitives/Bytes.java:   * @return an array containing the values of {@code array}, with guaranteed
+./primitives/Bytes.java:   * @return an array containing the same values as {@code collection}, in the
+./primitives/Bytes.java:   * @return a list view of the array
+./reflect/TypeToInstanceMap.java:   * @return the value previously associated with this class (possibly {@code null}),
+./reflect/TypeToInstanceMap.java:   * @return the value previously associated with this type (possibly {@code null}),
+./util/concurrent/AtomicDoubleArray.java:   * @return the length of the array
+./util/concurrent/AtomicDoubleArray.java:   * @return the current value
+./util/concurrent/AtomicDoubleArray.java:   * @return the previous value
+./util/concurrent/AtomicDoubleArray.java:   * @return true if successful. False return indicates that
+./util/concurrent/AtomicDoubleArray.java:   * @return true if successful
+./util/concurrent/AtomicDoubleArray.java:   * @return the previous value
+./util/concurrent/AtomicDoubleArray.java:   * @return the updated value
+./util/concurrent/AtomicDoubleArray.java:   * @return the String representation of the current values of array
+./util/concurrent/Atomics.java:   * @return a new {@code AtomicReference} with no initial value
+./util/concurrent/Atomics.java:   * @return a new {@code AtomicReference} with the given initial value
+./util/concurrent/Atomics.java:   * @return a new {@code AtomicReferenceArray} with the given length
+./util/concurrent/Atomics.java:   * @return a new {@code AtomicReferenceArray} copied from the given array
+./util/concurrent/CycleDetectingLockFactory.java:    /** @return the {@link LockGraphNode} associated with this lock. */
+./util/concurrent/CycleDetectingLockFactory.java:    /** @return {@code true} if the current thread has acquired this lock. */
+./util/concurrent/CycleDetectingLockFactory.java:     * @return If a path was found, a chained {@link ExampleStackTrace}
+./util/concurrent/MoreExecutors.java:   * @return an unmodifiable version of the input which will not hang the JVM
+./util/concurrent/MoreExecutors.java:   * @return an unmodifiable version of the input which will not hang the JVM
+./util/concurrent/MoreExecutors.java:   * @return an unmodifiable version of the input which will not hang the JVM
+./util/concurrent/MoreExecutors.java:   * @return an unmodifiable version of the input which will not hang the JVM
+./util/concurrent/MoreExecutors.java:   * @return {@code true} if the {@code ExecutorService} was terminated successfully, {@code false}
+./util/concurrent/Service.java:   * @return this
+./util/concurrent/Service.java:   * @return this
+./util/concurrent/TimeLimiter.java:   * @return a time-limiting proxy
+./util/concurrent/TimeLimiter.java:   * @return the result returned by the Callable
+./util/concurrent/AbstractScheduledService.java:     * @return a schedule that defines the delay before the next execution.
+./util/concurrent/ListeningExecutorService.java:   * @return a {@code ListenableFuture} representing pending completion of the task
+./util/concurrent/ListeningExecutorService.java:   * @return a {@code ListenableFuture} representing pending completion of the task
+./util/concurrent/ListeningExecutorService.java:   * @return a {@code ListenableFuture} representing pending completion of the task
+./util/concurrent/ListeningExecutorService.java:   * @return A list of {@code ListenableFuture} instances representing the tasks, in the same
+./util/concurrent/ListeningExecutorService.java:   * @return a list of {@code ListenableFuture} instances representing the tasks, in the same
+./util/concurrent/ServiceManager.java:   * @return this
+./util/concurrent/ServiceManager.java:   * @return this
+./util/concurrent/ServiceManager.java:   * @return Map of services and their corresponding startup time in millis, the map entries will be
+./util/concurrent/RateLimiter.java:   * @return time spent sleeping to enforce rate, in seconds; 0.0 if not rate-limited
+./util/concurrent/RateLimiter.java:   * @return time spent sleeping to enforce rate, in seconds; 0.0 if not rate-limited
+./util/concurrent/RateLimiter.java:   * @return time in microseconds to wait until the resource can be acquired, never negative
+./util/concurrent/RateLimiter.java:   * @return {@code true} if the permit was acquired, {@code false} otherwise
+./util/concurrent/RateLimiter.java:   * @return {@code true} if the permits were acquired, {@code false} otherwise
+./util/concurrent/RateLimiter.java:   * @return {@code true} if the permit was acquired, {@code false} otherwise
+./util/concurrent/RateLimiter.java:   * @return {@code true} if the permits were acquired, {@code false} otherwise
+./util/concurrent/RateLimiter.java:   * @return the required wait time, never negative
+./util/concurrent/RateLimiter.java:   * @return the time that permits are available, or, if permits are available immediately, an
+./util/concurrent/RateLimiter.java:   * @return the time that the permits may be used, or, if the permits may be used immediately, an
+./util/concurrent/Striped.java:   * @return the stripe that the passed key corresponds to
+./util/concurrent/Striped.java:   * @return the stripe at the specified index
+./util/concurrent/Striped.java:   * @return the stripes corresponding to the objects (one per each object, derived by delegating
+./util/concurrent/Striped.java:   * @return a new {@code Striped<Lock>}
+./util/concurrent/Striped.java:   * @return a new {@code Striped<Lock>}
+./util/concurrent/Striped.java:   * @return a new {@code Striped<Semaphore>}
+./util/concurrent/Striped.java:   * @return a new {@code Striped<Semaphore>}
+./util/concurrent/Striped.java:   * @return a new {@code Striped<ReadWriteLock>}
+./util/concurrent/Striped.java:   * @return a new {@code Striped<ReadWriteLock>}
+./util/concurrent/AtomicDouble.java:   * @return the current value
+./util/concurrent/AtomicDouble.java:   * @return the previous value
+./util/concurrent/AtomicDouble.java:   * @return {@code true} if successful. False return indicates that
+./util/concurrent/AtomicDouble.java:   * @return {@code true} if successful
+./util/concurrent/AtomicDouble.java:   * @return the previous value
+./util/concurrent/AtomicDouble.java:   * @return the updated value
+./util/concurrent/AtomicDouble.java:   * @return the String representation of the current value
+./util/concurrent/CheckedFuture.java:   * @return the result of executing the future.
+./util/concurrent/CheckedFuture.java:   * @return the result of executing the future.
+./util/concurrent/Monitor.java:   * @return whether the monitor was entered
+./util/concurrent/Monitor.java:   * @return whether the monitor was entered
+./util/concurrent/Monitor.java:   * @return whether the monitor was entered
+./util/concurrent/Monitor.java:   * @return whether the monitor was entered, which guarantees that the guard is now satisfied
+./util/concurrent/Monitor.java:   * @return whether the monitor was entered, which guarantees that the guard is now satisfied
+./util/concurrent/Monitor.java:   * @return whether the monitor was entered, which guarantees that the guard is now satisfied
+./util/concurrent/Monitor.java:   * @return whether the monitor was entered, which guarantees that the guard is now satisfied
+./util/concurrent/Monitor.java:   * @return whether the monitor was entered, which guarantees that the guard is now satisfied
+./util/concurrent/Monitor.java:   * @return whether the monitor was entered, which guarantees that the guard is now satisfied
+./util/concurrent/Monitor.java:   * @return whether the monitor was entered, which guarantees that the guard is now satisfied
+./util/concurrent/Monitor.java:   * @return whether the guard is now satisfied
+./util/concurrent/Monitor.java:   * @return whether the guard is now satisfied
+./util/concurrent/AbstractFuture.java:   * @return true if the attempt was accepted, completing the {@code Future}
+./util/concurrent/AbstractFuture.java:   * @return true if the attempt was accepted, completing the {@code Future}
+./util/concurrent/AbstractFuture.java:   * @return true if the attempt was accepted, indicating that the {@code Future} was not previously
+./util/concurrent/ThreadFactoryBuilder.java:   * @return this for the builder pattern
+./util/concurrent/ThreadFactoryBuilder.java:   * @return this for the builder pattern
+./util/concurrent/ThreadFactoryBuilder.java:   * @return this for the builder pattern
+./util/concurrent/ThreadFactoryBuilder.java:   * @return this for the builder pattern
+./util/concurrent/ThreadFactoryBuilder.java:   * @return this for the builder pattern
+./util/concurrent/ThreadFactoryBuilder.java:   * @return the fully constructed {@link ThreadFactory}
+./util/concurrent/Futures.java:   * @return A future that holds result of the function (if the input succeeded)
+./util/concurrent/Futures.java:   * @return A future that holds result of the function (if the input succeeded)
+./util/concurrent/Futures.java:   * @return A future that holds result of the function (if the input succeeded) or the original
+./util/concurrent/Futures.java:   * @return A future that holds result of the function (if the input succeeded) or the original
+./util/concurrent/Futures.java:   * @return A future that holds result of the transformation.
+./util/concurrent/Futures.java:   * @return A future that holds result of the transformation.
+./util/concurrent/Futures.java:   * @return A future that returns the result of the transformation.
+./util/concurrent/Futures.java:   * @return A future that holds result of the inner future.
+./util/concurrent/Futures.java:   * @return a future that provides a list of the results of the component
+./util/concurrent/Futures.java:   * @return a future that provides a list of the results of the component
+./util/concurrent/Futures.java:   * @return a future that provides a list of the results of the component
+./util/concurrent/Futures.java:   * @return a future that provides a list of the results of the component
